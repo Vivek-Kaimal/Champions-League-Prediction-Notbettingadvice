@@ -1,0 +1,32 @@
+{
+  "opened": "2026-10-04",
+  "capital": 8031.31,
+  "cash_reserve": 531.31,
+  "target_profit": 3000,
+  "rules": [
+    "Maximum $1,000 per bet; larger positions are split into $1,000 tranches",
+    "Maximum $2,000 total exposure to any one team",
+    "Champions League selections only from the top five leagues and Portugal (one exception in the $500 satellite bet)"
+  ],
+  "bets": [
+    {"id": 1, "type": "Treble", "competition": "UCL", "market": "Finish 9th-24th", "stake": 1000, "returns": 4766.66, "status": "open",
+     "legs": [["Sporting", 1.44], ["Como", 1.80], ["Real Betis", 1.83]]},
+    {"id": 2, "type": "Treble", "competition": "UCL", "market": "Finish 9th-24th", "stake": 1000, "returns": 3634.61, "status": "open",
+     "legs": [["Porto", 1.50], ["Roma", 1.61], ["Stuttgart", 1.50]]},
+    {"id": 3, "type": "Treble", "competition": "UCL", "market": "Finish 9th-24th", "stake": 1000, "returns": 4277.77, "status": "open",
+     "legs": [["Sporting", 1.44], ["Roma", 1.61], ["Real Betis", 1.83]]},
+    {"id": 4, "type": "Treble", "competition": "UCL", "market": "Finish 9th-24th", "stake": 1000, "returns": 3960.00, "status": "open",
+     "legs": [["Aston Villa", 1.57], ["Napoli", 1.40], ["Como", 1.80]]},
+    {"id": 5, "type": "Four-fold", "competition": "UCL", "market": "Finish 9th-24th", "stake": 1000, "returns": 4550.00, "status": "open",
+     "legs": [["Atlético", 1.44], ["Napoli", 1.40], ["Porto", 1.50], ["Stuttgart", 1.50]]},
+    {"id": 6, "type": "Four-fold", "competition": "UCL", "market": "Finish 9th-24th", "stake": 500, "returns": 3666.66, "status": "open",
+     "legs": [["Aston Villa", 1.57], ["Atlético", 1.44], ["Man Utd", 1.61], ["Fenerbahçe", 2.00]]},
+    {"id": 7, "type": "Single", "competition": "UEL", "market": "Top 8 finish", "stake": 1000, "returns": 1444.44, "status": "open",
+     "legs": [["Benfica", 1.44]]},
+    {"id": 8, "type": "Single", "competition": "UEL", "market": "Top 8 finish", "stake": 1000, "returns": 1444.44, "status": "open",
+     "legs": [["Benfica", 1.44]]}
+  ],
+  "benfica": {"played": 1, "points": 3, "remaining": 7, "target_points": 16,
+              "assumed_win": 0.58, "assumed_draw": 0.22,
+              "note": "8th place finished on 14 (2024-25) and 16 (2025-26) points"}
+}

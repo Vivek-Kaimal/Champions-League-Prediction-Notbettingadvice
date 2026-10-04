@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UCL Portfolio Tracker</title>
+<meta name="description" content="Vivek Prasad Kaimal — UEFA Champions League 2026/27 league-phase forecast and betting portfolio, tracked matchday by matchday.">
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f6f6f4; --surface:#fcfcfb; --line:#e3e2de; --band:#eef4fc;
+  --text:#0b0b0b; --text-2:#52514e; --muted:#7a7974;
+  --accent:#2a78d6; --track:#e7e6e2;
+  --good:#0ca30c; --warn:#fab219; --serious:#ec835a; --critical:#d03b3b;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --bg:#121211; --surface:#1a1a19; --line:#2e2e2b; --band:#1d2a3a;
+    --text:#ffffff; --text-2:#c3c2b7; --muted:#9a998f;
+    --accent:#3987e5; --track:#2c2c29;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#121211; --surface:#1a1a19; --line:#2e2e2b; --band:#1d2a3a;
+  --text:#ffffff; --text-2:#c3c2b7; --muted:#9a998f;
+  --accent:#3987e5; --track:#2c2c29;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+  font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1040px;margin:0 auto;padding:40px 16px 64px}
+header h1{font-size:28px;line-height:1.2;margin:0 0 6px;letter-spacing:-.01em}
+header .by{color:var(--text-2);margin:0}
+header .meta{color:var(--muted);font-size:13px;margin-top:4px}
+h2{font-size:17px;margin:40px 0 4px}
+.sub{color:var(--text-2);font-size:13px;margin:0 0 14px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:28px}
+.kpi{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.kpi .l{font-size:12px;color:var(--text-2);text-transform:uppercase;letter-spacing:.04em}
+.kpi .v{font-size:26px;font-weight:650;margin-top:2px;font-variant-numeric:tabular-nums}
+.kpi .n{font-size:12px;color:var(--muted)}
+.thesis{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin-top:12px}
+.thesis ol{margin:0;padding-left:20px}.thesis li{margin:4px 0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);white-space:nowrap;font-size:14px}
+th{font-size:12px;color:var(--text-2);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+tr:last-child td{border-bottom:0}
+td.r,th.r{text-align:right}
+.legs{white-space:normal;min-width:220px}
+.chip{display:inline-block;padding:1px 8px;margin:2px 4px 2px 0;border:1px solid var(--line);border-radius:999px;font-size:13px}
+.chip small{color:var(--muted)}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--text-2)}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.meter{display:flex;align-items:center;gap:8px;min-width:150px}
+.track{flex:1;height:8px;background:var(--track);border-radius:4px;overflow:hidden}
+.fill{height:100%;background:var(--accent);border-radius:4px}
+.meter span{width:38px;text-align:right;font-size:13px}
+.risk{display:inline-flex;align-items:center;gap:6px}
+.tables{display:grid;grid-template-columns:1fr;gap:12px}
+tr.band td{background:var(--band)}
+tr.cut td{border-top:2px solid var(--text-2)}
+.mine{font-weight:650}
+.legend{font-size:12px;color:var(--text-2);margin:8px 2px 0}
+.legend .sw{display:inline-block;width:12px;height:12px;background:var(--band);border:1px solid var(--line);vertical-align:-2px;margin-right:4px}
+footer{margin-top:48px;color:var(--muted);font-size:12px;line-height:1.6}
+footer a{color:var(--text-2)}
+.toggle{float:right;background:none;border:1px solid var(--line);color:var(--text-2);border-radius:8px;padding:4px 10px;font:inherit;font-size:12px;cursor:pointer}
+@media (max-width:600px){header h1{font-size:23px}.kpi .v{font-size:22px}th,td{padding:8px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <button class="toggle" id="theme" type="button" aria-label="Toggle theme">Theme</button>
+  <h1>UCL 2026/27 League-Phase Portfolio</h1>
+  <p class="by">Vivek Prasad Kaimal · Accounting &amp; finance professional · CPA Australia candidate</p>
+  <div class="meta" id="meta"></div>
+</header>
+
+<div class="kpis" id="kpis"></div>
+
+<h2>The thesis</h2>
+<div class="thesis">
+<ol>
+  <li><b>Top 8 is unpredictable:</b> in each of the last two league phases, about three of the eight places went to teams nobody expected.</li>
+  <li><b>Bottom 12 is mostly predictable,</b> apart from one to three overperformers.</li>
+  <li><b>So the edge is in the middle.</b> 9th–24th is 16 of 36 places. Predict the edges correctly and the middle falls into place.</li>
+</ol>
+</div>
+
+<h2>Bets</h2>
+<p class="sub">Chance = share of stress-test runs in which the bet wins. Implied = chance priced in by the bookmaker's odds.</p>
+<div class="card"><table id="bets"></table></div>
+
+<h2>Team risk</h2>
+<p class="sub">Every selected team, weakest first. A bet fails if a team finishes in the top 8 <i>or</i> 25th–36th.</p>
+<div class="card"><table id="teams"></table></div>
+
+<h2>Forecast vs actual table</h2>
+<p class="sub">My forecast final table (locked 4 Oct 2026) next to the live standings. Teams I hold are in bold.</p>
+<div class="card"><table id="tables"></table></div>
+<p class="legend"><span class="sw"></span>9th–24th band (bet target)</p>
+
+<h2>Matchday log</h2>
+<p class="sub">How the portfolio's outlook moves after each matchday.</p>
+<div class="card"><table id="history"></table></div>
+
+<footer id="foot"></footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  var D = window.DATA, $ = function(id){return document.getElementById(id)};
+  var money = function(v){return '$' + Math.round(v).toLocaleString('en-AU')};
+  var pct = function(v){return Math.round(v*100) + '%'};
+  var mine = {}; D.bets.forEach(function(b){b.legs.forEach(function(l){mine[l[0]]=1})});
+
+  $('meta').textContent = 'Updated ' + D.updated + ' · after matchday ' + D.last_matchday + ' of 8 · settles 28 Jan 2027';
+
+  var S = D.summary, live = D.bets.filter(function(b){return b.status==='open'}).length;
+  var k = [
+    ['Staked', money(S.staked), 'across ' + D.bets.length + ' bets'],
+    ['Target profit', '+' + money(S.target_profit), pct(S.target_profit/S.staked) + ' return'],
+    ['Max return', money(S.max_return), 'if every bet wins'],
+    ['Chance of profit', pct(S.chance_profit), 'stress test, ' + D.runs.toLocaleString() + ' runs'],
+    ['Bets live', live + ' / ' + D.bets.length, 'none settled yet']
+  ];
+  $('kpis').innerHTML = k.map(function(x){return '<div class="kpi"><div class="l">'+x[0]+'</div><div class="v">'+x[1]+'</div><div class="n">'+x[2]+'</div></div>'}).join('');
+
+  var status = {open:['Open','var(--accent)'], won:['Won','var(--good)'], lost:['Lost','var(--critical)'], cashed_out:['Cashed out','var(--warn)']};
+  $('bets').innerHTML = '<tr><th>#</th><th>Bet</th><th>Selections</th><th class="r">Stake</th><th class="r">Odds</th><th class="r">Returns</th><th class="r">Chance</th><th class="r">Implied</th><th>Status</th></tr>' +
+    D.bets.map(function(b){
+      var st = status[b.status] || status.open;
+      return '<tr><td>'+b.id+'</td><td>'+b.type+'<br><small style="color:var(--muted)">'+b.competition+' · '+b.market+'</small></td>' +
+        '<td class="legs">'+b.legs.map(function(l){return '<span class="chip">'+l[0]+' <small>'+l[1].toFixed(2)+'</small></span>'}).join('')+'</td>' +
+        '<td class="r">'+money(b.stake)+'</td><td class="r">'+b.odds.toFixed(2)+'</td><td class="r">'+money(b.returns)+'</td>' +
+        '<td class="r"><b>'+pct(b.chance)+'</b></td><td class="r">'+pct(b.implied)+'</td>' +
+        '<td><span class="pill"><span class="dot" style="background:'+st[1]+'"></span>'+st[0]+'</span></td></tr>';
+    }).join('');
+
+  var risk = function(v){
+    var c = v>=0.3?['var(--critical)','High']:v>=0.15?['var(--serious)','Medium']:['var(--good)','Low'];
+    return '<span class="risk"><span class="dot" style="background:'+c[0]+'"></span>'+pct(v)+' <small style="color:var(--muted)">'+c[1]+'</small></span>';
+  };
+  $('teams').innerHTML = '<tr><th>Team</th><th class="r">Exposure</th><th class="r">Forecast</th><th class="r">Now</th><th>Chance of 9th–24th</th><th>Top-8 risk</th><th>Bottom-12 risk</th></tr>' +
+    D.teams.map(function(t){
+      return '<tr><td><b>'+t.team+'</b></td><td class="r">'+money(t.exposure)+'</td><td class="r">'+t.forecast+'</td><td class="r">'+t.current+'</td>' +
+        '<td><div class="meter"><div class="track"><div class="fill" style="width:'+(t.chance_band*100)+'%"></div></div><span>'+pct(t.chance_band)+'</span></div></td>' +
+        '<td>'+risk(t.top8)+'</td><td>'+risk(t.bottom12)+'</td></tr>';
+    }).join('');
+
+  var rows = '<tr><th class="r">Pos</th><th>Forecast (final)</th><th class="r">Pts</th><th>Actual (after MD'+D.last_matchday+')</th><th class="r">P</th><th class="r">GD</th><th class="r">Pts</th></tr>';
+  for (var i=0;i<36;i++){
+    var f = D.forecast[i], c = D.current[i], p = i+1;
+    var cls = (p>=9&&p<=24?'band':'') + (p===9||p===25?' cut':'');
+    rows += '<tr class="'+cls+'"><td class="r">'+p+'</td><td class="'+(mine[f.team]?'mine':'')+'">'+f.team+'</td><td class="r">'+f.points+'</td>' +
+      '<td class="'+(mine[c.team]?'mine':'')+'">'+c.team+'</td><td class="r">'+c.played+'</td><td class="r">'+(c.goal_diff>0?'+':'')+c.goal_diff+'</td><td class="r">'+c.points+'</td></tr>';
+  }
+  $('tables').innerHTML = rows;
+
+  $('history').innerHTML = '<tr><th>After</th><th>Date</th><th class="r">Chance of profit</th><th class="r">Expected return</th>' +
+    D.bets.map(function(b){return '<th class="r">Bet '+b.id+'</th>'}).join('') + '</tr>' +
+    D.history.map(function(h){
+      return '<tr><td>MD'+h.matchday+'</td><td>'+h.date+'</td><td class="r"><b>'+pct(h.chance_profit)+'</b></td><td class="r">'+money(h.expected_return)+'</td>' +
+        D.bets.map(function(b){var v=h.bets[String(b.id)];return '<td class="r">'+(v==null?'–':pct(v))+'</td>'}).join('')+'</tr>';
+    }).join('');
+
+  $('foot').innerHTML =
+    '<p><b>Rules:</b> ' + D.rules.join(' · ') + '. Cash held in reserve: ' + money(D.cash_reserve) + '.</p>' +
+    '<p><b>Stress test:</b> ' + D.runs.toLocaleString() + ' simulated seasons. Team strength from Opta power rankings where available, estimates otherwise, plus random form; goals drawn from a Poisson model. Built with Claude (Anthropic) as a check on my own judgement, not a replacement for it. Benfica uses a simple per-game model against a 16-point target.</p>' +
+    '<p>Forecast locked 4 Oct 2026; every later change is visible in this repository\'s history. Personal record for analytical purposes only — not betting advice.</p>';
+
+  $('theme').addEventListener('click', function(){
+    var r = document.documentElement, dark = r.getAttribute('data-theme') ? r.getAttribute('data-theme')==='dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    r.setAttribute('data-theme', dark ? 'light' : 'dark');
+  });
+})();
+</script>
+</body>
+</html>
