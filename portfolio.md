@@ -1,6 +1,6 @@
 # Portfolio
 
-Opened **4 October 2026**. Champions League bets settle on the final league-phase table (28 Jan 2027); Benfica settles at the end of the Europa League league phase.
+Opened **4 October 2026** ([bet365 screenshots](evidence/)). Champions League bets settle on the final league-phase table (28 Jan 2027); Benfica settles at the end of the Europa League league phase.
 
 | # | Type | Selections (odds) | Stake | Returns |
 |---|---|---|---|---|

@@ -27,7 +27,7 @@ A season-long test of one idea: that historical data, structure and judgement ca
 | Target | **+$3,000 profit** (40%) · floor: capital returned |
 | Rules | Max $1,000 per bet · max $2,000 per team |
 
-Details: [portfolio.md](portfolio.md) · Forecast: [forecast.md](forecast.md) · Weekly reports: [reports/](reports/)
+Details: [portfolio.md](portfolio.md) · Proof: [evidence/](evidence/) · Forecast: [forecast.md](forecast.md) · Weekly reports: [reports/](reports/)
 
 ## Results
 
