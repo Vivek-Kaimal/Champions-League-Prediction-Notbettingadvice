@@ -4,7 +4,7 @@
 
 A season-long test of one idea: that historical data, structure and judgement can be turned into measurable, risk-managed decisions. Forecast locked **4 October 2026**, before Matchday 2. Every later change is visible in this repository's history.
 
-**Live tracker:** https://vivek-kaimal.github.io/Champions-League-Prediction/
+**Live tracker:** https://vivek-kaimal.github.io/Champions-League-Prediction-Notbettingadvice/
 
 ## Thesis
 
