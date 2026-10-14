@@ -1,5 +1,5 @@
 window.DATA = {
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "last_matchday": 2,
  "runs": 40000,
  "summary": {
@@ -7,8 +7,8 @@ window.DATA = {
   "max_return": 8834.42,
   "realised": 445.54,
   "target_profit": 3000,
-  "expected_return": 7829.0,
-  "chance_profit": 0.652,
+  "expected_return": 7831.0,
+  "chance_profit": 0.653,
   "chance_target": 0.0,
   "chance_total_loss": 0.0,
   "median_return": 8834.0,
@@ -209,7 +209,7 @@ window.DATA = {
    ],
    "odds": 1.44,
    "implied": 0.692,
-   "chance": 0.652
+   "chance": 0.653
   },
   {
    "id": 8,
@@ -227,14 +227,14 @@ window.DATA = {
    ],
    "odds": 1.44,
    "implied": 0.692,
-   "chance": 0.652
+   "chance": 0.653
   }
  ],
  "teams": [],
  "current": [
   {
    "position": 1,
-   "team": "Barcelona",
+   "team": "PSG",
    "played": 2,
    "won": 2,
    "drawn": 0,
@@ -244,6 +244,46 @@ window.DATA = {
   },
   {
    "position": 2,
+   "team": "Aston Villa",
+   "played": 2,
+   "won": 2,
+   "drawn": 0,
+   "lost": 0,
+   "goal_diff": 7,
+   "points": 6
+  },
+  {
+   "position": 3,
+   "team": "Barcelona",
+   "played": 2,
+   "won": 2,
+   "drawn": 0,
+   "lost": 0,
+   "goal_diff": 7,
+   "points": 6
+  },
+  {
+   "position": 4,
+   "team": "Stuttgart",
+   "played": 2,
+   "won": 2,
+   "drawn": 0,
+   "lost": 0,
+   "goal_diff": 5,
+   "points": 6
+  },
+  {
+   "position": 5,
+   "team": "Liverpool",
+   "played": 2,
+   "won": 2,
+   "drawn": 0,
+   "lost": 0,
+   "goal_diff": 4,
+   "points": 6
+  },
+  {
+   "position": 6,
    "team": "Sporting",
    "played": 2,
    "won": 2,
@@ -253,7 +293,7 @@ window.DATA = {
    "points": 6
   },
   {
-   "position": 3,
+   "position": 7,
    "team": "Arsenal",
    "played": 2,
    "won": 2,
@@ -263,7 +303,27 @@ window.DATA = {
    "points": 6
   },
   {
-   "position": 4,
+   "position": 8,
+   "team": "Real Betis",
+   "played": 2,
+   "won": 2,
+   "drawn": 0,
+   "lost": 0,
+   "goal_diff": 2,
+   "points": 6
+  },
+  {
+   "position": 9,
+   "team": "Real Madrid",
+   "played": 2,
+   "won": 2,
+   "drawn": 0,
+   "lost": 0,
+   "goal_diff": 2,
+   "points": 6
+  },
+  {
+   "position": 10,
    "team": "Bayern",
    "played": 2,
    "won": 1,
@@ -273,27 +333,27 @@ window.DATA = {
    "points": 4
   },
   {
-   "position": 5,
-   "team": "PSG",
-   "played": 1,
+   "position": 11,
+   "team": "Shakhtar",
+   "played": 2,
    "won": 1,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 0,
-   "goal_diff": 5,
-   "points": 3
+   "goal_diff": 2,
+   "points": 4
   },
   {
-   "position": 6,
+   "position": 12,
    "team": "Como",
-   "played": 1,
+   "played": 2,
    "won": 1,
    "drawn": 0,
-   "lost": 0,
-   "goal_diff": 3,
+   "lost": 1,
+   "goal_diff": 2,
    "points": 3
   },
   {
-   "position": 7,
+   "position": 13,
    "team": "Man Utd",
    "played": 2,
    "won": 1,
@@ -303,27 +363,7 @@ window.DATA = {
    "points": 3
   },
   {
-   "position": 8,
-   "team": "Stuttgart",
-   "played": 1,
-   "won": 1,
-   "drawn": 0,
-   "lost": 0,
-   "goal_diff": 2,
-   "points": 3
-  },
-  {
-   "position": 9,
-   "team": "Man City",
-   "played": 1,
-   "won": 1,
-   "drawn": 0,
-   "lost": 0,
-   "goal_diff": 2,
-   "points": 3
-  },
-  {
-   "position": 10,
+   "position": 14,
    "team": "Villarreal",
    "played": 2,
    "won": 1,
@@ -333,17 +373,7 @@ window.DATA = {
    "points": 3
   },
   {
-   "position": 11,
-   "team": "Aston Villa",
-   "played": 1,
-   "won": 1,
-   "drawn": 0,
-   "lost": 0,
-   "goal_diff": 1,
-   "points": 3
-  },
-  {
-   "position": 12,
+   "position": 15,
    "team": "Atlético",
    "played": 2,
    "won": 1,
@@ -353,58 +383,28 @@ window.DATA = {
    "points": 3
   },
   {
-   "position": 13,
-   "team": "Dortmund",
-   "played": 1,
-   "won": 1,
-   "drawn": 0,
-   "lost": 0,
-   "goal_diff": 1,
-   "points": 3
-  },
-  {
-   "position": 14,
-   "team": "Real Betis",
-   "played": 1,
-   "won": 1,
-   "drawn": 0,
-   "lost": 0,
-   "goal_diff": 1,
-   "points": 3
-  },
-  {
-   "position": 15,
-   "team": "Liverpool",
-   "played": 1,
-   "won": 1,
-   "drawn": 0,
-   "lost": 0,
-   "goal_diff": 1,
-   "points": 3
-  },
-  {
    "position": 16,
-   "team": "Real Madrid",
-   "played": 1,
+   "team": "Club Brugge",
+   "played": 2,
    "won": 1,
    "drawn": 0,
-   "lost": 0,
-   "goal_diff": 1,
+   "lost": 1,
+   "goal_diff": 0,
    "points": 3
   },
   {
    "position": 17,
-   "team": "AEK Athens",
-   "played": 1,
+   "team": "Man City",
+   "played": 2,
    "won": 1,
    "drawn": 0,
-   "lost": 0,
-   "goal_diff": 1,
+   "lost": 1,
+   "goal_diff": 0,
    "points": 3
   },
   {
    "position": 18,
-   "team": "Club Brugge",
+   "team": "Dortmund",
    "played": 2,
    "won": 1,
    "drawn": 0,
@@ -424,6 +424,16 @@ window.DATA = {
   },
   {
    "position": 20,
+   "team": "AEK Athens",
+   "played": 2,
+   "won": 1,
+   "drawn": 0,
+   "lost": 1,
+   "goal_diff": -1,
+   "points": 3
+  },
+  {
+   "position": 21,
    "team": "Leipzig",
    "played": 2,
    "won": 1,
@@ -433,7 +443,7 @@ window.DATA = {
    "points": 3
   },
   {
-   "position": 21,
+   "position": 22,
    "team": "Sabah",
    "played": 2,
    "won": 1,
@@ -443,38 +453,28 @@ window.DATA = {
    "points": 3
   },
   {
-   "position": 22,
-   "team": "Fenerbahçe",
-   "played": 1,
-   "won": 0,
-   "drawn": 1,
-   "lost": 0,
-   "goal_diff": 0,
-   "points": 1
-  },
-  {
    "position": 23,
-   "team": "Roma",
-   "played": 1,
-   "won": 0,
-   "drawn": 1,
-   "lost": 0,
-   "goal_diff": 0,
-   "points": 1
+   "team": "Feyenoord",
+   "played": 2,
+   "won": 1,
+   "drawn": 0,
+   "lost": 1,
+   "goal_diff": -3,
+   "points": 3
   },
   {
    "position": 24,
-   "team": "Shakhtar",
-   "played": 1,
-   "won": 0,
-   "drawn": 1,
-   "lost": 0,
-   "goal_diff": 0,
-   "points": 1
+   "team": "Bodø/Glimt",
+   "played": 2,
+   "won": 1,
+   "drawn": 0,
+   "lost": 1,
+   "goal_diff": -4,
+   "points": 3
   },
   {
    "position": 25,
-   "team": "PSV",
+   "team": "Roma",
    "played": 2,
    "won": 0,
    "drawn": 1,
@@ -484,6 +484,16 @@ window.DATA = {
   },
   {
    "position": 26,
+   "team": "PSV",
+   "played": 2,
+   "won": 0,
+   "drawn": 1,
+   "lost": 1,
+   "goal_diff": -1,
+   "points": 1
+  },
+  {
+   "position": 27,
    "team": "Viking",
    "played": 2,
    "won": 0,
@@ -493,17 +503,17 @@ window.DATA = {
    "points": 1
   },
   {
-   "position": 27,
-   "team": "LASK",
-   "played": 1,
+   "position": 28,
+   "team": "Fenerbahçe",
+   "played": 2,
    "won": 0,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 1,
-   "goal_diff": -1,
-   "points": 0
+   "goal_diff": -6,
+   "points": 1
   },
   {
-   "position": 28,
+   "position": 29,
    "team": "Inter",
    "played": 2,
    "won": 0,
@@ -513,18 +523,8 @@ window.DATA = {
    "points": 0
   },
   {
-   "position": 29,
-   "team": "Porto",
-   "played": 1,
-   "won": 0,
-   "drawn": 0,
-   "lost": 1,
-   "goal_diff": -2,
-   "points": 0
-  },
-  {
    "position": 30,
-   "team": "Slavia Praha",
+   "team": "Porto",
    "played": 2,
    "won": 0,
    "drawn": 0,
@@ -534,7 +534,7 @@ window.DATA = {
   },
   {
    "position": 31,
-   "team": "Napoli",
+   "team": "Slavia Praha",
    "played": 2,
    "won": 0,
    "drawn": 0,
@@ -544,6 +544,26 @@ window.DATA = {
   },
   {
    "position": 32,
+   "team": "Napoli",
+   "played": 2,
+   "won": 0,
+   "drawn": 0,
+   "lost": 2,
+   "goal_diff": -3,
+   "points": 0
+  },
+  {
+   "position": 33,
+   "team": "LASK",
+   "played": 2,
+   "won": 0,
+   "drawn": 0,
+   "lost": 2,
+   "goal_diff": -4,
+   "points": 0
+  },
+  {
+   "position": 34,
    "team": "Lille",
    "played": 2,
    "won": 0,
@@ -553,17 +573,7 @@ window.DATA = {
    "points": 0
   },
   {
-   "position": 33,
-   "team": "Feyenoord",
-   "played": 1,
-   "won": 0,
-   "drawn": 0,
-   "lost": 1,
-   "goal_diff": -4,
-   "points": 0
-  },
-  {
-   "position": 34,
+   "position": 35,
    "team": "Galatasaray",
    "played": 2,
    "won": 0,
@@ -573,23 +583,13 @@ window.DATA = {
    "points": 0
   },
   {
-   "position": 35,
-   "team": "Slovan",
-   "played": 1,
-   "won": 0,
-   "drawn": 0,
-   "lost": 1,
-   "goal_diff": -5,
-   "points": 0
-  },
-  {
    "position": 36,
-   "team": "Bodø/Glimt",
-   "played": 1,
+   "team": "Slovan",
+   "played": 2,
    "won": 0,
    "drawn": 0,
-   "lost": 1,
-   "goal_diff": -5,
+   "lost": 2,
+   "goal_diff": -8,
    "points": 0
   }
  ],
@@ -800,9 +800,9 @@ window.DATA = {
   },
   {
    "matchday": 2,
-   "date": "2026-10-14",
-   "chance_profit": 0.652,
-   "expected_return": 7829.0,
+   "date": "2026-10-15",
+   "chance_profit": 0.653,
+   "expected_return": 7831.0,
    "bets": {
     "1": 0.0,
     "2": 0.0,
@@ -810,8 +810,8 @@ window.DATA = {
     "4": 0.0,
     "5": 0.0,
     "6": 0.0,
-    "7": 0.652,
-    "8": 0.652
+    "7": 0.653,
+    "8": 0.653
    }
   }
  ]
