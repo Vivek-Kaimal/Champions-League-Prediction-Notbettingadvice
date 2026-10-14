@@ -127,25 +127,26 @@ footer a{color:var(--text-2)}
     ['Target profit', '+' + money(S.target_profit), pct(S.target_profit/S.staked) + ' return'],
     ['Max return', money(S.max_return), 'if every bet wins'],
     ['Chance of profit', pct(S.chance_profit), 'stress test, ' + D.runs.toLocaleString() + ' runs'],
-    ['Bets live', live + ' / ' + D.bets.length, 'none settled yet']
+    ['Bets live', live + ' / ' + D.bets.length, (D.bets.length-live) ? (D.bets.length-live)+' closed · '+money(D.bets.reduce(function(a,b){return a+(b.status==="cashed_out"?b.cashout-b.stake:0)},0))+' realised' : 'none settled yet']
   ];
   $('kpis').innerHTML = k.map(function(x){return '<div class="kpi"><div class="l">'+x[0]+'</div><div class="v">'+x[1]+'</div><div class="n">'+x[2]+'</div></div>'}).join('');
 
   var status = {open:['Open','var(--accent)'], won:['Won','var(--good)'], lost:['Lost','var(--critical)'], cashed_out:['Cashed out','var(--warn)']};
   $('bets').innerHTML = '<tr><th>#</th><th>Bet</th><th>Selections</th><th class="r">Stake</th><th class="r">Odds</th><th class="r">Returns</th><th class="r">Chance</th><th class="r">Implied</th><th>Status</th></tr>' +
     D.bets.map(function(b){
-      var st = status[b.status] || status.open;
+      var st = status[b.status] || status.open; var stTxt = b.status==='cashed_out' ? st[0]+' '+money(b.cashout) : st[0];
       return '<tr><td>'+b.id+'</td><td>'+b.type+'<br><small style="color:var(--muted)">'+b.competition+' · '+b.market+'</small></td>' +
         '<td class="legs">'+b.legs.map(function(l){return '<span class="chip">'+l[0]+' <small>'+l[1].toFixed(2)+'</small></span>'}).join('')+'</td>' +
         '<td class="r">'+money(b.stake)+'</td><td class="r">'+b.odds.toFixed(2)+'</td><td class="r">'+money(b.returns)+'</td>' +
-        '<td class="r"><b>'+pct(b.chance)+'</b></td><td class="r">'+pct(b.implied)+'</td>' +
-        '<td><span class="pill"><span class="dot" style="background:'+st[1]+'"></span>'+st[0]+'</span></td></tr>';
+        '<td class="r"><b>'+(b.status==='open'?pct(b.chance):'–')+'</b></td><td class="r">'+pct(b.implied)+'</td>' +
+        '<td><span class="pill"><span class="dot" style="background:'+st[1]+'"></span>'+stTxt+'</span></td></tr>';
     }).join('');
 
   var risk = function(v){
     var c = v>=0.3?['var(--critical)','High']:v>=0.15?['var(--serious)','Medium']:['var(--good)','Low'];
     return '<span class="risk"><span class="dot" style="background:'+c[0]+'"></span>'+pct(v)+' <small style="color:var(--muted)">'+c[1]+'</small></span>';
   };
+  if(!D.teams.length){ $('teams').innerHTML='<tr><td style="white-space:normal">No open Champions League positions. All six bets were cashed out on 14 Oct 2026 for +'+money(S.realised)+'. Benfica (Europa League) remains open.</td></tr>'; } else
   $('teams').innerHTML = '<tr><th>Team</th><th class="r">Exposure</th><th class="r">Forecast</th><th class="r">Now</th><th>Chance of 9th–24th</th><th>Top-8 risk</th><th>Bottom-12 risk</th></tr>' +
     D.teams.map(function(t){
       return '<tr><td><b>'+t.team+'</b></td><td class="r">'+money(t.exposure)+'</td><td class="r">'+t.forecast+'</td><td class="r">'+t.current+'</td>' +

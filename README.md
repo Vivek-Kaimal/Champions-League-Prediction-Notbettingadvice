@@ -23,7 +23,7 @@ A season-long test of one idea: that historical data, structure and judgement ca
 
 | | |
 |---|---|
-| Staked | $7,500 across 8 bets |
+| Staked | $7,500 across 8 bets · **UCL bets closed 14 Oct, +$445.54** |
 | Target | **+$3,000 profit** (40%) · floor: capital returned |
 | Rules | Max $1,000 per bet · max $2,000 per team |
 
@@ -34,6 +34,7 @@ Details: [portfolio.md](portfolio.md) · Proof: [evidence/](evidence/) · Foreca
 | After | Bets won | Bets lost | Chance of profit* | Notes |
 |---|---|---|---|---|
 | MD1 | – | – | 37% | Portfolio opened 4 Oct |
+| MD2 (Tue) | – | – | – | **All 6 UCL bets cashed out 14 Oct: +$445.54 realised (+8.1% on $5,500).** Benfica ($2,000) still open |
 
 \*Stress test: 40,000 simulated seasons ([tools/update.py](tools/update.py)), built with Claude as a check on my own judgement.
 

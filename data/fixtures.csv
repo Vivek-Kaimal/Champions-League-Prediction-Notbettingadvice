@@ -17,24 +17,24 @@ matchday,home,away,home_goals,away_goals
 1,PSV,Shakhtar,1,1
 1,Sporting,Galatasaray,3,1
 1,Stuttgart,Viking,3,1
-2,Arsenal,Lille,,
-2,Viking,Bayern,,
-2,Galatasaray,Barcelona,,
+2,Arsenal,Lille,3,0
+2,Viking,Bayern,3,3
+2,Galatasaray,Barcelona,1,4
 2,Roma,Real Madrid,,
 2,Man City,PSG,,
 2,LASK,Liverpool,,
-2,Inter,Club Brugge,,
+2,Inter,Club Brugge,3,4
 2,Bodø/Glimt,Dortmund,,
 2,Aston Villa,Fenerbahçe,,
 2,Slovan,Stuttgart,,
-2,Lens,Sporting,,
+2,Lens,Sporting,0,2
 2,Feyenoord,Como,,
 2,Real Betis,Porto,,
-2,Atlético,Man Utd,,
-2,Villarreal,Napoli,,
-2,Leipzig,PSV,,
+2,Atlético,Man Utd,2,0
+2,Villarreal,Napoli,3,1
+2,Leipzig,PSV,1,0
 2,Shakhtar,AEK Athens,,
-2,Sabah,Slavia Praha,,
+2,Sabah,Slavia Praha,2,0
 3,Bayern,Arsenal,,
 3,PSG,Barcelona,,
 3,Real Madrid,Leipzig,,

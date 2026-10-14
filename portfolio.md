@@ -16,6 +16,22 @@ Opened **4 October 2026** ([bet365 screenshots](evidence/)). Champions League be
 
 **Exposure per team:** Sporting $2,000 · Como $2,000 · Real Betis $2,000 · Porto $2,000 · Roma $2,000 · Stuttgart $2,000 · Napoli $2,000 · Benfica $2,000 · Aston Villa $1,500 · Atlético $1,500 · Man Utd $500 · Fenerbahçe $500
 
+## Cash-out · 14 Oct 2026
+
+All six Champions League bets were cashed out after Tuesday's MD2 games. The odds had already moved in the portfolio's favour (8 of 11 teams held or shortened), so the gain was locked in rather than exposed to a further 6 matchdays of top-8 risk.
+
+| # | Stake | Cash-out | Profit |
+|---|---|---|---|
+| 1 | $1,000 | $1,203.42 | +$203.42 |
+| 2 | $1,000 | $1,000.00 | $0.00 |
+| 3 | $1,000 | $1,170.00 | +$170.00 |
+| 4 | $1,000 | $1,083.08 | +$83.08 |
+| 5 | $1,000 | $942.03 | −$57.97 |
+| 6 | $500 | $547.01 | +$47.01 |
+| **Total** | **$5,500** | **$5,945.54** | **+$445.54 (+8.1%)** |
+
+Account balance $531.31 → $6,476.85 ([proof](evidence/)). Benfica singles (bets 7–8) remain open.
+
 ## Rules
 
 - Maximum $1,000 per bet; larger positions are split into $1,000 tranches

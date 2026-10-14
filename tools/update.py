@@ -92,6 +92,7 @@ for bet in pf["bets"]:
 staked = sum(bt["stake"] for bt in pf["bets"])
 exposure = {}
 for bt in pf["bets"]:
+    if bt["status"] != "open": continue
     for t, _ in bt["legs"]:
         exposure[t] = exposure.get(t, 0) + bt["stake"]
 
@@ -107,7 +108,8 @@ for t in exposure:
 team_risk.sort(key=lambda r: r["chance_band"])
 
 summary = dict(
-    staked=staked, max_return=round(sum(bt["returns"] for bt in pf["bets"]), 2),
+    staked=staked, max_return=round(sum(bt.get("cashout", 0) if bt["status"] == "cashed_out" else bt["returns"] for bt in pf["bets"] if bt["status"] != "lost"), 2),
+    realised=round(sum(bt["cashout"] - bt["stake"] for bt in pf["bets"] if bt["status"] == "cashed_out"), 2),
     target_profit=pf["target_profit"], expected_return=round(float(returns.mean()), 0),
     chance_profit=round(float((returns > staked).mean()), 3),
     chance_target=round(float((returns >= staked + pf["target_profit"]).mean()), 3),
