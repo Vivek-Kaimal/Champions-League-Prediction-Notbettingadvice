@@ -18,6 +18,7 @@ A season-long test of one idea: that historical data, structure and judgement ca
 - Inputs: Opta power and league rankings, match footage, form, injuries, squad depth, fixtures, home advantage, previous league phases
 - Waited for Matchday 1 to finish before committing
 - Forecast table updated every matchday; positions are reviewed whenever results stop agreeing with it
+- **Rolling strategy (from MD2):** a multi-team bet is all-or-nothing, so one team failing loses the whole bet. Positions are cashed out once they are in profit and risk starts rising, then rebuilt after the matchday with the new information. Each matchday makes the table more certain, so every rebuild is made on better data.
 
 ## Portfolio
 
