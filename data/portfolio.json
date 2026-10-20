@@ -1,7 +1,7 @@
 {
   "opened": "2026-10-04",
   "capital": 8031.31,
-  "cash_reserve": 699.08,
+  "cash_reserve": 3699.08,
   "target_profit": 3000,
   "rules": [
     "Maximum $1,500 per bet (from round 2, 20 Oct; $1,000 in round 1)",
@@ -232,7 +232,7 @@
       "market": "Finish 9th-24th",
       "stake": 1500,
       "returns": 5612.72,
-      "status": "open",
+      "status": "cashed_out",
       "legs": [
         [
           "Dortmund",
@@ -251,7 +251,9 @@
           1.4
         ]
       ],
-      "placed": "2026-10-20"
+      "placed": "2026-10-20",
+      "cashout": 1500.0,
+      "closed": "2026-10-21"
     },
     {
       "id": 11,
@@ -260,7 +262,7 @@
       "market": "Finish 9th-24th",
       "stake": 1500,
       "returns": 5762.39,
-      "status": "open",
+      "status": "cashed_out",
       "legs": [
         [
           "Man Utd",
@@ -279,7 +281,9 @@
           1.4
         ]
       ],
-      "placed": "2026-10-20"
+      "placed": "2026-10-20",
+      "cashout": 1500.0,
+      "closed": "2026-10-21"
     },
     {
       "id": 12,

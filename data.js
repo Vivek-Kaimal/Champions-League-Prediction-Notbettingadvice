@@ -4,16 +4,16 @@ window.DATA = {
  "runs": 40000,
  "summary": {
   "staked": 13500,
-  "max_return": 32994.64,
+  "max_return": 24619.53,
   "realised": 445.54,
   "target_profit": 3000,
-  "expected_return": 11884.0,
-  "chance_profit": 0.362,
-  "chance_target": 0.163,
+  "expected_return": 13004.0,
+  "chance_profit": 0.28,
+  "chance_target": 0.205,
   "chance_total_loss": 0.0,
-  "median_return": 8834.0,
-  "p10": 5946.0,
-  "p90": 20088.0,
+  "median_return": 11834.0,
+  "p10": 8946.0,
+  "p90": 18979.0,
   "benfica_chance": 0.655
  },
  "bets": [
@@ -267,7 +267,7 @@ window.DATA = {
    "market": "Finish 9th-24th",
    "stake": 1500,
    "returns": 5612.72,
-   "status": "open",
+   "status": "cashed_out",
    "legs": [
     [
      "Dortmund",
@@ -287,9 +287,11 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-20",
+   "cashout": 1500.0,
+   "closed": "2026-10-21",
    "odds": 3.74,
    "implied": 0.267,
-   "chance": 0.185
+   "chance": 0.0
   },
   {
    "id": 11,
@@ -298,7 +300,7 @@ window.DATA = {
    "market": "Finish 9th-24th",
    "stake": 1500,
    "returns": 5762.39,
-   "status": "open",
+   "status": "cashed_out",
    "legs": [
     [
      "Man Utd",
@@ -318,9 +320,11 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-20",
+   "cashout": 1500.0,
+   "closed": "2026-10-21",
    "odds": 3.84,
    "implied": 0.26,
-   "chance": 0.146
+   "chance": 0.0
   },
   {
    "id": 12,
@@ -367,28 +371,6 @@ window.DATA = {
    "bottom12": 0.397
   },
   {
-   "team": "Sporting",
-   "exposure": 1500,
-   "rating": 91.4,
-   "rating_source": "opta",
-   "forecast": 20,
-   "current": 7,
-   "chance_band": 0.58,
-   "top8": 0.386,
-   "bottom12": 0.034
-  },
-  {
-   "team": "Stuttgart",
-   "exposure": 3000,
-   "rating": 90.0,
-   "rating_source": "estimate",
-   "forecast": 17,
-   "current": 3,
-   "chance_band": 0.605,
-   "top8": 0.364,
-   "bottom12": 0.031
-  },
-  {
    "team": "Como",
    "exposure": 3000,
    "rating": 89.8,
@@ -411,19 +393,8 @@ window.DATA = {
    "bottom12": 0.259
   },
   {
-   "team": "Man Utd",
-   "exposure": 1500,
-   "rating": 94.0,
-   "rating_source": "opta",
-   "forecast": 9,
-   "current": 18,
-   "chance_band": 0.667,
-   "top8": 0.191,
-   "bottom12": 0.141
-  },
-  {
    "team": "Villarreal",
-   "exposure": 3000,
+   "exposure": 1500,
    "rating": 89.0,
    "rating_source": "estimate",
    "forecast": 27,
@@ -434,7 +405,7 @@ window.DATA = {
   },
   {
    "team": "Dortmund",
-   "exposure": 3000,
+   "exposure": 1500,
    "rating": 92.8,
    "rating_source": "opta",
    "forecast": 10,
@@ -442,17 +413,6 @@ window.DATA = {
    "chance_band": 0.707,
    "top8": 0.241,
    "bottom12": 0.053
-  },
-  {
-   "team": "Roma",
-   "exposure": 3000,
-   "rating": 91.6,
-   "rating_source": "opta",
-   "forecast": 11,
-   "current": 13,
-   "chance_band": 0.714,
-   "top8": 0.097,
-   "bottom12": 0.189
   },
   {
    "team": "Napoli",
@@ -1015,7 +975,7 @@ window.DATA = {
   "Maximum $3,000 total exposure to any one team (from round 2; $2,000 in round 1)",
   "Champions League selections from the top five leagues and Portugal (exceptions: Club Brugge in round 2, one leg in the round-1 $500 bet)"
  ],
- "cash_reserve": 699.08,
+ "cash_reserve": 3699.08,
  "history": [
   {
    "matchday": 1,
@@ -1052,8 +1012,8 @@ window.DATA = {
   {
    "matchday": 3,
    "date": "2026-10-21",
-   "chance_profit": 0.362,
-   "expected_return": 11884.0,
+   "chance_profit": 0.28,
+   "expected_return": 13004.0,
    "bets": {
     "1": 0.0,
     "2": 0.0,
@@ -1064,8 +1024,8 @@ window.DATA = {
     "7": 0.652,
     "8": 0.652,
     "9": 0.154,
-    "10": 0.185,
-    "11": 0.146,
+    "10": 0.0,
+    "11": 0.0,
     "12": 0.19
    }
   }
