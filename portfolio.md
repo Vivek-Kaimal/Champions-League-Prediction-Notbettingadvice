@@ -23,8 +23,6 @@ Eight teams in four four-folds; each team appears in exactly two bets.
 | All four win | +$18,160 |
 | All four lose | −$6,000 |
 
-Positions opened and closed between 15 and 20 Oct are not yet logged; their settled record will be added.
-
 ## Round 1 · placed 4 Oct 2026 (closed 14 Oct, +$445.54)
 
 | # | Type | Selections (odds) | Stake | Returns |
