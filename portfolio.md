@@ -2,6 +2,31 @@
 
 Opened **4 October 2026** ([bet365 screenshots](evidence/)). Champions League bets settle on the final league-phase table (28 Jan 2027); Benfica settles at the end of the Europa League league phase.
 
+## Round 2 · placed 20 Oct 2026 (open)
+
+Eight teams in four four-folds; each team appears in exactly two bets.
+
+| # | Type | Selections (odds) | Stake | Returns | Cash-out 21 Oct |
+|---|---|---|---|---|---|
+| 9 | Four-fold · UCL Finish 9th-24th | Inter 1.36, Como 1.44, Napoli 1.40, Club Brugge 1.72 | $1,500 | $7,144.62 | $1,600.61 |
+| 10 | Four-fold · UCL Finish 9th-24th | Dortmund 1.40, Villarreal 1.36, Roma 1.40, Stuttgart 1.40 | $1,500 | $5,612.72 | $1,500.00 |
+| 11 | Four-fold · UCL Finish 9th-24th | Man Utd 1.40, Sporting 1.40, Roma 1.40, Stuttgart 1.40 | $1,500 | $5,762.39 | $1,500.00 |
+| 12 | Four-fold · UCL Finish 9th-24th | Inter 1.36, Villarreal 1.36, Dortmund 1.40, Como 1.44 | $1,500 | $5,640.49 | $1,500.00 |
+| | | **Total** | **$6,000** | **$24,160.22** | **$6,100.61 (+$100.61)** |
+
+**Exposure per team:** Inter, Como, Dortmund, Villarreal, Roma, Stuttgart $3,000 · Napoli, Club Brugge, Man Utd, Sporting $1,500 · Benfica $2,000 (bets 7–8, still open). Cash reserve $699.08.
+
+| Scenario (round 2) | Profit |
+|---|---|
+| Any one four-fold wins | −$390 to +$1,145 |
+| Any two win | +$5,250 to +$6,900 |
+| All four win | +$18,160 |
+| All four lose | −$6,000 |
+
+Positions opened and closed between 15 and 20 Oct are not yet logged; their settled record will be added.
+
+## Round 1 · placed 4 Oct 2026 (closed 14 Oct, +$445.54)
+
 | # | Type | Selections (odds) | Stake | Returns |
 |---|---|---|---|---|
 | 1 | Treble · UCL Finish 9th-24th | Sporting 1.44, Como 1.80, Real Betis 1.83 | $1,000 | $4,766.66 |
@@ -34,12 +59,12 @@ Account balance $531.31 → $6,476.85 ([proof](evidence/)). Benfica singles (bet
 
 ## Rules
 
-- Maximum $1,000 per bet; larger positions are split into $1,000 tranches
-- Maximum $2,000 total exposure to any one team
-- Champions League selections only from the top five leagues and Portugal (one exception in the $500 satellite bet)
+- Maximum $1,500 per bet (round 1: $1,000)
+- Maximum $3,000 total exposure to any one team (round 1: $2,000)
+- Champions League selections from the top five leagues and Portugal (exceptions: Club Brugge in round 2; one leg of the round-1 $500 bet)
 - Positions are reviewed after every matchday; a team losing a game it should win (especially at home to a weaker side) triggers a review
 
-## Scenarios
+## Scenarios (round 1)
 
 | Scenario | Profit |
 |---|---|

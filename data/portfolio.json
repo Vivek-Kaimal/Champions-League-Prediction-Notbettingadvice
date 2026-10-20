@@ -1,12 +1,12 @@
 {
   "opened": "2026-10-04",
   "capital": 8031.31,
-  "cash_reserve": 6476.85,
+  "cash_reserve": 699.08,
   "target_profit": 3000,
   "rules": [
-    "Maximum $1,000 per bet; larger positions are split into $1,000 tranches",
-    "Maximum $2,000 total exposure to any one team",
-    "Champions League selections only from the top five leagues and Portugal (one exception in the $500 satellite bet)"
+    "Maximum $1,500 per bet (from round 2, 20 Oct; $1,000 in round 1)",
+    "Maximum $3,000 total exposure to any one team (from round 2; $2,000 in round 1)",
+    "Champions League selections from the top five leagues and Portugal (exceptions: Club Brugge in round 2, one leg in the round-1 $500 bet)"
   ],
   "bets": [
     {
@@ -196,6 +196,118 @@
           1.44
         ]
       ]
+    },
+    {
+      "id": 9,
+      "type": "Four-fold",
+      "competition": "UCL",
+      "market": "Finish 9th-24th",
+      "stake": 1500,
+      "returns": 7144.62,
+      "status": "open",
+      "legs": [
+        [
+          "Inter",
+          1.36
+        ],
+        [
+          "Como",
+          1.44
+        ],
+        [
+          "Napoli",
+          1.4
+        ],
+        [
+          "Club Brugge",
+          1.72
+        ]
+      ],
+      "placed": "2026-10-20"
+    },
+    {
+      "id": 10,
+      "type": "Four-fold",
+      "competition": "UCL",
+      "market": "Finish 9th-24th",
+      "stake": 1500,
+      "returns": 5612.72,
+      "status": "open",
+      "legs": [
+        [
+          "Dortmund",
+          1.4
+        ],
+        [
+          "Villarreal",
+          1.36
+        ],
+        [
+          "Roma",
+          1.4
+        ],
+        [
+          "Stuttgart",
+          1.4
+        ]
+      ],
+      "placed": "2026-10-20"
+    },
+    {
+      "id": 11,
+      "type": "Four-fold",
+      "competition": "UCL",
+      "market": "Finish 9th-24th",
+      "stake": 1500,
+      "returns": 5762.39,
+      "status": "open",
+      "legs": [
+        [
+          "Man Utd",
+          1.4
+        ],
+        [
+          "Sporting",
+          1.4
+        ],
+        [
+          "Roma",
+          1.4
+        ],
+        [
+          "Stuttgart",
+          1.4
+        ]
+      ],
+      "placed": "2026-10-20"
+    },
+    {
+      "id": 12,
+      "type": "Four-fold",
+      "competition": "UCL",
+      "market": "Finish 9th-24th",
+      "stake": 1500,
+      "returns": 5640.49,
+      "status": "open",
+      "legs": [
+        [
+          "Inter",
+          1.36
+        ],
+        [
+          "Villarreal",
+          1.36
+        ],
+        [
+          "Dortmund",
+          1.4
+        ],
+        [
+          "Como",
+          1.44
+        ]
+      ],
+      "placed": "2026-10-20"
     }
   ],
   "benfica": {
