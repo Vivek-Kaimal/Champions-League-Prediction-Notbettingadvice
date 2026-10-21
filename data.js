@@ -260,8 +260,8 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-20",
-   "cashout_value": 1600.61,
-   "cashout_value_date": "2026-10-21",
+   "cashout_value": 2630.81,
+   "cashout_value_date": "2026-10-22",
    "odds": 4.76,
    "implied": 0.21,
    "chance": 0.261
@@ -359,8 +359,8 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-20",
-   "cashout_value": 1500.0,
-   "cashout_value_date": "2026-10-21",
+   "cashout_value": 1908.86,
+   "cashout_value_date": "2026-10-22",
    "odds": 3.76,
    "implied": 0.266,
    "chance": 0.227

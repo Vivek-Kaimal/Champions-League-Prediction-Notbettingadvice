@@ -6,13 +6,13 @@ Opened **4 October 2026** ([bet365 screenshots](evidence/)). Champions League be
 
 Eight teams in four four-folds; each team appears in exactly two bets.
 
-| # | Type | Selections (odds) | Stake | Returns | Status 21 Oct |
+| # | Type | Selections (odds) | Stake | Returns | Status 22 Oct |
 |---|---|---|---|---|---|
-| 9 | Four-fold · UCL Finish 9th-24th | Inter 1.36, Como 1.44, Napoli 1.40, Club Brugge 1.72 | $1,500 | $7,144.62 | Open · cash-out value $1,600.61 |
+| 9 | Four-fold · UCL Finish 9th-24th | Inter 1.36, Como 1.44, Napoli 1.40, Club Brugge 1.72 | $1,500 | $7,144.62 | Open · cash-out value **$2,630.81 (+$1,130.81)** |
 | 10 | Four-fold · UCL Finish 9th-24th | Dortmund 1.40, Villarreal 1.36, Roma 1.40, Stuttgart 1.40 | $1,500 | $5,612.72 | **Cashed out $1,500.00** |
 | 11 | Four-fold · UCL Finish 9th-24th | Man Utd 1.40, Sporting 1.40, Roma 1.40, Stuttgart 1.40 | $1,500 | $5,762.39 | **Cashed out $1,500.00** |
-| 12 | Four-fold · UCL Finish 9th-24th | Inter 1.36, Villarreal 1.36, Dortmund 1.40, Como 1.44 | $1,500 | $5,640.49 | Open · cash-out value $1,500.00 |
-| | | **Total** | **$6,000** | | **$3,000 returned · $3,000 open** |
+| 12 | Four-fold · UCL Finish 9th-24th | Inter 1.36, Villarreal 1.36, Dortmund 1.40, Como 1.44 | $1,500 | $5,640.49 | Open · cash-out value **$1,908.86 (+$408.86)** |
+| | | **Total** | **$6,000** | | **$3,000 returned · $3,000 open, valued $4,539.67 (+$1,539.67)** |
 
 **Stuttgart cash-out (21 Oct):** both Stuttgart bets closed at stake after the 1–1 draw with Atlético left Stuttgart 3rd on 7 points with a soft run-in (Inter the only hard fixture). Main risk: a top-8 finish. [Proof](evidence/).
 
