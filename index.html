@@ -171,7 +171,7 @@ footer a{color:var(--text-2)}
     }).join('');
 
   $('foot').innerHTML =
-    '<p><b>Rules:</b> ' + D.rules.join(' · ') + '. Cash held in reserve: ' + money(D.cash_reserve) + '.</p>' +
+    '<p><b>Rules:</b> ' + D.rules.join(' · ') + '.</p>' +
     '<p><b>Stress test:</b> ' + D.runs.toLocaleString() + ' simulated seasons. Team strength from Opta power rankings where available, estimates otherwise, plus random form; goals drawn from a Poisson model. Built with Claude (Anthropic) as a check on my own judgement, not a replacement for it. Benfica uses a simple per-game model against a 16-point target.</p>' +
     '<p>Forecast locked 4 Oct 2026; every later change is visible in this repository\'s history. Personal record for analytical purposes only — not betting advice.</p>';
 

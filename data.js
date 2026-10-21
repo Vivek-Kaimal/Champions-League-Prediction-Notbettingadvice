@@ -207,6 +207,8 @@ window.DATA = {
      1.44
     ]
    ],
+   "cashout_value": 1203.71,
+   "cashout_value_date": "2026-10-21",
    "odds": 1.44,
    "implied": 0.692,
    "chance": 0.652
@@ -225,6 +227,8 @@ window.DATA = {
      1.44
     ]
    ],
+   "cashout_value": 1203.71,
+   "cashout_value_date": "2026-10-21",
    "odds": 1.44,
    "implied": 0.692,
    "chance": 0.652
@@ -256,6 +260,8 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-20",
+   "cashout_value": 1600.61,
+   "cashout_value_date": "2026-10-21",
    "odds": 4.76,
    "implied": 0.21,
    "chance": 0.154
@@ -353,6 +359,8 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-20",
+   "cashout_value": 1500.0,
+   "cashout_value_date": "2026-10-21",
    "odds": 3.76,
    "implied": 0.266,
    "chance": 0.19
@@ -971,11 +979,10 @@ window.DATA = {
   }
  ],
  "rules": [
-  "Maximum $1,500 per bet (from round 2, 20 Oct; $1,000 in round 1)",
-  "Maximum $3,000 total exposure to any one team (from round 2; $2,000 in round 1)",
-  "Champions League selections from the top five leagues and Portugal (exceptions: Club Brugge in round 2, one leg in the round-1 $500 bet)"
+  "Sizing moves with certainty: per-bet and per-team limits are set each round, smaller and spread out while the table is uncertain, larger and more concentrated as it settles (round 1: $1,000 per bet / $2,000 per team; round 2: $1,500 / $3,000)",
+  "Capital first: positions are cashed out when in profit and risk rises, then rebuilt after the matchday on better information; lower returns are accepted as the cost",
+  "Selections mainly from the top five leagues and Portugal; exceptions are named in the round (round 2: Club Brugge)"
  ],
- "cash_reserve": 3699.08,
  "history": [
   {
    "matchday": 1,

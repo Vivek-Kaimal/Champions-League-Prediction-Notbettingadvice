@@ -130,7 +130,7 @@ json.dump(history, open(D / "history.json", "w", encoding="utf-8"), indent=1, en
 out = dict(updated=today, last_matchday=last_md, runs=RUNS, summary=summary, bets=bets_out,
            teams=team_risk, current=current,
            forecast=[dict(position=int(r["position"]), team=r["team"], points=int(r["points"])) for r in forecast],
-           rules=pf["rules"], cash_reserve=pf["cash_reserve"], history=history)
+           rules=pf["rules"], history=history)
 (ROOT / "data.js").write_text("window.DATA = " + json.dumps(out, ensure_ascii=False, indent=1) + ";\n", encoding="utf-8")
 print(json.dumps(summary, indent=1))
 for r in team_risk: print(r["team"], r["chance_band"], r["top8"], r["bottom12"], r["current"])

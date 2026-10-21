@@ -2,26 +2,28 @@
 
 Opened **4 October 2026** ([bet365 screenshots](evidence/)). Champions League bets settle on the final league-phase table (28 Jan 2027); Benfica settles at the end of the Europa League league phase.
 
-## Round 2 · placed 20 Oct 2026 (open)
+## Round 2 · placed 20 Oct 2026
 
 Eight teams in four four-folds; each team appears in exactly two bets.
 
-| # | Type | Selections (odds) | Stake | Returns | Cash-out 21 Oct |
+| # | Type | Selections (odds) | Stake | Returns | Status 21 Oct |
 |---|---|---|---|---|---|
-| 9 | Four-fold · UCL Finish 9th-24th | Inter 1.36, Como 1.44, Napoli 1.40, Club Brugge 1.72 | $1,500 | $7,144.62 | $1,600.61 |
-| 10 | Four-fold · UCL Finish 9th-24th | Dortmund 1.40, Villarreal 1.36, Roma 1.40, Stuttgart 1.40 | $1,500 | $5,612.72 | $1,500.00 |
-| 11 | Four-fold · UCL Finish 9th-24th | Man Utd 1.40, Sporting 1.40, Roma 1.40, Stuttgart 1.40 | $1,500 | $5,762.39 | $1,500.00 |
-| 12 | Four-fold · UCL Finish 9th-24th | Inter 1.36, Villarreal 1.36, Dortmund 1.40, Como 1.44 | $1,500 | $5,640.49 | $1,500.00 |
-| | | **Total** | **$6,000** | **$24,160.22** | **$6,100.61 (+$100.61)** |
+| 9 | Four-fold · UCL Finish 9th-24th | Inter 1.36, Como 1.44, Napoli 1.40, Club Brugge 1.72 | $1,500 | $7,144.62 | Open · cash-out value $1,600.61 |
+| 10 | Four-fold · UCL Finish 9th-24th | Dortmund 1.40, Villarreal 1.36, Roma 1.40, Stuttgart 1.40 | $1,500 | $5,612.72 | **Cashed out $1,500.00** |
+| 11 | Four-fold · UCL Finish 9th-24th | Man Utd 1.40, Sporting 1.40, Roma 1.40, Stuttgart 1.40 | $1,500 | $5,762.39 | **Cashed out $1,500.00** |
+| 12 | Four-fold · UCL Finish 9th-24th | Inter 1.36, Villarreal 1.36, Dortmund 1.40, Como 1.44 | $1,500 | $5,640.49 | Open · cash-out value $1,500.00 |
+| | | **Total** | **$6,000** | | **$3,000 returned · $3,000 open** |
 
-**Exposure per team:** Inter, Como, Dortmund, Villarreal, Roma, Stuttgart $3,000 · Napoli, Club Brugge, Man Utd, Sporting $1,500 · Benfica $2,000 (bets 7–8, still open). Cash reserve $699.08.
+**Stuttgart cash-out (21 Oct):** both Stuttgart bets closed at stake after the 1–1 draw with Atlético left Stuttgart 3rd on 7 points with a soft run-in (Inter the only hard fixture). Main risk: a top-8 finish. [Proof](evidence/).
 
-| Scenario (round 2) | Profit |
+**Open exposure per team:** Inter, Como $3,000 · Napoli, Club Brugge, Villarreal, Dortmund $1,500 · Benfica $2,000 (bets 7–8, cash-out value $1,203.71 each on 21 Oct, +$407.42).
+
+| Scenario (round 2, on $6,000 staked) | Profit |
 |---|---|
-| Any one four-fold wins | −$390 to +$1,145 |
-| Any two win | +$5,250 to +$6,900 |
-| All four win | +$18,160 |
-| All four lose | −$6,000 |
+| Bets 9 and 12 both win | +$9,785 |
+| Bet 9 only | +$4,145 |
+| Bet 12 only | +$2,640 |
+| Both lose | −$3,000 |
 
 ## Round 1 · placed 4 Oct 2026 (closed 14 Oct, +$445.54)
 
@@ -57,10 +59,10 @@ Account balance $531.31 → $6,476.85 ([proof](evidence/)). Benfica singles (bet
 
 ## Rules
 
-- Maximum $1,500 per bet (round 1: $1,000)
-- Maximum $3,000 total exposure to any one team (round 1: $2,000)
-- Champions League selections from the top five leagues and Portugal (exceptions: Club Brugge in round 2; one leg of the round-1 $500 bet)
-- Positions are reviewed after every matchday; a team losing a game it should win (especially at home to a weaker side) triggers a review
+- Sizing moves with certainty: per-bet and per-team limits are set each round, smaller and spread out while the table is uncertain, larger and more concentrated as it settles (round 1: $1,000 per bet / $2,000 per team; round 2: $1,500 / $3,000)
+- Capital first: positions are cashed out when in profit and risk rises, then rebuilt after the matchday on better information; lower returns are accepted as the cost
+- Selections mainly from the top five leagues and Portugal; exceptions are named in the round (round 2: Club Brugge)
+- Positions are reviewed after every matchday; a team losing a game it should win triggers a review
 
 ## Scenarios (round 1)
 

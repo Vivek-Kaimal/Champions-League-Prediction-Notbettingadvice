@@ -24,10 +24,10 @@ A season-long test of one idea: that historical data, structure and judgement ca
 
 | | |
 |---|---|
-| Round 1 | $7,500 across 8 bets · **UCL bets cashed out 14 Oct, +$445.54** · Benfica $2,000 open |
-| Round 2 | **$6,000 across 4 four-folds, placed 20 Oct** · cash-out value 21 Oct $6,100.61 (+$100.61) |
+| Round 1 | $7,500 across 8 bets · **UCL bets cashed out 14 Oct, +$445.54** · Benfica $2,000 open (value $2,407.42 on 21 Oct) |
+| Round 2 | **$6,000 across 4 four-folds, placed 20 Oct** · 2 Stuttgart bets cashed out at stake 21 Oct · 2 open ($3,000) |
 | Target | **+$3,000 profit** (40%) · floor: capital returned |
-| Rules | Max $1,500 per bet · max $3,000 per team (round 1: $1,000 / $2,000) |
+| Rules | Sizing rises as the table settles · capital first: cash out when in profit and risk rises, rebuild after each matchday |
 
 Details: [portfolio.md](portfolio.md) · Proof: [evidence/](evidence/) · Forecast: [forecast.md](forecast.md) · Weekly reports: [reports/](reports/)
 
@@ -37,7 +37,7 @@ Details: [portfolio.md](portfolio.md) · Proof: [evidence/](evidence/) · Foreca
 |---|---|---|---|---|
 | MD1 | – | – | 37% | Portfolio opened 4 Oct |
 | MD2 | – | – | – | **All 6 UCL bets cashed out 14 Oct: +$445.54 realised (+8.1% on $5,500).** Benfica ($2,000) still open |
-| MD3 (Tue) | – | – | 36% | Round 2 rebuilt 20 Oct: 4 × $1,500 four-folds, 8 teams. Stuttgart 1–1 Atlético moves Stuttgart to 3rd (7 pts): main risk now |
+| MD3 (Tue) | – | – | 36% | Round 2 rebuilt 20 Oct: 4 × $1,500 four-folds, 8 teams. Stuttgart 1–1 Atlético moves Stuttgart to 3rd (7 pts): both Stuttgart bets cashed out at stake 21 Oct |
 
 \*Stress test: 40,000 simulated seasons ([tools/update.py](tools/update.py)), built with Claude as a check on my own judgement.
 
