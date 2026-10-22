@@ -1,5 +1,5 @@
 window.DATA = {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "last_matchday": 3,
  "runs": 40000,
  "summary": {
@@ -7,14 +7,14 @@ window.DATA = {
   "max_return": 24619.53,
   "realised": 445.54,
   "target_profit": 3000,
-  "expected_return": 13976.0,
+  "expected_return": 14614.0,
   "chance_profit": 0.379,
-  "chance_target": 0.286,
+  "chance_target": 0.345,
   "chance_total_loss": 0.0,
   "median_return": 11834.0,
-  "p10": 8946.0,
+  "p10": 11834.0,
   "p90": 21731.0,
-  "benfica_chance": 0.655
+  "benfica_chance": 0.877
  },
  "bets": [
   {
@@ -211,7 +211,7 @@ window.DATA = {
    "cashout_value_date": "2026-10-21",
    "odds": 1.44,
    "implied": 0.692,
-   "chance": 0.654
+   "chance": 0.875
   },
   {
    "id": 8,
@@ -231,7 +231,7 @@ window.DATA = {
    "cashout_value_date": "2026-10-21",
    "odds": 1.44,
    "implied": 0.692,
-   "chance": 0.654
+   "chance": 0.875
   },
   {
    "id": 9,
@@ -1018,9 +1018,9 @@ window.DATA = {
   },
   {
    "matchday": 3,
-   "date": "2026-10-22",
+   "date": "2026-10-23",
    "chance_profit": 0.379,
-   "expected_return": 13976.0,
+   "expected_return": 14614.0,
    "bets": {
     "1": 0.0,
     "2": 0.0,
@@ -1028,8 +1028,8 @@ window.DATA = {
     "4": 0.0,
     "5": 0.0,
     "6": 0.0,
-    "7": 0.654,
-    "8": 0.654,
+    "7": 0.875,
+    "8": 0.875,
     "9": 0.261,
     "10": 0.0,
     "11": 0.0,

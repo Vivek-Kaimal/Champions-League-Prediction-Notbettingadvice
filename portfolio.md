@@ -74,4 +74,6 @@ Account balance $531.31 → $6,476.85 ([proof](evidence/)). Benfica singles (bet
 
 ## Benfica rationale
 
-8th place finished on 14 (2024–25) and 16 (2025–26) points. Target 16. Benfica won 2–0 away at Milan, their hardest fixture, so they need 13 points from 7 games: four wins and a draw. The toughest remaining match, Celtic, is at home.
+8th place finished on 14 (2024–25) and 16 (2025–26) points. Target 16.
+
+**Update 23 Oct:** three wins from three: Milan 0–2 Benfica, Benfica 4–1 Celtic, Omonia 1–4 Benfica. 9 points, goal difference +8. They now need 7 points from 5 games (two wins and a draw) to reach the target.

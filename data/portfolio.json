@@ -322,12 +322,17 @@
     }
   ],
   "benfica": {
-    "played": 1,
-    "points": 3,
-    "remaining": 7,
+    "played": 3,
+    "points": 9,
+    "remaining": 5,
     "target_points": 16,
     "assumed_win": 0.58,
     "assumed_draw": 0.22,
-    "note": "8th place finished on 14 (2024-25) and 16 (2025-26) points"
+    "note": "8th place finished on 14 (2024-25) and 16 (2025-26) points",
+    "results": [
+      "16 Sep: Milan 0–2 Benfica",
+      "15 Oct: Benfica 4–1 Celtic",
+      "22 Oct: Omonia 1–4 Benfica"
+    ]
   }
 }
