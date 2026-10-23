@@ -107,7 +107,10 @@ for t in exposure:
                           bottom12=round(float((pos[:, k] >= 25).mean()), 3)))
 team_risk.sort(key=lambda r: r["chance_band"])
 
+open_bets = [bt for bt in pf["bets"] if bt["status"] == "open"]
 summary = dict(
+    capital=pf["capital"], open_stake=sum(bt["stake"] for bt in open_bets),
+    open_value=round(sum(bt.get("cashout_value", bt["stake"]) for bt in open_bets), 2),
     staked=staked, max_return=round(sum(bt.get("cashout", 0) if bt["status"] == "cashed_out" else bt["returns"] for bt in pf["bets"] if bt["status"] != "lost"), 2),
     realised=round(sum(bt["cashout"] - bt["stake"] for bt in pf["bets"] if bt["status"] == "cashed_out"), 2),
     target_profit=pf["target_profit"], expected_return=round(float(returns.mean()), 0),
