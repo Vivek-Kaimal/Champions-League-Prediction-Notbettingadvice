@@ -26,6 +26,7 @@ A season-long test of one idea: that historical data, structure and judgement ca
 |---|---|
 | Stake | **$8,000** |
 | Realised profit | **+$1,208.84** (+15.1% on stake · 40% of target) |
+| Portfolio value | **$10,748.51** (cash $6,208.84 + open bets at cash-out value $4,539.67 · +34.4%) |
 | Round 1 | $7,500 across 8 bets · **UCL bets cashed out 14 Oct, +$445.54** · **Benfica cashed out 24 Oct, +$763.30** |
 | Round 2 | **$6,000 across 4 four-folds, placed 20 Oct** · 2 Stuttgart bets cashed out at stake 21 Oct · 2 open ($3,000), **cash-out value $4,539.67 on 22 Oct (+$1,539.67)** |
 | Target | **+$3,000 profit** (37.5% on stake) · floor: capital returned |

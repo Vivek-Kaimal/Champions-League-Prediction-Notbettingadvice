@@ -144,12 +144,14 @@ footer a{color:var(--text-2)}
   $('meta').textContent = 'Updated ' + D.updated + ' · after matchday ' + D.last_matchday + ' of 8 · settles 28 Jan 2027';
 
   var S = D.summary, live = D.bets.filter(function(b){return b.status==='open'}).length;
+  var cash = S.capital + S.realised - S.open_stake, pv = cash + S.open_value;
   var rzCls = S.realised>0 ? 'good' : S.realised<0 ? 'bad' : '';
   var k = [
     ['Stake', money(S.capital), 'capital invested'],
     ['Target profit', '+' + money(S.target_profit), pct(S.target_profit/S.capital) + ' on stake'],
     ['Realised profit', (S.realised>0?'+':S.realised<0?'−':'') + money2(Math.abs(S.realised)), (S.realised>=0?'+':'−') + pct(Math.abs(S.realised)/S.capital) + ' on stake · ' + pct(S.realised/S.target_profit) + ' of target', rzCls],
-    ['Open bets', String(live), live ? money(S.open_stake) + ' staked · tap to view' : 'none open', 'link']
+    ['Open bets', String(live), live ? money(S.open_stake) + ' staked · tap to view' : 'none open', 'link'],
+    ['Portfolio value', money2(pv), 'cash ' + money(cash) + ' + open bets ' + money(S.open_value) + ' · ' + (pv>=S.capital?'+':'−') + pct(Math.abs(pv-S.capital)/S.capital), pv>S.capital ? 'good' : pv<S.capital ? 'bad' : '']
   ];
   $('kpis').innerHTML = k.map(function(x){
     var inner = '<div class="l">'+x[0]+'</div><div class="v">'+x[1]+'</div><div class="n">'+x[2]+'</div>';
