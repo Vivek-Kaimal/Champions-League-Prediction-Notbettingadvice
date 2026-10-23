@@ -37,6 +37,7 @@ header .meta{color:var(--muted);font-size:13px;margin-top:4px}
 h2{font-size:17px;margin:40px 0 4px}
 .sub{color:var(--text-2);font-size:13px;margin:0 0 14px}
 .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:28px}
+.what{margin:10px 0 4px;font-size:15px;max-width:720px}
 .kpi{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
 .kpi .l{font-size:12px;color:var(--text-2);text-transform:uppercase;letter-spacing:.04em}
 .kpi .v{font-size:26px;font-weight:650;margin-top:2px;font-variant-numeric:tabular-nums}
@@ -88,19 +89,12 @@ footer a{color:var(--text-2)}
   <button class="toggle" id="theme" type="button" aria-label="Toggle theme">Theme</button>
   <h1>UCL 2026/27 League-Phase Portfolio</h1>
   <p class="by">Vivek Prasad Kaimal · Accounting &amp; finance professional · CPA Australia candidate</p>
+  <p class="what">Betting that selected Champions League teams finish <b>9th–24th of 36</b> in the league phase. Bets are cashed out when in profit and rebuilt after each matchday.</p>
   <div class="meta" id="meta"></div>
 </header>
 
 <div class="kpis" id="kpis"></div>
 
-<h2>The thesis</h2>
-<div class="thesis">
-<ol>
-  <li><b>Top 8 is unpredictable:</b> in each of the last two league phases, about three of the eight places went to teams nobody expected.</li>
-  <li><b>Bottom 12 is mostly predictable,</b> apart from one to three overperformers.</li>
-  <li><b>So the edge is in the middle.</b> 9th–24th is 16 of 36 places. Predict the edges correctly and the middle falls into place.</li>
-</ol>
-</div>
 
 <div class="bets-head"><h2 id="bets-h">Bets</h2><div class="seg" id="bet-filter" role="group" aria-label="Filter bets"><button type="button" data-f="open">Open</button><button type="button" data-f="all">All</button></div></div>
 <p class="sub">Chance = share of stress-test runs in which the bet wins. Implied = chance priced in by the bookmaker's odds.</p>
@@ -118,6 +112,17 @@ footer a{color:var(--text-2)}
 <h2>Matchday log</h2>
 <p class="sub">How the portfolio's outlook moves after each matchday.</p>
 <div class="card"><table id="history"></table></div>
+
+<h2>The thesis</h2>
+<p class="sub">Why 9th–24th, and how positions are managed.</p>
+<div class="thesis">
+<ol>
+  <li><b>Top 8 is unpredictable:</b> in each of the last two league phases, about three of the eight places went to teams nobody expected.</li>
+  <li><b>Bottom 12 is mostly predictable,</b> apart from one to three overperformers.</li>
+  <li><b>So the edge is in the middle.</b> 9th–24th is 16 of 36 places. Predict the edges correctly and the middle falls into place.</li>
+</ol>
+<p style="margin:10px 0 0"><b>Rolling strategy:</b> each bet is all-or-nothing, so positions are cashed out once in profit and risk rises, then rebuilt after each matchday on better information. Capital first; lower returns are the accepted cost.</p>
+</div>
 
 <footer id="foot"></footer>
 </div>
