@@ -1,19 +1,19 @@
 window.DATA = {
- "updated": "2026-10-23",
+ "updated": "2026-10-24",
  "last_matchday": 3,
  "runs": 40000,
  "summary": {
   "staked": 13500,
-  "max_return": 24619.53,
-  "realised": 445.54,
+  "max_return": 24493.95,
+  "realised": 1208.84,
   "target_profit": 3000,
-  "expected_return": 14614.0,
+  "expected_return": 14850.0,
   "chance_profit": 0.379,
-  "chance_target": 0.345,
+  "chance_target": 0.379,
   "chance_total_loss": 0.0,
-  "median_return": 11834.0,
-  "p10": 11834.0,
-  "p90": 21731.0,
+  "median_return": 11709.0,
+  "p10": 11709.0,
+  "p90": 24494.0,
   "benfica_chance": 0.877
  },
  "bets": [
@@ -200,18 +200,18 @@ window.DATA = {
    "market": "Top 8 finish",
    "stake": 1000,
    "returns": 1444.44,
-   "status": "open",
+   "status": "cashed_out",
    "legs": [
     [
      "Benfica",
      1.44
     ]
    ],
-   "cashout_value": 1203.71,
-   "cashout_value_date": "2026-10-21",
+   "cashout": 1381.65,
+   "closed": "2026-10-24",
    "odds": 1.44,
    "implied": 0.692,
-   "chance": 0.875
+   "chance": 0.0
   },
   {
    "id": 8,
@@ -220,18 +220,18 @@ window.DATA = {
    "market": "Top 8 finish",
    "stake": 1000,
    "returns": 1444.44,
-   "status": "open",
+   "status": "cashed_out",
    "legs": [
     [
      "Benfica",
      1.44
     ]
    ],
-   "cashout_value": 1203.71,
-   "cashout_value_date": "2026-10-21",
+   "cashout": 1381.65,
+   "closed": "2026-10-24",
    "odds": 1.44,
    "implied": 0.692,
-   "chance": 0.875
+   "chance": 0.0
   },
   {
    "id": 9,
@@ -1018,9 +1018,9 @@ window.DATA = {
   },
   {
    "matchday": 3,
-   "date": "2026-10-23",
+   "date": "2026-10-24",
    "chance_profit": 0.379,
-   "expected_return": 14614.0,
+   "expected_return": 14850.0,
    "bets": {
     "1": 0.0,
     "2": 0.0,
@@ -1028,8 +1028,8 @@ window.DATA = {
     "4": 0.0,
     "5": 0.0,
     "6": 0.0,
-    "7": 0.875,
-    "8": 0.875,
+    "7": 0.0,
+    "8": 0.0,
     "9": 0.261,
     "10": 0.0,
     "11": 0.0,

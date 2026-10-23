@@ -11,3 +11,4 @@ Unedited bet365 "My Bets" screenshots (cropped to the page only), added after ea
 | 21 Oct 2026 | Bets 10–11 (Stuttgart) cashed out at $1,500 each | [1](2026-10-21-stuttgart-cashout-1.jpg) · [2](2026-10-21-stuttgart-cashout-2.jpg) |
 | 21 Oct 2026 | Benfica singles, cash-out value $1,203.71 each | [benfica](2026-10-21-benfica-cashout-value.jpg) |
 | 22 Oct 2026 | Bets 9 and 12 after MD3: cash-out values $2,630.81 and $1,908.86 | [1](2026-10-22-round2-values-1.jpg) · [2](2026-10-22-round2-values-2.jpg) |
+| 24 Oct 2026 | Benfica singles (bets 7–8) cashed out at $1,381.65 each | [benfica](2026-10-24-benfica-cashout.jpg) |

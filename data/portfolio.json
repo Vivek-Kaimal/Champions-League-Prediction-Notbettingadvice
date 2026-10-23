@@ -173,15 +173,15 @@
       "market": "Top 8 finish",
       "stake": 1000,
       "returns": 1444.44,
-      "status": "open",
+      "status": "cashed_out",
       "legs": [
         [
           "Benfica",
           1.44
         ]
       ],
-      "cashout_value": 1203.71,
-      "cashout_value_date": "2026-10-21"
+      "cashout": 1381.65,
+      "closed": "2026-10-24"
     },
     {
       "id": 8,
@@ -190,15 +190,15 @@
       "market": "Top 8 finish",
       "stake": 1000,
       "returns": 1444.44,
-      "status": "open",
+      "status": "cashed_out",
       "legs": [
         [
           "Benfica",
           1.44
         ]
       ],
-      "cashout_value": 1203.71,
-      "cashout_value_date": "2026-10-21"
+      "cashout": 1381.65,
+      "closed": "2026-10-24"
     },
     {
       "id": 9,

@@ -24,7 +24,7 @@ A season-long test of one idea: that historical data, structure and judgement ca
 
 | | |
 |---|---|
-| Round 1 | $7,500 across 8 bets · **UCL bets cashed out 14 Oct, +$445.54** · Benfica $2,000 open (value $2,407.42 on 21 Oct) |
+| Round 1 | $7,500 across 8 bets · **UCL bets cashed out 14 Oct, +$445.54** · **Benfica cashed out 24 Oct, +$763.30** |
 | Round 2 | **$6,000 across 4 four-folds, placed 20 Oct** · 2 Stuttgart bets cashed out at stake 21 Oct · 2 open ($3,000), **cash-out value $4,539.67 on 22 Oct (+$1,539.67)** |
 | Target | **+$3,000 profit** (40%) · floor: capital returned |
 | Rules | Sizing rises as the table settles · capital first: cash out when in profit and risk rises, rebuild after each matchday |
@@ -39,6 +39,7 @@ Details: [portfolio.md](portfolio.md) · Proof: [evidence/](evidence/) · Foreca
 | MD2 | – | – | – | **All 6 UCL bets cashed out 14 Oct: +$445.54 realised (+8.1% on $5,500).** Benfica ($2,000) still open |
 | MD3 (Tue) | – | – | 36% | Round 2 rebuilt 20 Oct: 4 × $1,500 four-folds, 8 teams. Stuttgart 1–1 Atlético moves Stuttgart to 3rd (7 pts): both Stuttgart bets cashed out at stake 21 Oct |
 | MD3 | – | – | – | Inter, Como, Club Brugge all won. Open bets valued at $4,539.67 on $3,000 staked (+51%) |
+| UEL MD3 | – | – | – | **Benfica cashed out 24 Oct after 3 wins from 3: +$763.30 (+38%).** Realised to date: **+$1,208.84** |
 
 \*Stress test: 40,000 simulated seasons ([tools/update.py](tools/update.py)), built with Claude as a check on my own judgement.
 

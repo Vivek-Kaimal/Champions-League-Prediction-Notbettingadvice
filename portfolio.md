@@ -16,7 +16,7 @@ Eight teams in four four-folds; each team appears in exactly two bets.
 
 **Stuttgart cash-out (21 Oct):** both Stuttgart bets closed at stake after the 1–1 draw with Atlético left Stuttgart 3rd on 7 points with a soft run-in (Inter the only hard fixture). Main risk: a top-8 finish. [Proof](evidence/).
 
-**Open exposure per team:** Inter, Como $3,000 · Napoli, Club Brugge, Villarreal, Dortmund $1,500 · Benfica $2,000 (bets 7–8, cash-out value $1,203.71 each on 21 Oct, +$407.42).
+**Open exposure per team:** Inter, Como $3,000 · Napoli, Club Brugge, Villarreal, Dortmund $1,500.
 
 | Scenario (round 2, on $6,000 staked) | Profit |
 |---|---|
@@ -55,7 +55,17 @@ All six Champions League bets were cashed out after Tuesday's MD2 games. The odd
 | 6 | $500 | $547.01 | +$47.01 |
 | **Total** | **$5,500** | **$5,945.54** | **+$445.54 (+8.1%)** |
 
-Account balance $531.31 → $6,476.85 ([proof](evidence/)). Benfica singles (bets 7–8) remain open.
+Account balance $531.31 → $6,476.85 ([proof](evidence/)).
+
+## Benfica cash-out · 24 Oct 2026
+
+| # | Stake | Cash-out | Profit |
+|---|---|---|---|
+| 7 | $1,000 | $1,381.65 | +$381.65 |
+| 8 | $1,000 | $1,381.65 | +$381.65 |
+| **Total** | **$2,000** | **$2,763.30** | **+$763.30 (+38%)** |
+
+Cashed out after three wins from three (9 points). The full return ($2,888.88) was still 5 games away; the cash-out locked in 86% of the maximum profit with no further risk. [Proof](evidence/).
 
 ## Rules
 
