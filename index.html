@@ -113,10 +113,6 @@ footer a{color:var(--text-2)}
 <div class="card"><table id="tables"></table></div>
 <p class="legend"><span class="sw"></span>9th–24th band (bet target)</p>
 
-<h2>Matchday log</h2>
-<p class="sub">How the portfolio's outlook moves after each matchday.</p>
-<div class="card"><table id="history"></table></div>
-
 <h2>The thesis</h2>
 <p class="sub">Why 9th–24th, and how positions are managed.</p>
 <div class="thesis">
@@ -203,13 +199,6 @@ footer a{color:var(--text-2)}
       '<td class="'+(mine[c.team]?'mine':'')+'">'+c.team+'</td><td class="r">'+c.played+'</td><td class="r">'+(c.goal_diff>0?'+':'')+c.goal_diff+'</td><td class="r">'+c.points+'</td></tr>';
   }
   $('tables').innerHTML = rows;
-
-  $('history').innerHTML = '<tr><th>After</th><th>Date</th><th class="r">Chance of profit</th><th class="r">Expected return</th>' +
-    D.bets.map(function(b){return '<th class="r">Bet '+b.id+'</th>'}).join('') + '</tr>' +
-    D.history.map(function(h){
-      return '<tr><td>MD'+h.matchday+'</td><td>'+h.date+'</td><td class="r"><b>'+pct(h.chance_profit)+'</b></td><td class="r">'+money(h.expected_return)+'</td>' +
-        D.bets.map(function(b){var v=h.bets[String(b.id)];return '<td class="r">'+(v==null?'–':pct(v))+'</td>'}).join('')+'</tr>';
-    }).join('');
 
   $('foot').innerHTML =
     '<p><b>Rules:</b> ' + D.rules.join(' · ') + '.</p>' +
