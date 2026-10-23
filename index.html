@@ -41,6 +41,8 @@ h2{font-size:17px;margin:40px 0 4px}
 .kpi .l{font-size:12px;color:var(--text-2);text-transform:uppercase;letter-spacing:.04em}
 .kpi .v{font-size:26px;font-weight:650;margin-top:2px;font-variant-numeric:tabular-nums}
 .kpi .n{font-size:12px;color:var(--muted)}
+.kpi.good{border:2px solid var(--good);background:color-mix(in srgb,var(--good) 10%,var(--surface))}
+.kpi.good .v{color:var(--good)}
 .thesis{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin-top:12px}
 .thesis ol{margin:0;padding-left:20px}.thesis li{margin:4px 0}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow-x:auto}
@@ -116,6 +118,7 @@ footer a{color:var(--text-2)}
 (function(){
   var D = window.DATA, $ = function(id){return document.getElementById(id)};
   var money = function(v){return '$' + Math.round(v).toLocaleString('en-AU')};
+  var money2 = function(v){return '$' + v.toLocaleString('en-AU',{minimumFractionDigits:2,maximumFractionDigits:2})};
   var pct = function(v){return Math.round(v*100) + '%'};
   var mine = {}; D.bets.forEach(function(b){b.legs.forEach(function(l){mine[l[0]]=1})});
 
@@ -123,13 +126,13 @@ footer a{color:var(--text-2)}
 
   var S = D.summary, live = D.bets.filter(function(b){return b.status==='open'}).length;
   var k = [
-    ['Capital', money(S.capital), 're-used each round · ' + money(S.staked) + ' staked in total'],
-    ['Target profit', '+' + money(S.target_profit), pct(S.target_profit/S.capital) + ' on capital'],
-    ['Realised profit', (S.realised>=0?'+':'') + money(S.realised), pct(S.realised/S.target_profit) + ' of target · ' + (D.bets.length-live) + ' bets closed'],
+    ['Stake', money(S.capital), 'capital invested'],
+    ['Realised profit', (S.realised>=0?'+':'') + money2(S.realised), '+' + pct(S.realised/S.capital) + ' on stake · ' + pct(S.realised/S.target_profit) + ' of target', 'good'],
+    ['Target profit', '+' + money(S.target_profit), pct(S.target_profit/S.capital) + ' on stake'],
     ['Open bets', live + ' · ' + money(S.open_stake), 'cash-out value ' + money(S.open_value) + ' (' + (S.open_value>=S.open_stake?'+':'') + money(S.open_value-S.open_stake) + ')'],
     ['Chance of profit', pct(S.chance_profit), 'stress test, ' + D.runs.toLocaleString() + ' runs']
   ];
-  $('kpis').innerHTML = k.map(function(x){return '<div class="kpi"><div class="l">'+x[0]+'</div><div class="v">'+x[1]+'</div><div class="n">'+x[2]+'</div></div>'}).join('');
+  $('kpis').innerHTML = k.map(function(x){return '<div class="kpi'+(x[3]?' '+x[3]:'')+'"><div class="l">'+x[0]+'</div><div class="v">'+x[1]+'</div><div class="n">'+x[2]+'</div></div>'}).join('');
 
   var status = {open:['Open','var(--accent)'], won:['Won','var(--good)'], lost:['Lost','var(--critical)'], cashed_out:['Cashed out','var(--warn)']};
   $('bets').innerHTML = '<tr><th>#</th><th>Bet</th><th>Selections</th><th class="r">Stake</th><th class="r">Returns</th><th class="r">Chance</th><th class="r">Implied</th><th>Status</th><th class="r">Realised</th></tr>' +

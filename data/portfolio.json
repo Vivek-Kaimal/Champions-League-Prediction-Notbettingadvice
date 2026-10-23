@@ -1,6 +1,6 @@
 {
   "opened": "2026-10-04",
-  "capital": 8031.31,
+  "capital": 8000,
   "target_profit": 3000,
   "rules": [
     "Sizing moves with certainty: per-bet and per-team limits are set each round, smaller and spread out while the table is uncertain, larger and more concentrated as it settles (round 1: $1,000 per bet / $2,000 per team; round 2: $1,500 / $3,000)",

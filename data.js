@@ -3,7 +3,7 @@ window.DATA = {
  "last_matchday": 3,
  "runs": 40000,
  "summary": {
-  "capital": 8031.31,
+  "capital": 8000,
   "open_stake": 3000,
   "open_value": 4539.67,
   "staked": 13500,
