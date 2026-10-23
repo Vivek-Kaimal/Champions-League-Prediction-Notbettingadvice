@@ -30,7 +30,7 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);
   font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
-.wrap{max-width:1040px;margin:0 auto;padding:40px 16px 64px}
+.wrap{max-width:1240px;margin:0 auto;padding:40px 16px 64px}
 header h1{font-size:28px;line-height:1.2;margin:0 0 6px;letter-spacing:-.01em}
 header .by{color:var(--text-2);margin:0}
 header .meta{color:var(--muted);font-size:13px;margin-top:4px}
@@ -73,6 +73,10 @@ td.r,th.r{text-align:right}
 .risk{display:inline-flex;align-items:center;gap:6px}
 .tables{display:grid;grid-template-columns:1fr;gap:12px}
 tr.band td{background:var(--band)}
+tr.win td{background:color-mix(in srgb,var(--good) 12%,var(--surface))}
+tr.loss td{background:color-mix(in srgb,var(--critical) 12%,var(--surface))}
+td.notes{white-space:normal;min-width:240px;font-size:13px;color:var(--text-2)}
+td.notes ul{margin:0;padding-left:16px}td.notes li{margin:1px 0}
 tr.cut td{border-top:2px solid var(--text-2)}
 .mine{font-weight:650}
 .legend{font-size:12px;color:var(--text-2);margin:8px 2px 0}
@@ -153,17 +157,21 @@ footer a{color:var(--text-2)}
 
   var status = {open:['Open','var(--accent)'], won:['Won','var(--good)'], lost:['Lost','var(--critical)'], cashed_out:['Cashed out','var(--warn)']};
   var renderBets = function(filter){
-  var list = filter==='open' ? D.bets.filter(function(b){return b.status==='open'}) : D.bets;
-  $('bets').innerHTML = '<tr><th>#</th><th>Bet</th><th>Selections</th><th class="r">Stake</th><th class="r">Returns</th><th class="r">Chance</th><th class="r">Implied</th><th>Status</th><th class="r">Realised</th></tr>' +
+  var list = (filter==='open' ? D.bets.filter(function(b){return b.status==='open'}) : D.bets.slice()).sort(function(a,b){
+    var ao=a.status==='open'?1:0, bo=b.status==='open'?1:0; if(ao!==bo) return bo-ao;
+    var ad=a.closed||a.placed||'', bd=b.closed||b.placed||''; if(ad!==bd) return ad<bd?1:-1; return b.id-a.id; });
+  $('bets').innerHTML = '<tr><th>#</th><th>Bet</th><th class="r">Stake</th><th class="r">Returns</th><th class="r">Chance</th><th class="r">Implied</th><th>Status</th><th class="r">Realised</th><th>Why</th></tr>' +
     list.map(function(b){
-      var st = status[b.status] || status.open; var stTxt = b.status==='cashed_out' ? 'Cashed out' : (b.status==='open' && b.cashout_value ? 'Open · value '+money(b.cashout_value) : st[0]);
+      var st = status[b.status] || status.open; var stTxt = b.status==='cashed_out' ? 'Cashed out'+(b.closed?' <small style="color:var(--muted)">'+b.closed.slice(8)+' '+['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][+b.closed.slice(5,7)-1]+'</small>':'') : (b.status==='open' && b.cashout_value ? 'Open · value '+money(b.cashout_value) : st[0]);
       var rz = b.status==='cashed_out' ? b.cashout-b.stake : b.status==='won' ? b.returns-b.stake : b.status==='lost' ? -b.stake : null;
       var rzTxt = rz===null ? '–' : '<b style="color:'+(rz>0?'var(--good)':rz<0?'var(--critical)':'inherit')+'">'+(rz>0?'+':rz<0?'−':'')+money(Math.abs(rz))+'</b>';
-      return '<tr><td>'+b.id+'</td><td>'+b.type+'<br><small style="color:var(--muted)">'+b.competition+' · '+b.market+'</small></td>' +
-        '<td class="legs">'+b.legs.map(function(l){return '<span class="chip">'+l[0]+' <small>'+l[1].toFixed(2)+'</small></span>'}).join('')+'</td>' +
+      var cls = rz>0 ? ' class="win"' : rz<0 ? ' class="loss"' : '';
+      var why = (b.notes||[]).length ? '<ul>'+b.notes.map(function(n){return '<li>'+n+'</li>'}).join('')+'</ul>' : '';
+      return '<tr'+cls+'><td>'+b.id+'</td>' +
+        '<td class="legs"><small style="color:var(--muted)">'+b.type+' · '+b.competition+' · '+b.market+'</small><br>'+b.legs.map(function(l){return '<span class="chip">'+l[0]+' <small>'+l[1].toFixed(2)+'</small></span>'}).join('')+'</td>' +
         '<td class="r">'+money(b.stake)+'</td><td class="r">'+money(b.returns)+'<br><small style="color:var(--muted)">@ '+b.odds.toFixed(2)+'</small></td>' +
         '<td class="r"><b>'+(b.status==='open'?pct(b.chance):'–')+'</b></td><td class="r">'+pct(b.implied)+'</td>' +
-        '<td><span class="pill"><span class="dot" style="background:'+st[1]+'"></span>'+stTxt+'</span></td><td class="r">'+rzTxt+'</td></tr>';
+        '<td><span class="pill"><span class="dot" style="background:'+st[1]+'"></span>'+stTxt+'</span></td><td class="r">'+rzTxt+'</td><td class="notes">'+why+'</td></tr>';
     }).join('');
   [].forEach.call(document.querySelectorAll('#bet-filter button'),function(btn){btn.setAttribute('aria-pressed', btn.dataset.f===filter ? 'true':'false')});
   };

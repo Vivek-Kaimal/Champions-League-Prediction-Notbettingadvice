@@ -44,6 +44,11 @@ window.DATA = {
    ],
    "cashout": 1203.42,
    "closed": "2026-10-14",
+   "notes": [
+    "Full reset of round 1 after MD2 to lock gains",
+    "Sporting on 6 pts from 2: rising top-8 risk",
+    "Betis 1.83 → 1.44 and Como 1.80 → 1.50: profit to lock in"
+   ],
    "odds": 4.77,
    "implied": 0.21,
    "chance": 0.0
@@ -72,6 +77,10 @@ window.DATA = {
    ],
    "cashout": 1000,
    "closed": "2026-10-14",
+   "notes": [
+    "Full reset of round 1 after MD2 to lock gains",
+    "No gain on this bet; closed as part of the full reset at stake"
+   ],
    "odds": 3.63,
    "implied": 0.275,
    "chance": 0.0
@@ -100,6 +109,11 @@ window.DATA = {
    ],
    "cashout": 1170,
    "closed": "2026-10-14",
+   "notes": [
+    "Full reset of round 1 after MD2 to lock gains",
+    "Sporting on 6 pts from 2: rising top-8 risk",
+    "Betis and Roma prices shortened: profit to lock in"
+   ],
    "odds": 4.28,
    "implied": 0.234,
    "chance": 0.0
@@ -128,6 +142,10 @@ window.DATA = {
    ],
    "cashout": 1083.08,
    "closed": "2026-10-14",
+   "notes": [
+    "Full reset of round 1 after MD2 to lock gains",
+    "Napoli 0 pts from 2 (lost 3–1 at Villarreal): bottom-12 risk"
+   ],
    "odds": 3.96,
    "implied": 0.253,
    "chance": 0.0
@@ -160,6 +178,11 @@ window.DATA = {
    ],
    "cashout": 942.03,
    "closed": "2026-10-14",
+   "notes": [
+    "Full reset of round 1 after MD2 to lock gains",
+    "Napoli 0 pts from 2: bottom-12 risk",
+    "Atlético drifted 1.44 → 1.53; small loss accepted to exit"
+   ],
    "odds": 4.55,
    "implied": 0.22,
    "chance": 0.0
@@ -192,6 +215,10 @@ window.DATA = {
    ],
    "cashout": 547.01,
    "closed": "2026-10-14",
+   "notes": [
+    "Full reset of round 1 after MD2 to lock gains",
+    "Villa, Man Utd and Fenerbahçe prices shortened: small gain locked"
+   ],
    "odds": 7.33,
    "implied": 0.136,
    "chance": 0.0
@@ -212,6 +239,10 @@ window.DATA = {
    ],
    "cashout": 1381.65,
    "closed": "2026-10-24",
+   "notes": [
+    "Three wins from three (9 pts): Milan, Celtic, Omonia",
+    "Locked 86% of the maximum profit with five games still to play"
+   ],
    "odds": 1.44,
    "implied": 0.692,
    "chance": 0.0
@@ -232,6 +263,10 @@ window.DATA = {
    ],
    "cashout": 1381.65,
    "closed": "2026-10-24",
+   "notes": [
+    "Three wins from three (9 pts): Milan, Celtic, Omonia",
+    "Locked 86% of the maximum profit with five games still to play"
+   ],
    "odds": 1.44,
    "implied": 0.692,
    "chance": 0.0
@@ -265,6 +300,10 @@ window.DATA = {
    "placed": "2026-10-20",
    "cashout_value": 2630.81,
    "cashout_value_date": "2026-10-22",
+   "notes": [
+    "Inter, Como and Club Brugge all won on MD3",
+    "Holding; decision due before MD4 (3 Nov)"
+   ],
    "odds": 4.76,
    "implied": 0.21,
    "chance": 0.261
@@ -298,6 +337,11 @@ window.DATA = {
    "placed": "2026-10-20",
    "cashout": 1500.0,
    "closed": "2026-10-21",
+   "notes": [
+    "Stuttgart 1–1 Atlético left them 3rd on 7 pts",
+    "Soft run-in (Inter the only hard fixture): real top-8 risk",
+    "Cashed out at stake, no loss"
+   ],
    "odds": 3.74,
    "implied": 0.267,
    "chance": 0.0
@@ -331,6 +375,11 @@ window.DATA = {
    "placed": "2026-10-20",
    "cashout": 1500.0,
    "closed": "2026-10-21",
+   "notes": [
+    "Stuttgart 1–1 Atlético left them 3rd on 7 pts",
+    "Soft run-in (Inter the only hard fixture): real top-8 risk",
+    "Cashed out at stake, no loss"
+   ],
    "odds": 3.84,
    "implied": 0.26,
    "chance": 0.0
@@ -364,6 +413,10 @@ window.DATA = {
    "placed": "2026-10-20",
    "cashout_value": 1908.86,
    "cashout_value_date": "2026-10-22",
+   "notes": [
+    "Inter and Como won on MD3",
+    "Holding; Villarreal host PSG on MD4, decision due before 3 Nov"
+   ],
    "odds": 3.76,
    "implied": 0.266,
    "chance": 0.227
