@@ -49,6 +49,7 @@ window.DATA = {
     "Sporting on 6 pts from 2: rising top-8 risk",
     "Betis 1.83 → 1.44 and Como 1.80 → 1.50: profit to lock in"
    ],
+   "placed": "2026-10-04",
    "odds": 4.77,
    "implied": 0.21,
    "chance": 0.0
@@ -81,6 +82,7 @@ window.DATA = {
     "Full reset of round 1 after MD2 to lock gains",
     "No gain on this bet; closed as part of the full reset at stake"
    ],
+   "placed": "2026-10-04",
    "odds": 3.63,
    "implied": 0.275,
    "chance": 0.0
@@ -114,6 +116,7 @@ window.DATA = {
     "Sporting on 6 pts from 2: rising top-8 risk",
     "Betis and Roma prices shortened: profit to lock in"
    ],
+   "placed": "2026-10-04",
    "odds": 4.28,
    "implied": 0.234,
    "chance": 0.0
@@ -146,6 +149,7 @@ window.DATA = {
     "Full reset of round 1 after MD2 to lock gains",
     "Napoli 0 pts from 2 (lost 3–1 at Villarreal): bottom-12 risk"
    ],
+   "placed": "2026-10-04",
    "odds": 3.96,
    "implied": 0.253,
    "chance": 0.0
@@ -183,6 +187,7 @@ window.DATA = {
     "Napoli 0 pts from 2: bottom-12 risk",
     "Atlético drifted 1.44 → 1.53; small loss accepted to exit"
    ],
+   "placed": "2026-10-04",
    "odds": 4.55,
    "implied": 0.22,
    "chance": 0.0
@@ -219,6 +224,7 @@ window.DATA = {
     "Full reset of round 1 after MD2 to lock gains",
     "Villa, Man Utd and Fenerbahçe prices shortened: small gain locked"
    ],
+   "placed": "2026-10-04",
    "odds": 7.33,
    "implied": 0.136,
    "chance": 0.0
@@ -243,6 +249,7 @@ window.DATA = {
     "Three wins from three (9 pts): Milan, Celtic, Omonia",
     "Locked 86% of the maximum profit with five games still to play"
    ],
+   "placed": "2026-10-04",
    "odds": 1.44,
    "implied": 0.692,
    "chance": 0.0
@@ -267,6 +274,7 @@ window.DATA = {
     "Three wins from three (9 pts): Milan, Celtic, Omonia",
     "Locked 86% of the maximum profit with five games still to play"
    ],
+   "placed": "2026-10-04",
    "odds": 1.44,
    "implied": 0.692,
    "chance": 0.0
