@@ -169,7 +169,7 @@ footer a{color:var(--text-2)}
       var rz = b.status==='cashed_out' ? b.cashout-b.stake : b.status==='won' ? b.returns-b.stake : b.status==='lost' ? -b.stake : null;
       var rzTxt = rz===null ? '–' : '<b style="color:'+(rz>0?'var(--good)':rz<0?'var(--critical)':'inherit')+'">'+(rz>0?'+':rz<0?'−':'')+money(Math.abs(rz))+'</b>';
       var cls = rz>0 ? ' class="win"' : rz<0 ? ' class="loss"' : '';
-      var why = (b.notes||[]).length ? '<ul>'+b.notes.map(function(n){return '<li>'+n+'</li>'}).join('')+'</ul>' : '';
+      var why = b.status!=='open' && (b.notes||[]).length ? '<ul>'+b.notes.map(function(n){return '<li>'+n+'</li>'}).join('')+'</ul>' : '';
       return '<tr'+cls+'><td>'+b.id+'</td>' +
         '<td class="legs"><small style="color:var(--muted)">'+b.type+' · '+b.competition+' · '+b.market+'</small><br>'+b.legs.map(function(l){return '<span class="chip">'+l[0]+' <small>'+l[1].toFixed(2)+'</small></span>'}).join('')+'</td>' +
         '<td class="r">'+money(b.stake)+'<br><small style="color:var(--muted)">placed '+fd(b.placed)+'</small></td><td class="r">'+money(b.returns)+'<br><small style="color:var(--muted)">@ '+b.odds.toFixed(2)+'</small></td>' +

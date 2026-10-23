@@ -308,10 +308,7 @@ window.DATA = {
    "placed": "2026-10-20",
    "cashout_value": 2630.81,
    "cashout_value_date": "2026-10-22",
-   "notes": [
-    "Inter, Como and Club Brugge all won on MD3",
-    "Holding; decision due before MD4 (3 Nov)"
-   ],
+   "notes": [],
    "odds": 4.76,
    "implied": 0.21,
    "chance": 0.261
@@ -421,10 +418,7 @@ window.DATA = {
    "placed": "2026-10-20",
    "cashout_value": 1908.86,
    "cashout_value_date": "2026-10-22",
-   "notes": [
-    "Inter and Como won on MD3",
-    "Holding; Villarreal host PSG on MD4, decision due before 3 Nov"
-   ],
+   "notes": [],
    "odds": 3.76,
    "implied": 0.266,
    "chance": 0.227

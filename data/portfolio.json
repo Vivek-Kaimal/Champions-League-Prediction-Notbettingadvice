@@ -272,10 +272,7 @@
       "placed": "2026-10-20",
       "cashout_value": 2630.81,
       "cashout_value_date": "2026-10-22",
-      "notes": [
-        "Inter, Como and Club Brugge all won on MD3",
-        "Holding; decision due before MD4 (3 Nov)"
-      ]
+      "notes": []
     },
     {
       "id": 10,
@@ -376,10 +373,7 @@
       "placed": "2026-10-20",
       "cashout_value": 1908.86,
       "cashout_value_date": "2026-10-22",
-      "notes": [
-        "Inter and Como won on MD3",
-        "Holding; Villarreal host PSG on MD4, decision due before 3 Nov"
-      ]
+      "notes": []
     }
   ],
   "benfica": {
