@@ -43,6 +43,15 @@ h2{font-size:17px;margin:40px 0 4px}
 .kpi .n{font-size:12px;color:var(--muted)}
 .kpi.good{border:2px solid var(--good);background:color-mix(in srgb,var(--good) 10%,var(--surface))}
 .kpi.good .v{color:var(--good)}
+.kpi.bad{border:2px solid var(--critical);background:color-mix(in srgb,var(--critical) 10%,var(--surface))}
+.kpi.bad .v{color:var(--critical)}
+button.kpi{font:inherit;color:inherit;text-align:left;width:100%;cursor:pointer}
+button.kpi:hover,button.kpi:focus-visible{border-color:var(--accent);outline:none}
+button.kpi .n{color:var(--accent)}
+.bets-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{font:inherit;font-size:13px;padding:6px 14px;border:0;background:var(--surface);color:var(--text-2);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:#fff}
 .thesis{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin-top:12px}
 .thesis ol{margin:0;padding-left:20px}.thesis li{margin:4px 0}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow-x:auto}
@@ -93,7 +102,7 @@ footer a{color:var(--text-2)}
 </ol>
 </div>
 
-<h2>Bets</h2>
+<div class="bets-head"><h2 id="bets-h">Bets</h2><div class="seg" id="bet-filter" role="group" aria-label="Filter bets"><button type="button" data-f="open">Open</button><button type="button" data-f="all">All</button></div></div>
 <p class="sub">Chance = share of stress-test runs in which the bet wins. Implied = chance priced in by the bookmaker's odds.</p>
 <div class="card"><table id="bets"></table></div>
 
@@ -125,18 +134,23 @@ footer a{color:var(--text-2)}
   $('meta').textContent = 'Updated ' + D.updated + ' · after matchday ' + D.last_matchday + ' of 8 · settles 28 Jan 2027';
 
   var S = D.summary, live = D.bets.filter(function(b){return b.status==='open'}).length;
+  var rzCls = S.realised>0 ? 'good' : S.realised<0 ? 'bad' : '';
   var k = [
     ['Stake', money(S.capital), 'capital invested'],
-    ['Realised profit', (S.realised>=0?'+':'') + money2(S.realised), '+' + pct(S.realised/S.capital) + ' on stake · ' + pct(S.realised/S.target_profit) + ' of target', 'good'],
     ['Target profit', '+' + money(S.target_profit), pct(S.target_profit/S.capital) + ' on stake'],
-    ['Open bets', live + ' · ' + money(S.open_stake), 'cash-out value ' + money(S.open_value) + ' (' + (S.open_value>=S.open_stake?'+':'') + money(S.open_value-S.open_stake) + ')'],
-    ['Chance of profit', pct(S.chance_profit), 'stress test, ' + D.runs.toLocaleString() + ' runs']
+    ['Realised profit', (S.realised>0?'+':S.realised<0?'−':'') + money2(Math.abs(S.realised)), (S.realised>=0?'+':'−') + pct(Math.abs(S.realised)/S.capital) + ' on stake · ' + pct(S.realised/S.target_profit) + ' of target', rzCls],
+    ['Open bets', String(live), live ? money(S.open_stake) + ' staked · tap to view' : 'none open', 'link']
   ];
-  $('kpis').innerHTML = k.map(function(x){return '<div class="kpi'+(x[3]?' '+x[3]:'')+'"><div class="l">'+x[0]+'</div><div class="v">'+x[1]+'</div><div class="n">'+x[2]+'</div></div>'}).join('');
+  $('kpis').innerHTML = k.map(function(x){
+    var inner = '<div class="l">'+x[0]+'</div><div class="v">'+x[1]+'</div><div class="n">'+x[2]+'</div>';
+    return x[3]==='link' ? '<button type="button" class="kpi link" id="kpi-open" aria-label="Show open bets">'+inner+'</button>' : '<div class="kpi'+(x[3]?' '+x[3]:'')+'">'+inner+'</div>';
+  }).join('');
 
   var status = {open:['Open','var(--accent)'], won:['Won','var(--good)'], lost:['Lost','var(--critical)'], cashed_out:['Cashed out','var(--warn)']};
+  var renderBets = function(filter){
+  var list = filter==='open' ? D.bets.filter(function(b){return b.status==='open'}) : D.bets;
   $('bets').innerHTML = '<tr><th>#</th><th>Bet</th><th>Selections</th><th class="r">Stake</th><th class="r">Returns</th><th class="r">Chance</th><th class="r">Implied</th><th>Status</th><th class="r">Realised</th></tr>' +
-    D.bets.map(function(b){
+    list.map(function(b){
       var st = status[b.status] || status.open; var stTxt = b.status==='cashed_out' ? 'Cashed out' : (b.status==='open' && b.cashout_value ? 'Open · value '+money(b.cashout_value) : st[0]);
       var rz = b.status==='cashed_out' ? b.cashout-b.stake : b.status==='won' ? b.returns-b.stake : b.status==='lost' ? -b.stake : null;
       var rzTxt = rz===null ? '–' : '<b style="color:'+(rz>0?'var(--good)':rz<0?'var(--critical)':'inherit')+'">'+(rz>0?'+':rz<0?'−':'')+money(Math.abs(rz))+'</b>';
@@ -146,6 +160,12 @@ footer a{color:var(--text-2)}
         '<td class="r"><b>'+(b.status==='open'?pct(b.chance):'–')+'</b></td><td class="r">'+pct(b.implied)+'</td>' +
         '<td><span class="pill"><span class="dot" style="background:'+st[1]+'"></span>'+stTxt+'</span></td><td class="r">'+rzTxt+'</td></tr>';
     }).join('');
+  [].forEach.call(document.querySelectorAll('#bet-filter button'),function(btn){btn.setAttribute('aria-pressed', btn.dataset.f===filter ? 'true':'false')});
+  };
+  renderBets('all');
+  [].forEach.call(document.querySelectorAll('#bet-filter button'),function(btn){btn.onclick=function(){renderBets(btn.dataset.f)}});
+  var ko=$('kpi-open'); if(ko) ko.onclick=function(){renderBets('open'); $('bets-h').scrollIntoView({behavior:'smooth',block:'start'})};
+
 
   var risk = function(v){
     var c = v>=0.3?['var(--critical)','High']:v>=0.15?['var(--serious)','Medium']:['var(--good)','Low'];
