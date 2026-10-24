@@ -4,17 +4,17 @@ window.DATA = {
  "runs": 40000,
  "summary": {
   "capital": 8000,
-  "open_stake": 3000,
-  "open_value": 4539.67,
-  "staked": 13500,
-  "max_return": 24493.95,
+  "open_stake": 5000,
+  "open_value": 6539.67,
+  "staked": 15500,
+  "max_return": 29697.84,
   "realised": 1208.84,
   "target_profit": 3000,
-  "expected_return": 14850.0,
-  "chance_profit": 0.379,
-  "chance_target": 0.379,
+  "expected_return": 16429.0,
+  "chance_profit": 0.424,
+  "chance_target": 0.332,
   "chance_total_loss": 0.0,
-  "median_return": 11709.0,
+  "median_return": 14495.0,
   "p10": 11709.0,
   "p90": 24494.0,
   "benfica_chance": 0.877
@@ -422,12 +422,81 @@ window.DATA = {
    "odds": 3.76,
    "implied": 0.266,
    "chance": 0.227
+  },
+  {
+   "id": 13,
+   "type": "Treble",
+   "competition": "UCL",
+   "market": "Finish 9th-24th",
+   "stake": 1000,
+   "returns": 2418.18,
+   "status": "open",
+   "legs": [
+    [
+     "Club Brugge",
+     1.16
+    ],
+    [
+     "Dortmund",
+     1.2
+    ],
+    [
+     "Shakhtar",
+     1.72
+    ]
+   ],
+   "placed": "2026-10-24",
+   "notes": [],
+   "cashout_value": 1000.0,
+   "odds": 2.42,
+   "implied": 0.414,
+   "chance": 0.281
+  },
+  {
+   "id": 14,
+   "type": "Treble",
+   "competition": "UCL",
+   "market": "Finish 9th-24th",
+   "stake": 1000,
+   "returns": 2785.71,
+   "status": "open",
+   "legs": [
+    [
+     "Villarreal",
+     1.3
+    ],
+    [
+     "Sporting",
+     1.36
+    ],
+    [
+     "PSV",
+     1.57
+    ]
+   ],
+   "placed": "2026-10-24",
+   "notes": [],
+   "cashout_value": 1000.0,
+   "odds": 2.79,
+   "implied": 0.359,
+   "chance": 0.323
   }
  ],
  "teams": [
   {
+   "team": "Shakhtar",
+   "exposure": 1000,
+   "rating": 84.5,
+   "rating_source": "estimate",
+   "forecast": 26,
+   "current": 17,
+   "chance_band": 0.575,
+   "top8": 0.03,
+   "bottom12": 0.395
+  },
+  {
    "team": "Villarreal",
-   "exposure": 1500,
+   "exposure": 2500,
    "rating": 89.0,
    "rating_source": "estimate",
    "forecast": 27,
@@ -437,8 +506,19 @@ window.DATA = {
    "bottom12": 0.282
   },
   {
+   "team": "PSV",
+   "exposure": 1000,
+   "rating": 88.5,
+   "rating_source": "estimate",
+   "forecast": 21,
+   "current": 18,
+   "chance_band": 0.695,
+   "top8": 0.081,
+   "bottom12": 0.225
+  },
+  {
    "team": "Dortmund",
-   "exposure": 1500,
+   "exposure": 2500,
    "rating": 92.8,
    "rating_source": "opta",
    "forecast": 10,
@@ -460,7 +540,7 @@ window.DATA = {
   },
   {
    "team": "Club Brugge",
-   "exposure": 1500,
+   "exposure": 2500,
    "rating": 86.5,
    "rating_source": "estimate",
    "forecast": 29,
@@ -479,6 +559,17 @@ window.DATA = {
    "chance_band": 0.727,
    "top8": 0.19,
    "bottom12": 0.083
+  },
+  {
+   "team": "Sporting",
+   "exposure": 1000,
+   "rating": 91.4,
+   "rating_source": "opta",
+   "forecast": 20,
+   "current": 12,
+   "chance_band": 0.73,
+   "top8": 0.148,
+   "bottom12": 0.122
   },
   {
    "team": "Napoli",
@@ -1077,8 +1168,8 @@ window.DATA = {
   {
    "matchday": 3,
    "date": "2026-10-24",
-   "chance_profit": 0.379,
-   "expected_return": 14850.0,
+   "chance_profit": 0.424,
+   "expected_return": 16429.0,
    "bets": {
     "1": 0.0,
     "2": 0.0,
@@ -1091,7 +1182,9 @@ window.DATA = {
     "9": 0.261,
     "10": 0.0,
     "11": 0.0,
-    "12": 0.227
+    "12": 0.227,
+    "13": 0.281,
+    "14": 0.323
    }
   }
  ]

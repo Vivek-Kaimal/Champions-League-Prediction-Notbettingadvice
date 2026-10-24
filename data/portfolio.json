@@ -374,6 +374,58 @@
       "cashout_value": 1908.86,
       "cashout_value_date": "2026-10-22",
       "notes": []
+    },
+    {
+      "id": 13,
+      "type": "Treble",
+      "competition": "UCL",
+      "market": "Finish 9th-24th",
+      "stake": 1000,
+      "returns": 2418.18,
+      "status": "open",
+      "legs": [
+        [
+          "Club Brugge",
+          1.16
+        ],
+        [
+          "Dortmund",
+          1.2
+        ],
+        [
+          "Shakhtar",
+          1.72
+        ]
+      ],
+      "placed": "2026-10-24",
+      "notes": [],
+      "cashout_value": 1000.0
+    },
+    {
+      "id": 14,
+      "type": "Treble",
+      "competition": "UCL",
+      "market": "Finish 9th-24th",
+      "stake": 1000,
+      "returns": 2785.71,
+      "status": "open",
+      "legs": [
+        [
+          "Villarreal",
+          1.3
+        ],
+        [
+          "Sporting",
+          1.36
+        ],
+        [
+          "PSV",
+          1.57
+        ]
+      ],
+      "placed": "2026-10-24",
+      "notes": [],
+      "cashout_value": 1000.0
     }
   ],
   "benfica": {
