@@ -1,6 +1,57 @@
 # Season forecast
 
-Predicted final league-phase table, locked **4 October 2026** (after Matchday 1). Teams I hold are in **bold**.
+## Latest · updated 24 October 2026 (before Matchday 4)
+
+Built match by match: every remaining fixture called as win, draw or loss ([all 74 calls](data/forecasts/2026-10-24-match-calls.csv)), added to the results after Matchday 3. Teams I hold are in **bold**. Ties are split by current goal difference.
+
+| Pos | Team | W | D | L | Pts |
+|---|---|---|---|---|---|
+| 1 | PSG | 7 | 1 | 0 | 22 |
+| 2 | Arsenal | 7 | 1 | 0 | 22 |
+| 3 | Barcelona | 7 | 0 | 1 | 21 |
+| 4 | Real Madrid | 7 | 0 | 1 | 21 |
+| 5 | Bayern | 6 | 2 | 0 | 20 |
+| 6 | Liverpool | 6 | 2 | 0 | 20 |
+| 7 | Man City | 6 | 0 | 2 | 18 |
+| 8 | Aston Villa | 5 | 1 | 2 | 16 |
+| | | | | | |
+| 9 | Real Betis | 5 | 1 | 2 | 16 |
+| 10 | **Stuttgart** | 4 | 3 | 1 | 15 |
+| 11 | **Roma** | 4 | 2 | 2 | 14 |
+| 12 | **Como** | 4 | 1 | 3 | 13 |
+| 13 | **Dortmund** | 4 | 1 | 3 | 13 |
+| 14 | **Villarreal** | 4 | 1 | 3 | 13 |
+| 15 | **Inter** | 4 | 1 | 3 | 13 |
+| 16 | **Club Brugge** | 3 | 3 | 2 | 12 |
+| 17 | **Atlético** | 3 | 3 | 2 | 12 |
+| 18 | **Shakhtar** | 3 | 2 | 3 | 11 |
+| 19 | **Napoli** | 3 | 2 | 3 | 11 |
+| 20 | **Sporting** | 3 | 1 | 4 | 10 |
+| 21 | **PSV** | 2 | 4 | 2 | 10 |
+| 22 | **Bodø/Glimt** | 3 | 1 | 4 | 10 |
+| 23 | Man Utd | 2 | 3 | 3 | 9 |
+| 24 | Galatasaray | 2 | 3 | 3 | 9 |
+| | | | | | |
+| 25 | Feyenoord | 2 | 3 | 3 | 9 |
+| 26 | Porto | 2 | 2 | 4 | 8 |
+| 27 | LASK | 2 | 1 | 5 | 7 |
+| 28 | Lens | 2 | 1 | 5 | 7 |
+| 29 | Leipzig | 1 | 3 | 4 | 6 |
+| 30 | Sabah | 1 | 1 | 6 | 4 |
+| 31 | AEK Athens | 1 | 0 | 7 | 3 |
+| 32 | Lille | 1 | 0 | 7 | 3 |
+| 33 | Fenerbahçe | 0 | 3 | 5 | 3 |
+| 34 | Viking | 0 | 2 | 6 | 2 |
+| 35 | Slavia Praha | 0 | 1 | 7 | 1 |
+| 36 | Slovan | 0 | 0 | 8 | 0 |
+
+**Lines:** 8th place on 16 points, 24th place on 9 points.
+
+---
+
+## Original · locked 4 October 2026
+
+Predicted final league-phase table, locked **4 October 2026** (after Matchday 1). Bold marks the teams held at the time.
 
 | Pos | Team | W | D | L | GD | Pts |
 |---|---|---|---|---|---|---|

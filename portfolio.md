@@ -2,6 +2,20 @@
 
 Opened **4 October 2026** ([bet365 screenshots](evidence/)). Champions League bets settle on the final league-phase table (28 Jan 2027); Benfica settles at the end of the Europa League league phase.
 
+## Round 3 · placed 24 Oct 2026
+
+Built after a full match-by-match forecast update ([forecast.md](forecast.md)). Trebles of teams projected between the two lines (8th = 16 pts, 24th = 9 pts).
+
+| # | Type | Selections (odds) | Stake | Returns |
+|---|---|---|---|---|
+| 13 | Treble · UCL Finish 9th-24th | Club Brugge 1.16, Dortmund 1.20, Shakhtar 1.72 | $1,000 | $2,418.18 |
+| 14 | Treble · UCL Finish 9th-24th | Villarreal 1.30, Sporting 1.36, PSV 1.57 | $1,000 | $2,785.71 |
+| 15 | Treble · UCL Finish 9th-24th | Atlético 1.33, Sporting 1.36, Stuttgart 1.44 | $750 | $1,969.69 |
+| 16 | Treble · UCL Finish 9th-24th | Napoli 1.25, Roma 1.33, Bodø/Glimt 1.80 | $750 | $2,250.00 |
+| | | **Total** | **$3,500** | **$9,423.58** |
+
+**Open exposure per team (all open bets):** Inter, Como $3,000 · Club Brugge, Dortmund, Villarreal $2,500 · Napoli $2,250 · Sporting $1,750 · Shakhtar, PSV $1,000 · Atlético, Stuttgart, Roma, Bodø/Glimt $750.
+
 ## Round 2 · placed 20 Oct 2026
 
 Eight teams in four four-folds; each team appears in exactly two bets.
@@ -16,7 +30,6 @@ Eight teams in four four-folds; each team appears in exactly two bets.
 
 **Stuttgart cash-out (21 Oct):** both Stuttgart bets closed at stake after the 1–1 draw with Atlético left Stuttgart 3rd on 7 points with a soft run-in (Inter the only hard fixture). Main risk: a top-8 finish. [Proof](evidence/).
 
-**Open exposure per team:** Inter, Como $3,000 · Napoli, Club Brugge, Villarreal, Dortmund $1,500.
 
 | Scenario (round 2, on $6,000 staked) | Profit |
 |---|---|

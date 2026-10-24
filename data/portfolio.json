@@ -426,6 +426,58 @@
       "placed": "2026-10-24",
       "notes": [],
       "cashout_value": 1000.0
+    },
+    {
+      "id": 15,
+      "type": "Treble",
+      "competition": "UCL",
+      "market": "Finish 9th-24th",
+      "stake": 750,
+      "returns": 1969.69,
+      "status": "open",
+      "legs": [
+        [
+          "Atlético",
+          1.33
+        ],
+        [
+          "Sporting",
+          1.36
+        ],
+        [
+          "Stuttgart",
+          1.44
+        ]
+      ],
+      "placed": "2026-10-24",
+      "notes": [],
+      "cashout_value": 750.0
+    },
+    {
+      "id": 16,
+      "type": "Treble",
+      "competition": "UCL",
+      "market": "Finish 9th-24th",
+      "stake": 750,
+      "returns": 2250.0,
+      "status": "open",
+      "legs": [
+        [
+          "Napoli",
+          1.25
+        ],
+        [
+          "Roma",
+          1.33
+        ],
+        [
+          "Bodø/Glimt",
+          1.8
+        ]
+      ],
+      "placed": "2026-10-24",
+      "notes": [],
+      "cashout_value": 750.0
     }
   ],
   "benfica": {

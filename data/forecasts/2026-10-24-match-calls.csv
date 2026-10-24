@@ -1,0 +1,91 @@
+matchday,home,away,result
+4,Villarreal,PSG,A
+5,PSG,Roma,H
+6,Aston Villa,PSG,A
+7,Como,PSG,D
+8,PSG,Galatasaray,H
+4,Barcelona,Aston Villa,H
+5,Galatasaray,Aston Villa,D
+7,Aston Villa,Dortmund,H
+8,Slavia Praha,Aston Villa,A
+4,Fenerbahçe,Liverpool,A
+5,Club Brugge,Liverpool,D
+6,Liverpool,Porto,H
+7,Inter,Liverpool,D
+8,Liverpool,Lens,H
+4,AEK Athens,Real Madrid,A
+5,Real Madrid,PSV,H
+6,Arsenal,Real Madrid,H
+7,Real Madrid,LASK,H
+8,Shakhtar,Real Madrid,A
+4,Dortmund,Real Betis,D
+5,Slovan,Real Betis,A
+6,Real Betis,Como,H
+7,Real Betis,Arsenal,A
+8,Bayern,Real Betis,H
+4,Galatasaray,Stuttgart,D
+5,Inter,Stuttgart,H
+6,Stuttgart,Lille,H
+7,Stuttgart,Club Brugge,H
+8,PSV,Stuttgart,D
+4,Slavia Praha,Arsenal,A
+5,Arsenal,Dortmund,H
+8,Arsenal,Sabah,H
+5,Sabah,Barcelona,A
+6,Barcelona,Man City,H
+7,Sporting,Barcelona,A
+8,Barcelona,Como,H
+4,Lens,Como,A
+5,Como,AEK Athens,H
+4,Leipzig,Man City,A
+5,Man City,Napoli,H
+7,Lens,Man City,A
+8,Man City,Sporting,H
+4,PSV,Club Brugge,D
+6,Napoli,Club Brugge,D
+8,Club Brugge,Bodø/Glimt,H
+4,Shakhtar,Sporting,A
+5,Sporting,Man Utd,D
+6,Roma,Sporting,H
+6,Dortmund,Inter,H
+8,Dortmund,AEK Athens,H
+4,Atlético,Bayern,A
+5,Lille,Bayern,A
+6,Bayern,Slavia Praha,H
+7,Man Utd,Bayern,A
+4,Man Utd,Roma,D
+7,AEK Athens,Roma,A
+8,Roma,Lille,H
+5,Atlético,Viking,H
+6,PSV,Atlético,D
+7,Bodø/Glimt,Atlético,D
+8,Atlético,Fenerbahçe,H
+5,Shakhtar,Fenerbahçe,H
+6,Slovan,Shakhtar,A
+7,Leipzig,Shakhtar,D
+7,Viking,PSV,A
+6,Man Utd,Leipzig,H
+8,Villarreal,Man Utd,D
+5,Slavia Praha,Villarreal,A
+6,Villarreal,Sabah,H
+7,Fenerbahçe,Villarreal,A
+4,Feyenoord,Inter,A
+8,Slovan,Inter,A
+4,Porto,Napoli,D
+7,Sabah,Napoli,A
+8,Napoli,Viking,H
+6,AEK Athens,Galatasaray,A
+7,Galatasaray,Feyenoord,D
+5,Leipzig,Lens,D
+8,Feyenoord,Leipzig,D
+6,Lens,Bodø/Glimt,H
+4,Bodø/Glimt,Lille,H
+4,LASK,Slovan,H
+4,Viking,Sabah,D
+5,Feyenoord,Porto,D
+5,Bodø/Glimt,LASK,H
+6,LASK,Fenerbahçe,D
+6,Viking,Feyenoord,A
+7,Porto,Slavia Praha,H
+7,Lille,Slovan,H
+8,LASK,Porto,A

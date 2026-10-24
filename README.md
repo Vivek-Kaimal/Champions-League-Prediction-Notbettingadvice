@@ -26,13 +26,14 @@ A season-long test of one idea: that historical data, structure and judgement ca
 |---|---|
 | Stake | **$8,000** |
 | Realised profit | **+$1,208.84** (+15.1% on stake · 40% of target) |
-| Portfolio value | **$10,748.51** (cash $6,208.84 + open bets at cash-out value $4,539.67 · +34.4%) |
+| Portfolio value | **$10,748.51** (cash $2,708.84 + open bets at cash-out value $8,039.67 · +34.4%) |
 | Round 1 | $7,500 across 8 bets · **UCL bets cashed out 14 Oct, +$445.54** · **Benfica cashed out 24 Oct, +$763.30** |
 | Round 2 | **$6,000 across 4 four-folds, placed 20 Oct** · 2 Stuttgart bets cashed out at stake 21 Oct · 2 open ($3,000), **cash-out value $4,539.67 on 22 Oct (+$1,539.67)** |
+| Round 3 | **$3,500 across 4 trebles, placed 24 Oct**: Brugge/Dortmund/Shakhtar $1,000 · Villarreal/Sporting/PSV $1,000 · Atlético/Sporting/Stuttgart $750 · Napoli/Roma/Bodø $750 |
 | Target | **+$3,000 profit** (37.5% on stake) · floor: capital returned |
 | Rules | Sizing rises as the table settles · capital first: cash out when in profit and risk rises, rebuild after each matchday |
 
-Details: [portfolio.md](portfolio.md) · Proof: [evidence/](evidence/) · Forecast: [forecast.md](forecast.md) · Weekly reports: [reports/](reports/)
+Details: [portfolio.md](portfolio.md) · Proof: [evidence/](evidence/) · Forecast (updated 24 Oct): [forecast.md](forecast.md) · Weekly reports: [reports/](reports/)
 
 ## Results
 

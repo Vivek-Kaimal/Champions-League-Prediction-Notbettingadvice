@@ -4,17 +4,17 @@ window.DATA = {
  "runs": 40000,
  "summary": {
   "capital": 8000,
-  "open_stake": 5000,
-  "open_value": 6539.67,
-  "staked": 15500,
-  "max_return": 29697.84,
+  "open_stake": 6500,
+  "open_value": 8039.67,
+  "staked": 17000,
+  "max_return": 33917.53,
   "realised": 1208.84,
   "target_profit": 3000,
-  "expected_return": 16429.0,
-  "chance_profit": 0.424,
-  "chance_target": 0.332,
+  "expected_return": 17593.0,
+  "chance_profit": 0.421,
+  "chance_target": 0.282,
   "chance_total_loss": 0.0,
-  "median_return": 14495.0,
+  "median_return": 16464.0,
   "p10": 11709.0,
   "p90": 24494.0,
   "benfica_chance": 0.877
@@ -480,26 +480,106 @@ window.DATA = {
    "odds": 2.79,
    "implied": 0.359,
    "chance": 0.323
+  },
+  {
+   "id": 15,
+   "type": "Treble",
+   "competition": "UCL",
+   "market": "Finish 9th-24th",
+   "stake": 750,
+   "returns": 1969.69,
+   "status": "open",
+   "legs": [
+    [
+     "Atlético",
+     1.33
+    ],
+    [
+     "Sporting",
+     1.36
+    ],
+    [
+     "Stuttgart",
+     1.44
+    ]
+   ],
+   "placed": "2026-10-24",
+   "notes": [],
+   "cashout_value": 750.0,
+   "odds": 2.63,
+   "implied": 0.381,
+   "chance": 0.3
+  },
+  {
+   "id": 16,
+   "type": "Treble",
+   "competition": "UCL",
+   "market": "Finish 9th-24th",
+   "stake": 750,
+   "returns": 2250.0,
+   "status": "open",
+   "legs": [
+    [
+     "Napoli",
+     1.25
+    ],
+    [
+     "Roma",
+     1.33
+    ],
+    [
+     "Bodø/Glimt",
+     1.8
+    ]
+   ],
+   "placed": "2026-10-24",
+   "notes": [],
+   "cashout_value": 750.0,
+   "odds": 3.0,
+   "implied": 0.333,
+   "chance": 0.255
   }
  ],
  "teams": [
+  {
+   "team": "Bodø/Glimt",
+   "exposure": 750,
+   "rating": 85.5,
+   "rating_source": "estimate",
+   "forecast": 22,
+   "current": 28,
+   "chance_band": 0.513,
+   "top8": 0.021,
+   "bottom12": 0.466
+  },
   {
    "team": "Shakhtar",
    "exposure": 1000,
    "rating": 84.5,
    "rating_source": "estimate",
-   "forecast": 26,
+   "forecast": 18,
    "current": 17,
    "chance_band": 0.575,
    "top8": 0.03,
    "bottom12": 0.395
   },
   {
+   "team": "Stuttgart",
+   "exposure": 750,
+   "rating": 90.0,
+   "rating_source": "estimate",
+   "forecast": 10,
+   "current": 6,
+   "chance_band": 0.605,
+   "top8": 0.363,
+   "bottom12": 0.032
+  },
+  {
    "team": "Villarreal",
    "exposure": 2500,
    "rating": 89.0,
    "rating_source": "estimate",
-   "forecast": 27,
+   "forecast": 14,
    "current": 19,
    "chance_band": 0.663,
    "top8": 0.054,
@@ -521,18 +601,29 @@ window.DATA = {
    "exposure": 2500,
    "rating": 92.8,
    "rating_source": "opta",
-   "forecast": 10,
+   "forecast": 13,
    "current": 13,
    "chance_band": 0.699,
    "top8": 0.246,
    "bottom12": 0.055
   },
   {
+   "team": "Roma",
+   "exposure": 750,
+   "rating": 91.6,
+   "rating_source": "opta",
+   "forecast": 11,
+   "current": 15,
+   "chance_band": 0.706,
+   "top8": 0.097,
+   "bottom12": 0.197
+  },
+  {
    "team": "Inter",
    "exposure": 3000,
    "rating": 93.7,
    "rating_source": "opta",
-   "forecast": 6,
+   "forecast": 15,
    "current": 20,
    "chance_band": 0.718,
    "top8": 0.107,
@@ -543,18 +634,29 @@ window.DATA = {
    "exposure": 2500,
    "rating": 86.5,
    "rating_source": "estimate",
-   "forecast": 29,
+   "forecast": 16,
    "current": 11,
    "chance_band": 0.723,
    "top8": 0.096,
    "bottom12": 0.18
   },
   {
+   "team": "Atlético",
+   "exposure": 750,
+   "rating": 91.0,
+   "rating_source": "estimate",
+   "forecast": 17,
+   "current": 16,
+   "chance_band": 0.724,
+   "top8": 0.144,
+   "bottom12": 0.132
+  },
+  {
    "team": "Como",
    "exposure": 3000,
    "rating": 89.8,
    "rating_source": "estimate",
-   "forecast": 16,
+   "forecast": 12,
    "current": 9,
    "chance_band": 0.727,
    "top8": 0.19,
@@ -562,7 +664,7 @@ window.DATA = {
   },
   {
    "team": "Sporting",
-   "exposure": 1000,
+   "exposure": 1750,
    "rating": 91.4,
    "rating_source": "opta",
    "forecast": 20,
@@ -573,10 +675,10 @@ window.DATA = {
   },
   {
    "team": "Napoli",
-   "exposure": 1500,
+   "exposure": 2250,
    "rating": 91.0,
    "rating_source": "estimate",
-   "forecast": 15,
+   "forecast": 19,
    "current": 22,
    "chance_band": 0.733,
    "top8": 0.071,
@@ -948,97 +1050,97 @@ window.DATA = {
  "forecast": [
   {
    "position": 1,
-   "team": "Bayern",
-   "points": 24
+   "team": "PSG",
+   "points": 22
   },
   {
    "position": 2,
-   "team": "Barcelona",
+   "team": "Arsenal",
    "points": 22
   },
   {
    "position": 3,
-   "team": "Man City",
+   "team": "Barcelona",
    "points": 21
   },
   {
    "position": 4,
-   "team": "Liverpool",
+   "team": "Real Madrid",
    "points": 21
   },
   {
    "position": 5,
-   "team": "Real Madrid",
+   "team": "Bayern",
    "points": 20
   },
   {
    "position": 6,
-   "team": "Inter",
-   "points": 19
+   "team": "Liverpool",
+   "points": 20
   },
   {
    "position": 7,
-   "team": "Arsenal",
-   "points": 19
+   "team": "Man City",
+   "points": 18
   },
   {
    "position": 8,
-   "team": "PSG",
-   "points": 17
+   "team": "Aston Villa",
+   "points": 16
   },
   {
    "position": 9,
-   "team": "Man Utd",
-   "points": 17
+   "team": "Real Betis",
+   "points": 16
   },
   {
    "position": 10,
-   "team": "Dortmund",
+   "team": "Stuttgart",
    "points": 15
   },
   {
    "position": 11,
    "team": "Roma",
-   "points": 15
+   "points": 14
   },
   {
    "position": 12,
-   "team": "Real Betis",
-   "points": 15
-  },
-  {
-   "position": 13,
-   "team": "Atlético",
-   "points": 14
-  },
-  {
-   "position": 14,
-   "team": "Aston Villa",
-   "points": 14
-  },
-  {
-   "position": 15,
-   "team": "Napoli",
-   "points": 14
-  },
-  {
-   "position": 16,
    "team": "Como",
    "points": 13
   },
   {
-   "position": 17,
-   "team": "Stuttgart",
+   "position": 13,
+   "team": "Dortmund",
    "points": 13
+  },
+  {
+   "position": 14,
+   "team": "Villarreal",
+   "points": 13
+  },
+  {
+   "position": 15,
+   "team": "Inter",
+   "points": 13
+  },
+  {
+   "position": 16,
+   "team": "Club Brugge",
+   "points": 12
+  },
+  {
+   "position": 17,
+   "team": "Atlético",
+   "points": 12
   },
   {
    "position": 18,
-   "team": "Porto",
-   "points": 13
+   "team": "Shakhtar",
+   "points": 11
   },
   {
    "position": 19,
-   "team": "Fenerbahçe",
+   "team": "Napoli",
    "points": 11
   },
   {
@@ -1049,77 +1151,77 @@ window.DATA = {
   {
    "position": 21,
    "team": "PSV",
-   "points": 9
+   "points": 10
   },
   {
    "position": 22,
-   "team": "Lens",
-   "points": 8
+   "team": "Bodø/Glimt",
+   "points": 10
   },
   {
    "position": 23,
-   "team": "Galatasaray",
-   "points": 8
+   "team": "Man Utd",
+   "points": 9
   },
   {
    "position": 24,
-   "team": "Leipzig",
-   "points": 8
+   "team": "Galatasaray",
+   "points": 9
   },
   {
    "position": 25,
-   "team": "Bodø/Glimt",
-   "points": 8
+   "team": "Feyenoord",
+   "points": 9
   },
   {
    "position": 26,
-   "team": "Shakhtar",
-   "points": 7
+   "team": "Porto",
+   "points": 8
   },
   {
    "position": 27,
-   "team": "Villarreal",
-   "points": 6
+   "team": "LASK",
+   "points": 7
   },
   {
    "position": 28,
-   "team": "Lille",
-   "points": 6
+   "team": "Lens",
+   "points": 7
   },
   {
    "position": 29,
-   "team": "Club Brugge",
-   "points": 5
+   "team": "Leipzig",
+   "points": 6
   },
   {
    "position": 30,
-   "team": "Slavia Praha",
+   "team": "Sabah",
    "points": 4
   },
   {
    "position": 31,
-   "team": "Viking",
-   "points": 4
-  },
-  {
-   "position": 32,
    "team": "AEK Athens",
    "points": 3
   },
   {
+   "position": 32,
+   "team": "Lille",
+   "points": 3
+  },
+  {
    "position": 33,
-   "team": "LASK",
+   "team": "Fenerbahçe",
    "points": 3
   },
   {
    "position": 34,
-   "team": "Feyenoord",
+   "team": "Viking",
    "points": 2
   },
   {
    "position": 35,
-   "team": "Sabah",
-   "points": 0
+   "team": "Slavia Praha",
+   "points": 1
   },
   {
    "position": 36,
@@ -1168,8 +1270,8 @@ window.DATA = {
   {
    "matchday": 3,
    "date": "2026-10-24",
-   "chance_profit": 0.424,
-   "expected_return": 16429.0,
+   "chance_profit": 0.421,
+   "expected_return": 17593.0,
    "bets": {
     "1": 0.0,
     "2": 0.0,
@@ -1184,7 +1286,9 @@ window.DATA = {
     "11": 0.0,
     "12": 0.227,
     "13": 0.281,
-    "14": 0.323
+    "14": 0.323,
+    "15": 0.3,
+    "16": 0.255
    }
   }
  ]
