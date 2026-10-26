@@ -1,22 +1,22 @@
 window.DATA = {
- "updated": "2026-10-24",
+ "updated": "2026-10-27",
  "last_matchday": 3,
  "runs": 40000,
  "summary": {
   "capital": 8000,
-  "open_stake": 6500,
-  "open_value": 8039.67,
-  "staked": 17000,
-  "max_return": 33917.53,
+  "open_stake": 5500,
+  "open_value": 7039.67,
+  "staked": 19500,
+  "max_return": 38553.03,
   "realised": 1208.84,
   "target_profit": 3000,
-  "expected_return": 17593.0,
-  "chance_profit": 0.421,
-  "chance_target": 0.282,
+  "expected_return": 19994.0,
+  "chance_profit": 0.559,
+  "chance_target": 0.189,
   "chance_total_loss": 0.0,
-  "median_return": 16464.0,
-  "p10": 11709.0,
-  "p90": 24494.0,
+  "median_return": 20391.0,
+  "p10": 15209.0,
+  "p90": 27994.0,
   "benfica_chance": 0.877
  },
  "bets": [
@@ -307,7 +307,7 @@ window.DATA = {
    ],
    "placed": "2026-10-20",
    "cashout_value": 2630.81,
-   "cashout_value_date": "2026-10-22",
+   "cashout_value_date": "2026-10-27",
    "notes": [],
    "odds": 4.76,
    "implied": 0.21,
@@ -417,7 +417,7 @@ window.DATA = {
    ],
    "placed": "2026-10-20",
    "cashout_value": 1908.86,
-   "cashout_value_date": "2026-10-22",
+   "cashout_value_date": "2026-10-27",
    "notes": [],
    "odds": 3.76,
    "implied": 0.266,
@@ -430,7 +430,7 @@ window.DATA = {
    "market": "Finish 9th-24th",
    "stake": 1000,
    "returns": 2418.18,
-   "status": "open",
+   "status": "cashed_out",
    "legs": [
     [
      "Club Brugge",
@@ -446,11 +446,15 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-24",
-   "notes": [],
-   "cashout_value": 1000.0,
+   "notes": [
+    "Restructured into four-team pots on 27 Oct for more return while positions can still be changed before MD5",
+    "Closed at stake, no loss"
+   ],
+   "cashout": 1000.0,
+   "closed": "2026-10-27",
    "odds": 2.42,
    "implied": 0.414,
-   "chance": 0.281
+   "chance": 0.0
   },
   {
    "id": 14,
@@ -459,7 +463,7 @@ window.DATA = {
    "market": "Finish 9th-24th",
    "stake": 1000,
    "returns": 2785.71,
-   "status": "open",
+   "status": "cashed_out",
    "legs": [
     [
      "Villarreal",
@@ -475,11 +479,15 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-24",
-   "notes": [],
-   "cashout_value": 1000.0,
+   "notes": [
+    "Restructured into four-team pots on 27 Oct for more return while positions can still be changed before MD5",
+    "Closed at stake, no loss"
+   ],
+   "cashout": 1000.0,
+   "closed": "2026-10-27",
    "odds": 2.79,
    "implied": 0.359,
-   "chance": 0.323
+   "chance": 0.0
   },
   {
    "id": 15,
@@ -488,7 +496,7 @@ window.DATA = {
    "market": "Finish 9th-24th",
    "stake": 750,
    "returns": 1969.69,
-   "status": "open",
+   "status": "cashed_out",
    "legs": [
     [
      "Atlético",
@@ -504,11 +512,15 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-24",
-   "notes": [],
-   "cashout_value": 750.0,
+   "notes": [
+    "Restructured into four-team pots on 27 Oct for more return while positions can still be changed before MD5",
+    "Closed at stake, no loss"
+   ],
+   "cashout": 750.0,
+   "closed": "2026-10-27",
    "odds": 2.63,
    "implied": 0.381,
-   "chance": 0.3
+   "chance": 0.0
   },
   {
    "id": 16,
@@ -517,7 +529,7 @@ window.DATA = {
    "market": "Finish 9th-24th",
    "stake": 750,
    "returns": 2250.0,
-   "status": "open",
+   "status": "cashed_out",
    "legs": [
     [
      "Napoli",
@@ -533,28 +545,98 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-24",
-   "notes": [],
-   "cashout_value": 750.0,
+   "notes": [
+    "Restructured into four-team pots on 27 Oct for more return while positions can still be changed before MD5",
+    "Closed at stake, no loss"
+   ],
+   "cashout": 750.0,
+   "closed": "2026-10-27",
    "odds": 3.0,
    "implied": 0.333,
-   "chance": 0.255
+   "chance": 0.0
+  },
+  {
+   "id": 17,
+   "type": "Four-fold",
+   "competition": "UCL",
+   "market": "Finish 9th-24th",
+   "stake": 1500,
+   "returns": 5181.81,
+   "status": "open",
+   "legs": [
+    [
+     "Dortmund",
+     1.2
+    ],
+    [
+     "Roma",
+     1.33
+    ],
+    [
+     "Napoli",
+     1.25
+    ],
+    [
+     "Shakhtar",
+     1.72
+    ]
+   ],
+   "placed": "2026-10-27",
+   "notes": [],
+   "cashout_value": 1500.0,
+   "odds": 3.45,
+   "implied": 0.289,
+   "chance": 0.192
+  },
+  {
+   "id": 18,
+   "type": "Four-fold",
+   "competition": "UCL",
+   "market": "Finish 9th-24th",
+   "stake": 1000,
+   "returns": 5377.27,
+   "status": "open",
+   "legs": [
+    [
+     "Villarreal",
+     1.3
+    ],
+    [
+     "Sporting",
+     1.36
+    ],
+    [
+     "Stuttgart",
+     1.44
+    ],
+    [
+     "Feyenoord",
+     2.1
+    ]
+   ],
+   "placed": "2026-10-27",
+   "notes": [],
+   "cashout_value": 1000.0,
+   "odds": 5.38,
+   "implied": 0.186,
+   "chance": 0.121
   }
  ],
  "teams": [
   {
-   "team": "Bodø/Glimt",
-   "exposure": 750,
+   "team": "Feyenoord",
+   "exposure": 1000,
    "rating": 85.5,
    "rating_source": "estimate",
-   "forecast": 22,
-   "current": 28,
-   "chance_band": 0.513,
-   "top8": 0.021,
-   "bottom12": 0.466
+   "forecast": 25,
+   "current": 26,
+   "chance_band": 0.462,
+   "top8": 0.017,
+   "bottom12": 0.521
   },
   {
    "team": "Shakhtar",
-   "exposure": 1000,
+   "exposure": 1500,
    "rating": 84.5,
    "rating_source": "estimate",
    "forecast": 18,
@@ -565,7 +647,7 @@ window.DATA = {
   },
   {
    "team": "Stuttgart",
-   "exposure": 750,
+   "exposure": 1000,
    "rating": 90.0,
    "rating_source": "estimate",
    "forecast": 10,
@@ -586,19 +668,8 @@ window.DATA = {
    "bottom12": 0.282
   },
   {
-   "team": "PSV",
-   "exposure": 1000,
-   "rating": 88.5,
-   "rating_source": "estimate",
-   "forecast": 21,
-   "current": 18,
-   "chance_band": 0.695,
-   "top8": 0.081,
-   "bottom12": 0.225
-  },
-  {
    "team": "Dortmund",
-   "exposure": 2500,
+   "exposure": 3000,
    "rating": 92.8,
    "rating_source": "opta",
    "forecast": 13,
@@ -609,7 +680,7 @@ window.DATA = {
   },
   {
    "team": "Roma",
-   "exposure": 750,
+   "exposure": 1500,
    "rating": 91.6,
    "rating_source": "opta",
    "forecast": 11,
@@ -631,7 +702,7 @@ window.DATA = {
   },
   {
    "team": "Club Brugge",
-   "exposure": 2500,
+   "exposure": 1500,
    "rating": 86.5,
    "rating_source": "estimate",
    "forecast": 16,
@@ -639,17 +710,6 @@ window.DATA = {
    "chance_band": 0.723,
    "top8": 0.096,
    "bottom12": 0.18
-  },
-  {
-   "team": "Atlético",
-   "exposure": 750,
-   "rating": 91.0,
-   "rating_source": "estimate",
-   "forecast": 17,
-   "current": 16,
-   "chance_band": 0.724,
-   "top8": 0.144,
-   "bottom12": 0.132
   },
   {
    "team": "Como",
@@ -664,7 +724,7 @@ window.DATA = {
   },
   {
    "team": "Sporting",
-   "exposure": 1750,
+   "exposure": 1000,
    "rating": 91.4,
    "rating_source": "opta",
    "forecast": 20,
@@ -675,7 +735,7 @@ window.DATA = {
   },
   {
    "team": "Napoli",
-   "exposure": 2250,
+   "exposure": 3000,
    "rating": 91.0,
    "rating_source": "estimate",
    "forecast": 19,
@@ -1269,9 +1329,9 @@ window.DATA = {
   },
   {
    "matchday": 3,
-   "date": "2026-10-24",
-   "chance_profit": 0.421,
-   "expected_return": 17593.0,
+   "date": "2026-10-27",
+   "chance_profit": 0.559,
+   "expected_return": 19994.0,
    "bets": {
     "1": 0.0,
     "2": 0.0,
@@ -1285,10 +1345,12 @@ window.DATA = {
     "10": 0.0,
     "11": 0.0,
     "12": 0.227,
-    "13": 0.281,
-    "14": 0.323,
-    "15": 0.3,
-    "16": 0.255
+    "13": 0.0,
+    "14": 0.0,
+    "15": 0.0,
+    "16": 0.0,
+    "17": 0.192,
+    "18": 0.121
    }
   }
  ]

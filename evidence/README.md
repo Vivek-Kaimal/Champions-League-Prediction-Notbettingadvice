@@ -14,3 +14,4 @@ Unedited bet365 "My Bets" screenshots (cropped to the page only), added after ea
 | 24 Oct 2026 | Benfica singles (bets 7–8) cashed out at $1,381.65 each | [benfica](2026-10-24-benfica-cashout.jpg) |
 | 24 Oct 2026 | Round 3: two $1,000 trebles (bets 13–14) | [1](2026-10-24-round3-bets-1.jpg) · [2](2026-10-24-round3-bets-2.jpg) |
 | 24 Oct 2026 | Round 3: two $750 trebles (bets 15–16) | [3](2026-10-24-round3-bets-3.jpg) · [4](2026-10-24-round3-bets-4.jpg) |
+| 27 Oct 2026 | Round 4: open bets after restructure (bets 9, 12, 17, 18) | [1](2026-10-27-round4-open-bets-1.jpg) · [2](2026-10-27-round4-open-bets-2.jpg) · [3](2026-10-27-round4-open-bets-3.jpg) · [4](2026-10-27-round4-open-bets-4.jpg) |
