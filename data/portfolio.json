@@ -502,7 +502,7 @@
       "market": "Finish 9th-24th",
       "stake": 1500,
       "returns": 5181.81,
-      "status": "open",
+      "status": "cashed_out",
       "legs": [
         [
           "Dortmund",
@@ -522,8 +522,12 @@
         ]
       ],
       "placed": "2026-10-27",
-      "notes": [],
-      "cashout_value": 1500.0
+      "notes": [
+        "Reduced Napoli exposure: their form has dipped",
+        "Closed at stake, no loss"
+      ],
+      "cashout": 1500.0,
+      "closed": "2026-10-27"
     },
     {
       "id": 18,
@@ -566,7 +570,7 @@
       "market": "Finish 9th-24th",
       "stake": 1500,
       "returns": 5121.21,
-      "status": "open",
+      "status": "cashed_out",
       "legs": [
         [
           "Villarreal",
@@ -583,6 +587,40 @@
         [
           "Atlético",
           1.33
+        ]
+      ],
+      "placed": "2026-10-27",
+      "notes": [
+        "Sporting at risk of dropping into the bottom 12 and Atlético of climbing into the top 8",
+        "Closed at stake, no loss"
+      ],
+      "cashout": 1500.0,
+      "closed": "2026-10-27"
+    },
+    {
+      "id": 20,
+      "type": "Four-fold",
+      "competition": "UCL",
+      "market": "Finish 9th-24th",
+      "stake": 1500,
+      "returns": 5987.87,
+      "status": "open",
+      "legs": [
+        [
+          "Dortmund",
+          1.2
+        ],
+        [
+          "Roma",
+          1.33
+        ],
+        [
+          "Shakhtar",
+          1.72
+        ],
+        [
+          "Stuttgart",
+          1.44
         ]
       ],
       "placed": "2026-10-27",

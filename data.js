@@ -4,19 +4,19 @@ window.DATA = {
  "runs": 40000,
  "summary": {
   "capital": 8000,
-  "open_stake": 6000,
-  "open_value": 7539.67,
-  "staked": 21000,
-  "max_return": 39296.97,
+  "open_stake": 4500,
+  "open_value": 6039.67,
+  "staked": 22500,
+  "max_return": 37981.82,
   "realised": 1208.84,
   "target_profit": 3000,
-  "expected_return": 21322.0,
-  "chance_profit": 0.596,
-  "chance_target": 0.212,
+  "expected_return": 23264.0,
+  "chance_profit": 0.477,
+  "chance_target": 0.286,
   "chance_total_loss": 0.0,
-  "median_return": 21330.0,
-  "p10": 16209.0,
-  "p90": 28994.0,
+  "median_return": 19209.0,
+  "p10": 19209.0,
+  "p90": 31994.0,
   "benfica_chance": 0.877
  },
  "bets": [
@@ -562,7 +562,7 @@ window.DATA = {
    "market": "Finish 9th-24th",
    "stake": 1500,
    "returns": 5181.81,
-   "status": "open",
+   "status": "cashed_out",
    "legs": [
     [
      "Dortmund",
@@ -582,11 +582,15 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-27",
-   "notes": [],
-   "cashout_value": 1500.0,
+   "notes": [
+    "Reduced Napoli exposure: their form has dipped",
+    "Closed at stake, no loss"
+   ],
+   "cashout": 1500.0,
+   "closed": "2026-10-27",
    "odds": 3.45,
    "implied": 0.289,
-   "chance": 0.192
+   "chance": 0.0
   },
   {
    "id": 18,
@@ -632,7 +636,7 @@ window.DATA = {
    "market": "Finish 9th-24th",
    "stake": 1500,
    "returns": 5121.21,
-   "status": "open",
+   "status": "cashed_out",
    "legs": [
     [
      "Villarreal",
@@ -652,11 +656,48 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-27",
-   "notes": [],
-   "cashout_value": 1500.0,
+   "notes": [
+    "Sporting at risk of dropping into the bottom 12 and Atlético of climbing into the top 8",
+    "Closed at stake, no loss"
+   ],
+   "cashout": 1500.0,
+   "closed": "2026-10-27",
    "odds": 3.41,
    "implied": 0.293,
-   "chance": 0.191
+   "chance": 0.0
+  },
+  {
+   "id": 20,
+   "type": "Four-fold",
+   "competition": "UCL",
+   "market": "Finish 9th-24th",
+   "stake": 1500,
+   "returns": 5987.87,
+   "status": "open",
+   "legs": [
+    [
+     "Dortmund",
+     1.2
+    ],
+    [
+     "Roma",
+     1.33
+    ],
+    [
+     "Shakhtar",
+     1.72
+    ],
+    [
+     "Stuttgart",
+     1.44
+    ]
+   ],
+   "placed": "2026-10-27",
+   "notes": [],
+   "cashout_value": 1500.0,
+   "odds": 3.99,
+   "implied": 0.251,
+   "chance": 0.153
   }
  ],
  "teams": [
@@ -684,7 +725,7 @@ window.DATA = {
   },
   {
    "team": "Villarreal",
-   "exposure": 3000,
+   "exposure": 1500,
    "rating": 89.0,
    "rating_source": "estimate",
    "forecast": 14,
@@ -738,17 +779,6 @@ window.DATA = {
    "bottom12": 0.18
   },
   {
-   "team": "Atlético",
-   "exposure": 1500,
-   "rating": 91.0,
-   "rating_source": "estimate",
-   "forecast": 17,
-   "current": 16,
-   "chance_band": 0.724,
-   "top8": 0.144,
-   "bottom12": 0.132
-  },
-  {
    "team": "Como",
    "exposure": 3000,
    "rating": 89.8,
@@ -760,19 +790,8 @@ window.DATA = {
    "bottom12": 0.083
   },
   {
-   "team": "Sporting",
-   "exposure": 1500,
-   "rating": 91.4,
-   "rating_source": "opta",
-   "forecast": 20,
-   "current": 12,
-   "chance_band": 0.73,
-   "top8": 0.148,
-   "bottom12": 0.122
-  },
-  {
    "team": "Napoli",
-   "exposure": 3000,
+   "exposure": 1500,
    "rating": 91.0,
    "rating_source": "estimate",
    "forecast": 19,
@@ -1367,8 +1386,8 @@ window.DATA = {
   {
    "matchday": 3,
    "date": "2026-10-27",
-   "chance_profit": 0.596,
-   "expected_return": 21322.0,
+   "chance_profit": 0.477,
+   "expected_return": 23264.0,
    "bets": {
     "1": 0.0,
     "2": 0.0,
@@ -1386,9 +1405,10 @@ window.DATA = {
     "14": 0.0,
     "15": 0.0,
     "16": 0.0,
-    "17": 0.192,
+    "17": 0.0,
     "18": 0.0,
-    "19": 0.191
+    "19": 0.0,
+    "20": 0.153
    }
   }
  ]
