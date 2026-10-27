@@ -532,7 +532,7 @@
       "market": "Finish 9th-24th",
       "stake": 1000,
       "returns": 5377.27,
-      "status": "open",
+      "status": "cashed_out",
       "legs": [
         [
           "Villarreal",
@@ -552,8 +552,42 @@
         ]
       ],
       "placed": "2026-10-27",
+      "notes": [
+        "Feyenoord projected 25th (outside 9th–24th) in my own 24 Oct forecast",
+        "Replaced with Atlético in bet 19; closed at stake, no loss"
+      ],
+      "cashout": 1000.0,
+      "closed": "2026-10-27"
+    },
+    {
+      "id": 19,
+      "type": "Four-fold",
+      "competition": "UCL",
+      "market": "Finish 9th-24th",
+      "stake": 1500,
+      "returns": 5121.21,
+      "status": "open",
+      "legs": [
+        [
+          "Villarreal",
+          1.3
+        ],
+        [
+          "Sporting",
+          1.36
+        ],
+        [
+          "Stuttgart",
+          1.44
+        ],
+        [
+          "Atlético",
+          1.33
+        ]
+      ],
+      "placed": "2026-10-27",
       "notes": [],
-      "cashout_value": 1000.0
+      "cashout_value": 1500.0
     }
   ],
   "benfica": {

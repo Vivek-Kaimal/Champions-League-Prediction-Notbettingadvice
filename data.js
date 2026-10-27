@@ -4,19 +4,19 @@ window.DATA = {
  "runs": 40000,
  "summary": {
   "capital": 8000,
-  "open_stake": 5500,
-  "open_value": 7039.67,
-  "staked": 19500,
-  "max_return": 38553.03,
+  "open_stake": 6000,
+  "open_value": 7539.67,
+  "staked": 21000,
+  "max_return": 39296.97,
   "realised": 1208.84,
   "target_profit": 3000,
-  "expected_return": 19994.0,
-  "chance_profit": 0.559,
-  "chance_target": 0.189,
+  "expected_return": 21322.0,
+  "chance_profit": 0.596,
+  "chance_target": 0.212,
   "chance_total_loss": 0.0,
-  "median_return": 20391.0,
-  "p10": 15209.0,
-  "p90": 27994.0,
+  "median_return": 21330.0,
+  "p10": 16209.0,
+  "p90": 28994.0,
   "benfica_chance": 0.877
  },
  "bets": [
@@ -595,7 +595,7 @@ window.DATA = {
    "market": "Finish 9th-24th",
    "stake": 1000,
    "returns": 5377.27,
-   "status": "open",
+   "status": "cashed_out",
    "legs": [
     [
      "Villarreal",
@@ -615,25 +615,51 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-27",
-   "notes": [],
-   "cashout_value": 1000.0,
+   "notes": [
+    "Feyenoord projected 25th (outside 9th–24th) in my own 24 Oct forecast",
+    "Replaced with Atlético in bet 19; closed at stake, no loss"
+   ],
+   "cashout": 1000.0,
+   "closed": "2026-10-27",
    "odds": 5.38,
    "implied": 0.186,
-   "chance": 0.121
+   "chance": 0.0
+  },
+  {
+   "id": 19,
+   "type": "Four-fold",
+   "competition": "UCL",
+   "market": "Finish 9th-24th",
+   "stake": 1500,
+   "returns": 5121.21,
+   "status": "open",
+   "legs": [
+    [
+     "Villarreal",
+     1.3
+    ],
+    [
+     "Sporting",
+     1.36
+    ],
+    [
+     "Stuttgart",
+     1.44
+    ],
+    [
+     "Atlético",
+     1.33
+    ]
+   ],
+   "placed": "2026-10-27",
+   "notes": [],
+   "cashout_value": 1500.0,
+   "odds": 3.41,
+   "implied": 0.293,
+   "chance": 0.191
   }
  ],
  "teams": [
-  {
-   "team": "Feyenoord",
-   "exposure": 1000,
-   "rating": 85.5,
-   "rating_source": "estimate",
-   "forecast": 25,
-   "current": 26,
-   "chance_band": 0.462,
-   "top8": 0.017,
-   "bottom12": 0.521
-  },
   {
    "team": "Shakhtar",
    "exposure": 1500,
@@ -647,7 +673,7 @@ window.DATA = {
   },
   {
    "team": "Stuttgart",
-   "exposure": 1000,
+   "exposure": 1500,
    "rating": 90.0,
    "rating_source": "estimate",
    "forecast": 10,
@@ -658,7 +684,7 @@ window.DATA = {
   },
   {
    "team": "Villarreal",
-   "exposure": 2500,
+   "exposure": 3000,
    "rating": 89.0,
    "rating_source": "estimate",
    "forecast": 14,
@@ -712,6 +738,17 @@ window.DATA = {
    "bottom12": 0.18
   },
   {
+   "team": "Atlético",
+   "exposure": 1500,
+   "rating": 91.0,
+   "rating_source": "estimate",
+   "forecast": 17,
+   "current": 16,
+   "chance_band": 0.724,
+   "top8": 0.144,
+   "bottom12": 0.132
+  },
+  {
    "team": "Como",
    "exposure": 3000,
    "rating": 89.8,
@@ -724,7 +761,7 @@ window.DATA = {
   },
   {
    "team": "Sporting",
-   "exposure": 1000,
+   "exposure": 1500,
    "rating": 91.4,
    "rating_source": "opta",
    "forecast": 20,
@@ -1330,8 +1367,8 @@ window.DATA = {
   {
    "matchday": 3,
    "date": "2026-10-27",
-   "chance_profit": 0.559,
-   "expected_return": 19994.0,
+   "chance_profit": 0.596,
+   "expected_return": 21322.0,
    "bets": {
     "1": 0.0,
     "2": 0.0,
@@ -1350,7 +1387,8 @@ window.DATA = {
     "15": 0.0,
     "16": 0.0,
     "17": 0.192,
-    "18": 0.121
+    "18": 0.0,
+    "19": 0.191
    }
   }
  ]
