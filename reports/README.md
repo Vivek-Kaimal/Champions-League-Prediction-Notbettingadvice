@@ -7,7 +7,7 @@ One file per matchday: a short **preview** before kick-off and a **review** afte
 | MD1 | 16–17 Sep | [Baseline](md01.md) |
 | MD2 | 13–14 Oct | [Cash-out](md02.md) |
 | MD3 | 20–21 Oct | [Rebuild](md03.md) |
-| MD4 | 3–4 Nov | – |
+| MD4 | 3–4 Nov | [Preview](md04.md) |
 | MD5 | 24–25 Nov | – |
 | MD6 | 8–9 Dec | – |
 | MD7 | 19–20 Jan | – |

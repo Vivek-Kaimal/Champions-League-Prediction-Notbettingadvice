@@ -1,5 +1,5 @@
 window.DATA = {
- "updated": "2026-10-27",
+ "updated": "2026-10-29",
  "last_matchday": 3,
  "runs": 40000,
  "summary": {
@@ -1385,7 +1385,7 @@ window.DATA = {
   },
   {
    "matchday": 3,
-   "date": "2026-10-27",
+   "date": "2026-10-29",
    "chance_profit": 0.477,
    "expected_return": 23264.0,
    "bets": {

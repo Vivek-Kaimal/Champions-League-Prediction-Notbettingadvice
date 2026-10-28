@@ -2,7 +2,28 @@
 
 Opened **4 October 2026** ([bet365 screenshots](evidence/)). Champions League bets settle on the final league-phase table (28 Jan 2027); Benfica settles at the end of the Europa League league phase.
 
-## Round 3 · placed 24 Oct 2026
+## Round 4 · 27 Oct 2026 (current)
+
+Three open four-folds on 9 teams ($4,500 staked):
+
+| # | Selections (odds) | Stake | Returns |
+|---|---|---|---|
+| 9 | Inter 1.36, Como 1.44, Napoli 1.40, Club Brugge 1.72 | $1,500 | $7,144.62 |
+| 12 | Inter 1.36, Villarreal 1.36, Dortmund 1.40, Como 1.44 | $1,500 | $5,640.49 |
+| 20 | Dortmund 1.20, Roma 1.33, Shakhtar 1.72, Stuttgart 1.44 | $1,500 | $5,987.87 |
+| | **Total** | **$4,500** | **$18,772.98** |
+
+**Exposure per team:** Inter, Como, Dortmund $3,000 · Napoli, Club Brugge, Villarreal, Roma, Shakhtar, Stuttgart $1,500.
+
+**Why this structure (my view until Matchday 4):**
+- Still four-team pots: nobody can be sure yet which teams will land where, so each bet stays diversified across four teams.
+- Exposure cut from 13 teams to 9. Holding 13 was too spread and too risky.
+- The main risk is upward. I invest in the stronger mid-table sides, not weak teams that could drop, so the danger is that 3–4 of the teams I forecast for 9th–24th climb into the top 8 instead. Holding fewer teams means fewer chances of being caught by one of those surprise risers.
+- More teams will be added as the forecast firms up over the coming matchdays.
+
+On the way here (all on 27 Oct, all closed at stake, no loss): round-3 trebles 13–16 were restructured into four-folds 17 and 18; 18 was replaced by 19 (Feyenoord, projected 25th in my own forecast, swapped for Atlético); then 17 and 19 were closed to cut Napoli exposure and the Sporting/Atlético risk, leaving bet 20.
+
+## Round 3 · placed 24 Oct 2026 (closed 27 Oct at stake)
 
 Built after a full match-by-match forecast update ([forecast.md](forecast.md)). Trebles of teams projected between the two lines (8th = 16 pts, 24th = 9 pts).
 
@@ -14,7 +35,6 @@ Built after a full match-by-match forecast update ([forecast.md](forecast.md)). 
 | 16 | Treble · UCL Finish 9th-24th | Napoli 1.25, Roma 1.33, Bodø/Glimt 1.80 | $750 | $2,250.00 |
 | | | **Total** | **$3,500** | **$9,423.58** |
 
-**Open exposure per team (all open bets):** Inter, Como $3,000 · Club Brugge, Dortmund, Villarreal $2,500 · Napoli $2,250 · Sporting $1,750 · Shakhtar, PSV $1,000 · Atlético, Stuttgart, Roma, Bodø/Glimt $750.
 
 ## Round 2 · placed 20 Oct 2026
 
