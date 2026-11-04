@@ -1,22 +1,22 @@
 window.DATA = {
- "updated": "2026-10-29",
- "last_matchday": 3,
+ "updated": "2026-11-04",
+ "last_matchday": 4,
  "runs": 40000,
  "summary": {
   "capital": 8000,
-  "open_stake": 4500,
-  "open_value": 6039.67,
+  "open_stake": 3000,
+  "open_value": 4217.47,
   "staked": 22500,
-  "max_return": 37981.82,
-  "realised": 1208.84,
+  "max_return": 33418.95,
+  "realised": 1133.84,
   "target_profit": 3000,
-  "expected_return": 23264.0,
-  "chance_profit": 0.477,
-  "chance_target": 0.286,
+  "expected_return": 23734.0,
+  "chance_profit": 0.381,
+  "chance_target": 0.381,
   "chance_total_loss": 0.0,
-  "median_return": 19209.0,
-  "p10": 19209.0,
-  "p90": 31994.0,
+  "median_return": 20634.0,
+  "p10": 20634.0,
+  "p90": 27778.0,
   "benfica_chance": 0.877
  },
  "bets": [
@@ -306,12 +306,12 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-20",
-   "cashout_value": 2630.81,
-   "cashout_value_date": "2026-10-27",
+   "cashout_value": 2455.09,
+   "cashout_value_date": "2026-11-04",
    "notes": [],
    "odds": 4.76,
    "implied": 0.21,
-   "chance": 0.261
+   "chance": 0.282
   },
   {
    "id": 10,
@@ -416,12 +416,12 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-20",
-   "cashout_value": 1908.86,
-   "cashout_value_date": "2026-10-27",
+   "cashout_value": 1762.38,
+   "cashout_value_date": "2026-11-04",
    "notes": [],
    "odds": 3.76,
    "implied": 0.266,
-   "chance": 0.227
+   "chance": 0.192
   },
   {
    "id": 13,
@@ -673,7 +673,7 @@ window.DATA = {
    "market": "Finish 9th-24th",
    "stake": 1500,
    "returns": 5987.87,
-   "status": "open",
+   "status": "cashed_out",
    "legs": [
     [
      "Dortmund",
@@ -693,79 +693,40 @@ window.DATA = {
     ]
    ],
    "placed": "2026-10-27",
-   "notes": [],
-   "cashout_value": 1500.0,
+   "notes": [
+    "Shakhtar lost to Sporting and Roma lost at Man Utd on MD4: two of four teams on 4 pts",
+    "Shakhtar must beat Fenerbahçe on MD5; a defeat would sink the bet's value",
+    "Closed early for a small, controlled loss"
+   ],
+   "cashout": 1425.0,
+   "closed": "2026-11-04",
    "odds": 3.99,
    "implied": 0.251,
-   "chance": 0.153
+   "chance": 0.0
   }
  ],
  "teams": [
-  {
-   "team": "Shakhtar",
-   "exposure": 1500,
-   "rating": 84.5,
-   "rating_source": "estimate",
-   "forecast": 18,
-   "current": 17,
-   "chance_band": 0.575,
-   "top8": 0.03,
-   "bottom12": 0.395
-  },
-  {
-   "team": "Stuttgart",
-   "exposure": 1500,
-   "rating": 90.0,
-   "rating_source": "estimate",
-   "forecast": 10,
-   "current": 6,
-   "chance_band": 0.605,
-   "top8": 0.363,
-   "bottom12": 0.032
-  },
   {
    "team": "Villarreal",
    "exposure": 1500,
    "rating": 89.0,
    "rating_source": "estimate",
    "forecast": 14,
-   "current": 19,
-   "chance_band": 0.663,
-   "top8": 0.054,
-   "bottom12": 0.282
+   "current": 29,
+   "chance_band": 0.525,
+   "top8": 0.005,
+   "bottom12": 0.47
   },
   {
    "team": "Dortmund",
-   "exposure": 3000,
+   "exposure": 1500,
    "rating": 92.8,
    "rating_source": "opta",
    "forecast": 13,
-   "current": 13,
-   "chance_band": 0.699,
-   "top8": 0.246,
+   "current": 16,
+   "chance_band": 0.705,
+   "top8": 0.24,
    "bottom12": 0.055
-  },
-  {
-   "team": "Roma",
-   "exposure": 1500,
-   "rating": 91.6,
-   "rating_source": "opta",
-   "forecast": 11,
-   "current": 15,
-   "chance_band": 0.706,
-   "top8": 0.097,
-   "bottom12": 0.197
-  },
-  {
-   "team": "Inter",
-   "exposure": 3000,
-   "rating": 93.7,
-   "rating_source": "opta",
-   "forecast": 15,
-   "current": 20,
-   "chance_band": 0.718,
-   "top8": 0.107,
-   "bottom12": 0.175
   },
   {
    "team": "Club Brugge",
@@ -773,10 +734,10 @@ window.DATA = {
    "rating": 86.5,
    "rating_source": "estimate",
    "forecast": 16,
-   "current": 11,
-   "chance_band": 0.723,
-   "top8": 0.096,
-   "bottom12": 0.18
+   "current": 13,
+   "chance_band": 0.728,
+   "top8": 0.093,
+   "bottom12": 0.179
   },
   {
    "team": "Como",
@@ -784,10 +745,10 @@ window.DATA = {
    "rating": 89.8,
    "rating_source": "estimate",
    "forecast": 12,
-   "current": 9,
-   "chance_band": 0.727,
-   "top8": 0.19,
-   "bottom12": 0.083
+   "current": 11,
+   "chance_band": 0.732,
+   "top8": 0.181,
+   "bottom12": 0.087
   },
   {
    "team": "Napoli",
@@ -795,35 +756,56 @@ window.DATA = {
    "rating": 91.0,
    "rating_source": "estimate",
    "forecast": 19,
-   "current": 22,
-   "chance_band": 0.733,
-   "top8": 0.071,
-   "bottom12": 0.195
+   "current": 24,
+   "chance_band": 0.736,
+   "top8": 0.066,
+   "bottom12": 0.198
+  },
+  {
+   "team": "Inter",
+   "exposure": 3000,
+   "rating": 93.7,
+   "rating_source": "opta",
+   "forecast": 15,
+   "current": 14,
+   "chance_band": 0.762,
+   "top8": 0.181,
+   "bottom12": 0.057
   }
  ],
  "current": [
   {
    "position": 1,
    "team": "PSG",
-   "played": 3,
-   "won": 3,
+   "played": 4,
+   "won": 4,
    "drawn": 0,
    "lost": 0,
-   "goal_diff": 9,
-   "points": 9
+   "goal_diff": 15,
+   "points": 12
   },
   {
    "position": 2,
-   "team": "Aston Villa",
-   "played": 3,
+   "team": "Barcelona",
+   "played": 4,
    "won": 3,
    "drawn": 0,
-   "lost": 0,
-   "goal_diff": 9,
+   "lost": 1,
+   "goal_diff": 8,
    "points": 9
   },
   {
    "position": 3,
+   "team": "Aston Villa",
+   "played": 4,
+   "won": 3,
+   "drawn": 0,
+   "lost": 1,
+   "goal_diff": 6,
+   "points": 9
+  },
+  {
+   "position": 4,
    "team": "Liverpool",
    "played": 3,
    "won": 3,
@@ -833,7 +815,7 @@ window.DATA = {
    "points": 9
   },
   {
-   "position": 4,
+   "position": 5,
    "team": "Real Madrid",
    "played": 3,
    "won": 3,
@@ -843,7 +825,17 @@ window.DATA = {
    "points": 9
   },
   {
-   "position": 5,
+   "position": 6,
+   "team": "Sporting",
+   "played": 4,
+   "won": 3,
+   "drawn": 0,
+   "lost": 1,
+   "goal_diff": 4,
+   "points": 9
+  },
+  {
+   "position": 7,
    "team": "Real Betis",
    "played": 3,
    "won": 3,
@@ -853,17 +845,17 @@ window.DATA = {
    "points": 9
   },
   {
-   "position": 6,
-   "team": "Stuttgart",
-   "played": 3,
+   "position": 8,
+   "team": "Bayern",
+   "played": 4,
    "won": 2,
-   "drawn": 1,
+   "drawn": 2,
    "lost": 0,
-   "goal_diff": 5,
-   "points": 7
+   "goal_diff": 7,
+   "points": 8
   },
   {
-   "position": 7,
+   "position": 9,
    "team": "Arsenal",
    "played": 3,
    "won": 2,
@@ -873,17 +865,17 @@ window.DATA = {
    "points": 7
   },
   {
-   "position": 8,
-   "team": "Barcelona",
-   "played": 3,
+   "position": 10,
+   "team": "Stuttgart",
+   "played": 4,
    "won": 2,
-   "drawn": 0,
+   "drawn": 1,
    "lost": 1,
-   "goal_diff": 5,
-   "points": 6
+   "goal_diff": 3,
+   "points": 7
   },
   {
-   "position": 9,
+   "position": 11,
    "team": "Como",
    "played": 3,
    "won": 2,
@@ -893,7 +885,7 @@ window.DATA = {
    "points": 6
   },
   {
-   "position": 10,
+   "position": 12,
    "team": "Man City",
    "played": 3,
    "won": 2,
@@ -903,7 +895,7 @@ window.DATA = {
    "points": 6
   },
   {
-   "position": 11,
+   "position": 13,
    "team": "Club Brugge",
    "played": 3,
    "won": 2,
@@ -913,17 +905,27 @@ window.DATA = {
    "points": 6
   },
   {
-   "position": 12,
-   "team": "Sporting",
-   "played": 3,
+   "position": 14,
+   "team": "Inter",
+   "played": 4,
    "won": 2,
    "drawn": 0,
-   "lost": 1,
-   "goal_diff": 3,
+   "lost": 2,
+   "goal_diff": 2,
    "points": 6
   },
   {
-   "position": 13,
+   "position": 15,
+   "team": "LASK",
+   "played": 4,
+   "won": 2,
+   "drawn": 0,
+   "lost": 2,
+   "goal_diff": 1,
+   "points": 6
+  },
+  {
+   "position": 16,
    "team": "Dortmund",
    "played": 3,
    "won": 2,
@@ -933,47 +935,47 @@ window.DATA = {
    "points": 6
   },
   {
-   "position": 14,
-   "team": "Bayern",
-   "played": 3,
-   "won": 1,
-   "drawn": 2,
-   "lost": 0,
-   "goal_diff": 5,
-   "points": 5
-  },
-  {
-   "position": 15,
-   "team": "Roma",
-   "played": 3,
-   "won": 1,
-   "drawn": 1,
-   "lost": 1,
-   "goal_diff": 3,
-   "points": 4
-  },
-  {
-   "position": 16,
-   "team": "Atlético",
-   "played": 3,
-   "won": 1,
-   "drawn": 1,
-   "lost": 1,
-   "goal_diff": 1,
-   "points": 4
-  },
-  {
    "position": 17,
-   "team": "Shakhtar",
-   "played": 3,
-   "won": 1,
-   "drawn": 1,
-   "lost": 1,
-   "goal_diff": 1,
-   "points": 4
+   "team": "Man Utd",
+   "played": 4,
+   "won": 2,
+   "drawn": 0,
+   "lost": 2,
+   "goal_diff": 0,
+   "points": 6
   },
   {
    "position": 18,
+   "team": "Galatasaray",
+   "played": 4,
+   "won": 2,
+   "drawn": 0,
+   "lost": 2,
+   "goal_diff": -1,
+   "points": 6
+  },
+  {
+   "position": 19,
+   "team": "Roma",
+   "played": 4,
+   "won": 1,
+   "drawn": 1,
+   "lost": 2,
+   "goal_diff": 2,
+   "points": 4
+  },
+  {
+   "position": 20,
+   "team": "Shakhtar",
+   "played": 4,
+   "won": 1,
+   "drawn": 1,
+   "lost": 2,
+   "goal_diff": 0,
+   "points": 4
+  },
+  {
+   "position": 21,
    "team": "PSV",
    "played": 3,
    "won": 1,
@@ -983,63 +985,33 @@ window.DATA = {
    "points": 4
   },
   {
-   "position": 19,
-   "team": "Villarreal",
-   "played": 3,
-   "won": 1,
-   "drawn": 0,
-   "lost": 2,
-   "goal_diff": 0,
-   "points": 3
-  },
-  {
-   "position": 20,
-   "team": "Inter",
-   "played": 3,
-   "won": 1,
-   "drawn": 0,
-   "lost": 2,
-   "goal_diff": -1,
-   "points": 3
-  },
-  {
-   "position": 21,
-   "team": "Man Utd",
-   "played": 3,
-   "won": 1,
-   "drawn": 0,
-   "lost": 2,
-   "goal_diff": -1,
-   "points": 3
-  },
-  {
    "position": 22,
+   "team": "Atlético",
+   "played": 4,
+   "won": 1,
+   "drawn": 1,
+   "lost": 2,
+   "goal_diff": -1,
+   "points": 4
+  },
+  {
+   "position": 23,
+   "team": "Bodø/Glimt",
+   "played": 4,
+   "won": 1,
+   "drawn": 1,
+   "lost": 2,
+   "goal_diff": -5,
+   "points": 4
+  },
+  {
+   "position": 24,
    "team": "Napoli",
    "played": 3,
    "won": 1,
    "drawn": 0,
    "lost": 2,
    "goal_diff": -2,
-   "points": 3
-  },
-  {
-   "position": 23,
-   "team": "Galatasaray",
-   "played": 3,
-   "won": 1,
-   "drawn": 0,
-   "lost": 2,
-   "goal_diff": -3,
-   "points": 3
-  },
-  {
-   "position": 24,
-   "team": "LASK",
-   "played": 3,
-   "won": 1,
-   "drawn": 0,
-   "lost": 2,
-   "goal_diff": -3,
    "points": 3
   },
   {
@@ -1054,16 +1026,6 @@ window.DATA = {
   },
   {
    "position": 26,
-   "team": "Feyenoord",
-   "played": 3,
-   "won": 1,
-   "drawn": 0,
-   "lost": 2,
-   "goal_diff": -4,
-   "points": 3
-  },
-  {
-   "position": 27,
    "team": "Lens",
    "played": 3,
    "won": 1,
@@ -1073,17 +1035,7 @@ window.DATA = {
    "points": 3
   },
   {
-   "position": 28,
-   "team": "Bodø/Glimt",
-   "played": 3,
-   "won": 1,
-   "drawn": 0,
-   "lost": 2,
-   "goal_diff": -5,
-   "points": 3
-  },
-  {
-   "position": 29,
+   "position": 27,
    "team": "AEK Athens",
    "played": 3,
    "won": 1,
@@ -1093,13 +1045,33 @@ window.DATA = {
    "points": 3
   },
   {
-   "position": 30,
+   "position": 28,
    "team": "Leipzig",
    "played": 3,
    "won": 1,
    "drawn": 0,
    "lost": 2,
    "goal_diff": -5,
+   "points": 3
+  },
+  {
+   "position": 29,
+   "team": "Villarreal",
+   "played": 4,
+   "won": 1,
+   "drawn": 0,
+   "lost": 3,
+   "goal_diff": -6,
+   "points": 3
+  },
+  {
+   "position": 30,
+   "team": "Feyenoord",
+   "played": 4,
+   "won": 1,
+   "drawn": 0,
+   "lost": 3,
+   "goal_diff": -7,
    "points": 3
   },
   {
@@ -1134,6 +1106,16 @@ window.DATA = {
   },
   {
    "position": 34,
+   "team": "Lille",
+   "played": 4,
+   "won": 0,
+   "drawn": 1,
+   "lost": 3,
+   "goal_diff": -6,
+   "points": 1
+  },
+  {
+   "position": 35,
    "team": "Porto",
    "played": 3,
    "won": 0,
@@ -1143,23 +1125,13 @@ window.DATA = {
    "points": 0
   },
   {
-   "position": 35,
-   "team": "Lille",
-   "played": 3,
-   "won": 0,
-   "drawn": 0,
-   "lost": 3,
-   "goal_diff": -6,
-   "points": 0
-  },
-  {
    "position": 36,
    "team": "Slovan",
-   "played": 3,
+   "played": 4,
    "won": 0,
    "drawn": 0,
-   "lost": 3,
-   "goal_diff": -12,
+   "lost": 4,
+   "goal_diff": -16,
    "points": 0
   }
  ],
@@ -1409,6 +1381,34 @@ window.DATA = {
     "18": 0.0,
     "19": 0.0,
     "20": 0.153
+   }
+  },
+  {
+   "matchday": 4,
+   "date": "2026-11-04",
+   "chance_profit": 0.381,
+   "expected_return": 23734.0,
+   "bets": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.282,
+    "10": 0.0,
+    "11": 0.0,
+    "12": 0.192,
+    "13": 0.0,
+    "14": 0.0,
+    "15": 0.0,
+    "16": 0.0,
+    "17": 0.0,
+    "18": 0.0,
+    "19": 0.0,
+    "20": 0.0
    }
   }
  ]

@@ -54,22 +54,22 @@ matchday,home,away,home_goals,away_goals
 3,Lille,Galatasaray,2,4
 3,Fenerbahçe,Slavia Praha,2,2
 4,Slavia Praha,Arsenal,,
-4,Atlético,Bayern,,
-4,Barcelona,Aston Villa,,
+4,Atlético,Bayern,0,2
+4,Barcelona,Aston Villa,3,0
 4,AEK Athens,Real Madrid,,
-4,Villarreal,PSG,,
+4,Villarreal,PSG,0,6
 4,Leipzig,Man City,,
 4,Fenerbahçe,Liverpool,,
-4,Feyenoord,Inter,,
+4,Feyenoord,Inter,0,3
 4,Dortmund,Real Betis,,
-4,Galatasaray,Stuttgart,,
-4,Shakhtar,Sporting,,
+4,Galatasaray,Stuttgart,2,0
+4,Shakhtar,Sporting,0,1
 4,Lens,Como,,
-4,Man Utd,Roma,,
+4,Man Utd,Roma,3,2
 4,Porto,Napoli,,
 4,PSV,Club Brugge,,
-4,Bodø/Glimt,Lille,,
-4,LASK,Slovan,,
+4,Bodø/Glimt,Lille,0,0
+4,LASK,Slovan,4,0
 4,Viking,Sabah,,
 5,Arsenal,Dortmund,,
 5,Lille,Bayern,,

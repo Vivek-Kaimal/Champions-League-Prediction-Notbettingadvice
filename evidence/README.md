@@ -17,3 +17,4 @@ Unedited bet365 "My Bets" screenshots (cropped to the page only), added after ea
 | 27 Oct 2026 | Round 4: open bets after restructure (bets 9, 12, 17, 18) | [1](2026-10-27-round4-open-bets-1.jpg) · [2](2026-10-27-round4-open-bets-2.jpg) · [3](2026-10-27-round4-open-bets-3.jpg) · [4](2026-10-27-round4-open-bets-4.jpg) |
 | 27 Oct 2026 | Bet 18 replaced by bet 19 (Feyenoord → Atlético, $1,500) | [5](2026-10-27-round4-open-bets-5.jpg) · [6](2026-10-27-round4-open-bets-6.jpg) |
 | 27 Oct 2026 | Bets 17 and 19 closed at stake; bet 20 opened (Dortmund/Roma/Shakhtar/Stuttgart) | [7](2026-10-27-round4-open-bets-7.jpg) |
+| 4 Nov 2026 | Bet 20 cashed out at $1,425 | [bet 20](2026-11-04-bet20-cashout.jpg) |
