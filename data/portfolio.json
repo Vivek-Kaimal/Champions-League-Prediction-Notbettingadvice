@@ -250,7 +250,7 @@
       "market": "Finish 9th-24th",
       "stake": 1500,
       "returns": 7144.62,
-      "status": "open",
+      "status": "cashed_out",
       "legs": [
         [
           "Inter",
@@ -270,9 +270,12 @@
         ]
       ],
       "placed": "2026-10-20",
-      "cashout_value": 2455.09,
-      "cashout_value_date": "2026-11-04",
-      "notes": []
+      "notes": [
+        "Napoli lost 1–4 at Porto on MD4 (3 pts from 4) and Como's 9–1 win raised its top-8 risk",
+        "Locked the profit with all capital back in hand"
+      ],
+      "cashout": 2198.53,
+      "closed": "2026-11-05"
     },
     {
       "id": 10,
@@ -351,7 +354,7 @@
       "market": "Finish 9th-24th",
       "stake": 1500,
       "returns": 5640.49,
-      "status": "open",
+      "status": "cashed_out",
       "legs": [
         [
           "Inter",
@@ -371,9 +374,12 @@
         ]
       ],
       "placed": "2026-10-20",
-      "cashout_value": 1762.38,
-      "cashout_value_date": "2026-11-04",
-      "notes": []
+      "notes": [
+        "Villarreal's 0–6 loss to PSG left them on 3 pts with poor goal difference",
+        "Como's 9–1 win raised its top-8 risk; closed just above stake"
+      ],
+      "cashout": 1515.79,
+      "closed": "2026-11-05"
     },
     {
       "id": 13,
