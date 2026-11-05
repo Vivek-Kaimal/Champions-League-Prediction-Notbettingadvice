@@ -1258,6 +1258,7 @@ window.DATA = {
  ],
  "rules": [
   "We cannot predict, only forecast with probability: no bet is held to the end on conviction alone",
+  "Trading, not investing: every bet has a fixed expiry, so set the exit target when the bet is placed and take it, whatever happens",
   "Take profit: cash out any bet once its cash-out value reaches 20% above stake",
   "From MD5, pots of two teams only: with four matchdays left there is more information but less time to recover",
   "Capital first: cash out when in profit and risk rises; rebuild after each matchday on better information",

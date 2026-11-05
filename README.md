@@ -5,6 +5,8 @@
 A season-long test of one idea: that historical data, structure and judgement can be turned into measurable, risk-managed decisions. Forecast locked **4 October 2026**, before Matchday 2. Every later change is visible in this repository's history.
 
 > **Ground rule: we cannot predict football; we can only forecast it with probability.** Results change every matchday, there are too many teams, and their results are linked to each other, so no forecast is accurate enough to hold a bet to the end on conviction. Profits are taken when they appear.
+>
+> **This is trading, not long-term investing.** Like a futures contract, every bet has a fixed expiry, so targets are set when a bet is placed and the exit is taken at the target, whatever happens.
 
 **Live tracker:** https://vivek-kaimal.github.io/Champions-League-Prediction-Notbettingadvice/
 
