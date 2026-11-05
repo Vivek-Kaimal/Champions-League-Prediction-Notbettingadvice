@@ -4,6 +4,8 @@
 
 A season-long test of one idea: that historical data, structure and judgement can be turned into measurable, risk-managed decisions. Forecast locked **4 October 2026**, before Matchday 2. Every later change is visible in this repository's history.
 
+> **Ground rule: we cannot predict football; we can only forecast it with probability.** Results change every matchday, there are too many teams, and their results are linked to each other, so no forecast is accurate enough to hold a bet to the end on conviction. Profits are taken when they appear.
+
 **Live tracker:** https://vivek-kaimal.github.io/Champions-League-Prediction-Notbettingadvice/
 
 ## Thesis
@@ -25,14 +27,14 @@ A season-long test of one idea: that historical data, structure and judgement ca
 | | |
 |---|---|
 | Stake | **$8,000** |
-| Realised profit | **+$1,208.84** (+15.1% on stake · 40% of target) |
-| Portfolio value | **$10,748.51** (cash $4,708.84 + open bets at cash-out value $6,039.67 · +34.4%) |
+| Realised profit | **+$1,848.16** (+23.1% on stake · 62% of target) |
+| Portfolio value | **$9,848.16**, all in cash · no open bets (5 Nov) |
 | Round 1 | $7,500 across 8 bets · **UCL bets cashed out 14 Oct, +$445.54** · **Benfica cashed out 24 Oct, +$763.30** |
 | Round 2 | **$6,000 across 4 four-folds, placed 20 Oct** · 2 Stuttgart bets cashed out at stake 21 Oct · 2 open ($3,000), **cash-out value $4,539.67 on 22 Oct (+$1,539.67)** |
 | Round 3 | **$3,500 across 4 trebles, placed 24 Oct**: Brugge/Dortmund/Shakhtar $1,000 · Villarreal/Sporting/PSV $1,000 · Atlético/Sporting/Stuttgart $750 · Napoli/Roma/Bodø $750 |
-| Round 4 | **3 four-folds, 9 teams, $4,500 staked (27 Oct)**: bets 9 and 12 held, new bet 20 Dortmund/Roma/Shakhtar/Stuttgart · round 3 closed at stake. Exposure cut from 13 teams to 9: the main risk is 3–4 forecast mid-table teams climbing into the top 8 |
+| Round 4 | 3 four-folds, 9 teams, $4,500 (27 Oct) · **all closed 4–5 Nov: +$639.32** (bet 9 +$698.53 · bet 12 +$15.79 · bet 20 −$75.00) |
 | Target | **+$3,000 profit** (37.5% on stake) · floor: capital returned |
-| Rules | Sizing rises as the table settles · capital first: cash out when in profit and risk rises, rebuild after each matchday |
+| Rules | **Take profit at +20%** · **pots of two teams from MD5** · capital first: cash out when in profit and risk rises, rebuild after each matchday |
 
 Details: [portfolio.md](portfolio.md) · Proof: [evidence/](evidence/) · Forecast (updated 24 Oct): [forecast.md](forecast.md) · Weekly reports: [reports/](reports/)
 
@@ -46,6 +48,7 @@ Details: [portfolio.md](portfolio.md) · Proof: [evidence/](evidence/) · Foreca
 | MD3 | – | – | – | Inter, Como, Club Brugge all won. Open bets valued at $4,539.67 on $3,000 staked (+51%) |
 | UEL MD3 | – | – | – | **Benfica cashed out 24 Oct after 3 wins from 3: +$763.30 (+38%).** Realised to date: **+$1,208.84** |
 | Pre-MD4 | – | – | – | Restructured 27 Oct to 3 four-folds on 9 teams ($4,500). If all three win: +$15,481.82 for the season |
+| MD4 | – | – | – | **All bets closed 4–5 Nov: +$639.32.** Inter won 3–0, Como 9–1, Brugge 2–1, but Napoli lost 1–4 and Villarreal 0–6. Values had peaked on 22 Oct. Realised to date **+$1,848.16**, no capital lost. [Review](reports/md04.md) |
 
 \*Stress test: 40,000 simulated seasons ([tools/update.py](tools/update.py)), built with Claude as a check on my own judgement.
 

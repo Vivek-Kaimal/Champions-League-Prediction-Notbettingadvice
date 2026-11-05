@@ -1257,9 +1257,11 @@ window.DATA = {
   }
  ],
  "rules": [
-  "Sizing moves with certainty: per-bet and per-team limits are set each round, smaller and spread out while the table is uncertain, larger and more concentrated as it settles (round 1: $1,000 per bet / $2,000 per team; round 2: $1,500 / $3,000)",
-  "Capital first: positions are cashed out when in profit and risk rises, then rebuilt after the matchday on better information; lower returns are accepted as the cost",
-  "Selections mainly from the top five leagues and Portugal; exceptions are named in the round (round 2: Club Brugge)"
+  "We cannot predict, only forecast with probability: no bet is held to the end on conviction alone",
+  "Take profit: cash out any bet once its cash-out value reaches 20% above stake",
+  "From MD5, pots of two teams only: with four matchdays left there is more information but less time to recover",
+  "Capital first: cash out when in profit and risk rises; rebuild after each matchday on better information",
+  "Sizing moves with certainty; selections mainly from the top five leagues and Portugal, exceptions named"
  ],
  "history": [
   {
