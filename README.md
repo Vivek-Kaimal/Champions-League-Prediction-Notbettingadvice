@@ -30,11 +30,12 @@ A season-long test of one idea: that historical data, structure and judgement ca
 |---|---|
 | Stake | **$8,000** |
 | Realised profit | **+$1,848.16** (+23.1% on stake · 62% of target) |
-| Portfolio value | **$9,848.16**, all in cash · no open bets (5 Nov) |
+| Portfolio value | **$9,848.16** (cash $5,848.16 + open bets at cash-out value $4,000) |
 | Round 1 | $7,500 across 8 bets · **UCL bets cashed out 14 Oct, +$445.54** · **Benfica cashed out 24 Oct, +$763.30** |
 | Round 2 | **$6,000 across 4 four-folds, placed 20 Oct** · 2 Stuttgart bets cashed out at stake 21 Oct · 2 open ($3,000), **cash-out value $4,539.67 on 22 Oct (+$1,539.67)** |
 | Round 3 | **$3,500 across 4 trebles, placed 24 Oct**: Brugge/Dortmund/Shakhtar $1,000 · Villarreal/Sporting/PSV $1,000 · Atlético/Sporting/Stuttgart $750 · Napoli/Roma/Bodø $750 |
 | Round 4 | 3 four-folds, 9 teams, $4,500 (27 Oct) · **all closed 4–5 Nov: +$639.32** (bet 9 +$698.53 · bet 12 +$15.79 · bet 20 −$75.00) |
+| Round 5 | **2 doubles, $4,000 (7 Nov)**: Sporting + Real Betis $2,000 · Roma + Stuttgart $2,000 · returns $3,111.11 each · take-profit at $2,400 each. Objective: protect capital; teams picked as if held to the end of MD8 |
 | Target | **+$3,000 profit** (37.5% on stake) · floor: capital returned |
 | Rules | **Take profit at +20%** · **pots of two teams from MD5** · capital first: cash out when in profit and risk rises, rebuild after each matchday |
 

@@ -8,7 +8,7 @@ One file per matchday: a short **preview** before kick-off and a **review** afte
 | MD2 | 13–14 Oct | [Cash-out](md02.md) |
 | MD3 | 20–21 Oct | [Rebuild](md03.md) |
 | MD4 | 3–5 Nov | [Preview & review](md04.md) |
-| MD5 | 24–25 Nov | – |
+| MD5 | 24–26 Nov | [Preview](md05.md) |
 | MD6 | 8–9 Dec | – |
 | MD7 | 19–20 Jan | – |
 | MD8 | 27 Jan | – |
