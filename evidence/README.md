@@ -19,3 +19,4 @@ Unedited bet365 "My Bets" screenshots (cropped to the page only), added after ea
 | 27 Oct 2026 | Bets 17 and 19 closed at stake; bet 20 opened (Dortmund/Roma/Shakhtar/Stuttgart) | [7](2026-10-27-round4-open-bets-7.jpg) |
 | 4 Nov 2026 | Bet 20 cashed out at $1,425 | [bet 20](2026-11-04-bet20-cashout.jpg) |
 | 5 Nov 2026 | Bets 9 and 12 cashed out ($2,198.53, $1,515.79) | [bet 9](2026-11-05-bet9-cashout.jpg) · [bet 12](2026-11-05-bet12-cashout.jpg) |
+| 7 Nov 2026 | Round 5: two $2,000 doubles (bets 21–22) | [1](2026-11-07-round5-bets-1.jpg) · [2](2026-11-07-round5-bets-2.jpg) |

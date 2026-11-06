@@ -4,19 +4,19 @@ window.DATA = {
  "runs": 40000,
  "summary": {
   "capital": 8000,
-  "open_stake": 0,
-  "open_value": 0,
-  "staked": 22500,
-  "max_return": 24348.16,
+  "open_stake": 4000,
+  "open_value": 4000.0,
+  "staked": 26500,
+  "max_return": 30570.38,
   "realised": 1848.16,
   "target_profit": 3000,
-  "expected_return": 24348.0,
-  "chance_profit": 1.0,
-  "chance_target": 0.0,
+  "expected_return": 27824.0,
+  "chance_profit": 0.805,
+  "chance_target": 0.312,
   "chance_total_loss": 0.0,
-  "median_return": 24348.0,
+  "median_return": 27459.0,
   "p10": 24348.0,
-  "p90": 24348.0,
+  "p90": 30570.0,
   "benfica_chance": 0.877
  },
  "bets": [
@@ -709,9 +709,104 @@ window.DATA = {
    "odds": 3.99,
    "implied": 0.251,
    "chance": 0.0
+  },
+  {
+   "id": 21,
+   "type": "Double",
+   "competition": "UCL",
+   "market": "Finish 9th-24th",
+   "stake": 2000,
+   "returns": 3111.11,
+   "status": "open",
+   "legs": [
+    [
+     "Sporting",
+     1.16
+    ],
+    [
+     "Real Betis",
+     1.33
+    ]
+   ],
+   "placed": "2026-11-07",
+   "notes": [],
+   "cashout_value": 2000.0,
+   "odds": 1.56,
+   "implied": 0.643,
+   "chance": 0.59
+  },
+  {
+   "id": 22,
+   "type": "Double",
+   "competition": "UCL",
+   "market": "Finish 9th-24th",
+   "stake": 2000,
+   "returns": 3111.11,
+   "status": "open",
+   "legs": [
+    [
+     "Roma",
+     1.33
+    ],
+    [
+     "Stuttgart",
+     1.16
+    ]
+   ],
+   "placed": "2026-11-07",
+   "notes": [],
+   "cashout_value": 2000.0,
+   "odds": 1.56,
+   "implied": 0.643,
+   "chance": 0.527
   }
  ],
- "teams": [],
+ "teams": [
+  {
+   "team": "Roma",
+   "exposure": 2000,
+   "rating": 91.6,
+   "rating_source": "opta",
+   "forecast": 14,
+   "current": 20,
+   "chance_band": 0.688,
+   "top8": 0.027,
+   "bottom12": 0.285
+  },
+  {
+   "team": "Real Betis",
+   "exposure": 2000,
+   "rating": 89.3,
+   "rating_source": "estimate",
+   "forecast": 17,
+   "current": 11,
+   "chance_band": 0.768,
+   "top8": 0.216,
+   "bottom12": 0.016
+  },
+  {
+   "team": "Stuttgart",
+   "exposure": 2000,
+   "rating": 90.0,
+   "rating_source": "estimate",
+   "forecast": 19,
+   "current": 14,
+   "chance_band": 0.774,
+   "top8": 0.161,
+   "bottom12": 0.066
+  },
+  {
+   "team": "Sporting",
+   "exposure": 2000,
+   "rating": 91.4,
+   "rating_source": "opta",
+   "forecast": 16,
+   "current": 10,
+   "chance_band": 0.776,
+   "top8": 0.202,
+   "bottom12": 0.023
+  }
+ ],
  "current": [
   {
    "position": 1,
@@ -1328,8 +1423,8 @@ window.DATA = {
   {
    "matchday": 4,
    "date": "2026-11-07",
-   "chance_profit": 1.0,
-   "expected_return": 24348.0,
+   "chance_profit": 0.805,
+   "expected_return": 27824.0,
    "bets": {
     "1": 0.0,
     "2": 0.0,
@@ -1350,7 +1445,9 @@ window.DATA = {
     "17": 0.0,
     "18": 0.0,
     "19": 0.0,
-    "20": 0.0
+    "20": 0.0,
+    "21": 0.59,
+    "22": 0.527
    }
   }
  ]

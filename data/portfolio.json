@@ -640,6 +640,50 @@
       ],
       "cashout": 1425.0,
       "closed": "2026-11-04"
+    },
+    {
+      "id": 21,
+      "type": "Double",
+      "competition": "UCL",
+      "market": "Finish 9th-24th",
+      "stake": 2000,
+      "returns": 3111.11,
+      "status": "open",
+      "legs": [
+        [
+          "Sporting",
+          1.16
+        ],
+        [
+          "Real Betis",
+          1.33
+        ]
+      ],
+      "placed": "2026-11-07",
+      "notes": [],
+      "cashout_value": 2000.0
+    },
+    {
+      "id": 22,
+      "type": "Double",
+      "competition": "UCL",
+      "market": "Finish 9th-24th",
+      "stake": 2000,
+      "returns": 3111.11,
+      "status": "open",
+      "legs": [
+        [
+          "Roma",
+          1.33
+        ],
+        [
+          "Stuttgart",
+          1.16
+        ]
+      ],
+      "placed": "2026-11-07",
+      "notes": [],
+      "cashout_value": 2000.0
     }
   ],
   "benfica": {
