@@ -1,6 +1,56 @@
 # Season forecast
 
-## Latest · updated 24 October 2026 (before Matchday 4)
+## Latest · updated 7 November 2026 (after Matchday 4)
+
+Built match by match: all 72 remaining fixtures (Matchdays 5–8) called as win, draw or loss ([all calls](data/forecasts/2026-11-07-match-calls.csv)), added to the actual results after Matchday 4. Ties are split by current goal difference. No open bets at the time of this forecast.
+
+| Pos | Team | Pts now | W | D | L | Final pts |
+|---|---|---|---|---|---|---|
+| 1 | PSG | 12 | 8 | 0 | 0 | 24 |
+| 2 | Real Madrid | 12 | 7 | 1 | 0 | 22 |
+| 3 | Barcelona | 9 | 7 | 0 | 1 | 21 |
+| 4 | Bayern | 8 | 6 | 2 | 0 | 20 |
+| 5 | Arsenal | 10 | 6 | 2 | 0 | 20 |
+| 6 | Man City | 9 | 6 | 0 | 2 | 18 |
+| 7 | Liverpool | 9 | 5 | 1 | 2 | 16 |
+| 8 | Inter | 6 | 5 | 1 | 2 | 16 |
+| | | | | | | |
+| 9 | Dortmund | 9 | 5 | 1 | 2 | 16 |
+| 10 | Atlético | 4 | 5 | 1 | 2 | 16 |
+| 11 | Como | 9 | 5 | 0 | 3 | 15 |
+| 12 | Club Brugge | 9 | 4 | 3 | 1 | 15 |
+| 13 | Aston Villa | 9 | 4 | 1 | 3 | 13 |
+| 14 | Roma | 4 | 4 | 1 | 3 | 13 |
+| 15 | Galatasaray | 6 | 4 | 1 | 3 | 13 |
+| 16 | Sporting | 9 | 4 | 0 | 4 | 12 |
+| 17 | Real Betis | 9 | 4 | 0 | 4 | 12 |
+| 18 | Man Utd | 6 | 4 | 0 | 4 | 12 |
+| 19 | Stuttgart | 7 | 2 | 4 | 2 | 10 |
+| 20 | Porto | 3 | 3 | 1 | 4 | 10 |
+| 21 | Fenerbahçe | 5 | 2 | 4 | 2 | 10 |
+| 22 | Villarreal | 3 | 3 | 1 | 4 | 10 |
+| 23 | Shakhtar | 4 | 2 | 3 | 3 | 9 |
+| 24 | PSV | 4 | 2 | 2 | 4 | 8 |
+| | | | | | | |
+| 25 | Napoli | 3 | 2 | 2 | 4 | 8 |
+| 26 | Leipzig | 3 | 2 | 2 | 4 | 8 |
+| 27 | Bodø/Glimt | 4 | 2 | 1 | 5 | 7 |
+| 28 | LASK | 6 | 2 | 0 | 6 | 6 |
+| 29 | Viking | 4 | 1 | 3 | 4 | 6 |
+| 30 | Feyenoord | 3 | 1 | 3 | 4 | 6 |
+| 31 | Lens | 3 | 2 | 0 | 6 | 6 |
+| 32 | Lille | 1 | 1 | 2 | 5 | 5 |
+| 33 | AEK Athens | 3 | 1 | 0 | 7 | 3 |
+| 34 | Sabah | 3 | 1 | 0 | 7 | 3 |
+| 35 | Slavia Praha | 1 | 0 | 1 | 7 | 1 |
+| 36 | Slovan | 0 | 0 | 0 | 8 | 0 |
+
+**Lines:** 8th place on 16 points, with four teams level on 16 (Liverpool, Inter, Dortmund, Atlético), so goal difference decides the last top-8 place. 24th place on 8 points.
+
+---
+
+## Previous · updated 24 October 2026 (before Matchday 4)
+
 
 Built match by match: every remaining fixture called as win, draw or loss ([all 74 calls](data/forecasts/2026-10-24-match-calls.csv)), added to the results after Matchday 3. Teams I hold are in **bold**. Ties are split by current goal difference.
 

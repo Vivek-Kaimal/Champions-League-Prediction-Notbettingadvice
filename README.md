@@ -38,7 +38,7 @@ A season-long test of one idea: that historical data, structure and judgement ca
 | Target | **+$3,000 profit** (37.5% on stake) · floor: capital returned |
 | Rules | **Take profit at +20%** · **pots of two teams from MD5** · capital first: cash out when in profit and risk rises, rebuild after each matchday |
 
-Details: [portfolio.md](portfolio.md) · Proof: [evidence/](evidence/) · Forecast (updated 24 Oct): [forecast.md](forecast.md) · Weekly reports: [reports/](reports/)
+Details: [portfolio.md](portfolio.md) · Proof: [evidence/](evidence/) · Forecast (updated 7 Nov): [forecast.md](forecast.md) · Weekly reports: [reports/](reports/)
 
 ## Results
 

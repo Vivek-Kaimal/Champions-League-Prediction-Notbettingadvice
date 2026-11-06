@@ -1,5 +1,5 @@
 window.DATA = {
- "updated": "2026-11-05",
+ "updated": "2026-11-07",
  "last_matchday": 4,
  "runs": 40000,
  "summary": {
@@ -1078,11 +1078,11 @@ window.DATA = {
   {
    "position": 1,
    "team": "PSG",
-   "points": 22
+   "points": 24
   },
   {
    "position": 2,
-   "team": "Arsenal",
+   "team": "Real Madrid",
    "points": 22
   },
   {
@@ -1092,158 +1092,158 @@ window.DATA = {
   },
   {
    "position": 4,
-   "team": "Real Madrid",
-   "points": 21
-  },
-  {
-   "position": 5,
    "team": "Bayern",
    "points": 20
   },
   {
-   "position": 6,
-   "team": "Liverpool",
+   "position": 5,
+   "team": "Arsenal",
    "points": 20
   },
   {
-   "position": 7,
+   "position": 6,
    "team": "Man City",
    "points": 18
   },
   {
+   "position": 7,
+   "team": "Liverpool",
+   "points": 16
+  },
+  {
    "position": 8,
-   "team": "Aston Villa",
+   "team": "Inter",
    "points": 16
   },
   {
    "position": 9,
-   "team": "Real Betis",
+   "team": "Dortmund",
    "points": 16
   },
   {
    "position": 10,
-   "team": "Stuttgart",
-   "points": 15
+   "team": "Atlético",
+   "points": 16
   },
   {
    "position": 11,
-   "team": "Roma",
-   "points": 14
+   "team": "Como",
+   "points": 15
   },
   {
    "position": 12,
-   "team": "Como",
-   "points": 13
+   "team": "Club Brugge",
+   "points": 15
   },
   {
    "position": 13,
-   "team": "Dortmund",
+   "team": "Aston Villa",
    "points": 13
   },
   {
    "position": 14,
-   "team": "Villarreal",
+   "team": "Roma",
    "points": 13
   },
   {
    "position": 15,
-   "team": "Inter",
+   "team": "Galatasaray",
    "points": 13
   },
   {
    "position": 16,
-   "team": "Club Brugge",
+   "team": "Sporting",
    "points": 12
   },
   {
    "position": 17,
-   "team": "Atlético",
+   "team": "Real Betis",
    "points": 12
   },
   {
    "position": 18,
-   "team": "Shakhtar",
-   "points": 11
+   "team": "Man Utd",
+   "points": 12
   },
   {
    "position": 19,
-   "team": "Napoli",
-   "points": 11
+   "team": "Stuttgart",
+   "points": 10
   },
   {
    "position": 20,
-   "team": "Sporting",
+   "team": "Porto",
    "points": 10
   },
   {
    "position": 21,
-   "team": "PSV",
+   "team": "Fenerbahçe",
    "points": 10
   },
   {
    "position": 22,
-   "team": "Bodø/Glimt",
+   "team": "Villarreal",
    "points": 10
   },
   {
    "position": 23,
-   "team": "Man Utd",
+   "team": "Shakhtar",
    "points": 9
   },
   {
    "position": 24,
-   "team": "Galatasaray",
-   "points": 9
+   "team": "PSV",
+   "points": 8
   },
   {
    "position": 25,
-   "team": "Feyenoord",
-   "points": 9
+   "team": "Napoli",
+   "points": 8
   },
   {
    "position": 26,
-   "team": "Porto",
+   "team": "Leipzig",
    "points": 8
   },
   {
    "position": 27,
-   "team": "LASK",
+   "team": "Bodø/Glimt",
    "points": 7
   },
   {
    "position": 28,
-   "team": "Lens",
-   "points": 7
+   "team": "LASK",
+   "points": 6
   },
   {
    "position": 29,
-   "team": "Leipzig",
+   "team": "Viking",
    "points": 6
   },
   {
    "position": 30,
-   "team": "Sabah",
-   "points": 4
+   "team": "Feyenoord",
+   "points": 6
   },
   {
    "position": 31,
-   "team": "AEK Athens",
-   "points": 3
+   "team": "Lens",
+   "points": 6
   },
   {
    "position": 32,
    "team": "Lille",
-   "points": 3
+   "points": 5
   },
   {
    "position": 33,
-   "team": "Fenerbahçe",
+   "team": "AEK Athens",
    "points": 3
   },
   {
    "position": 34,
-   "team": "Viking",
-   "points": 2
+   "team": "Sabah",
+   "points": 3
   },
   {
    "position": 35,
@@ -1327,7 +1327,7 @@ window.DATA = {
   },
   {
    "matchday": 4,
-   "date": "2026-11-05",
+   "date": "2026-11-07",
    "chance_profit": 1.0,
    "expected_return": 24348.0,
    "bets": {
