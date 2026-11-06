@@ -684,6 +684,28 @@
       "placed": "2026-11-07",
       "notes": [],
       "cashout_value": 2000.0
+    },
+    {
+      "id": 23,
+      "type": "Double",
+      "competition": "UCL",
+      "market": "Finish 9th-24th",
+      "stake": 1100,
+      "returns": 1676.19,
+      "status": "open",
+      "legs": [
+        [
+          "Atlético",
+          1.14
+        ],
+        [
+          "Galatasaray",
+          1.33
+        ]
+      ],
+      "placed": "2026-11-07",
+      "notes": [],
+      "cashout_value": 1100.0
     }
   ],
   "benfica": {

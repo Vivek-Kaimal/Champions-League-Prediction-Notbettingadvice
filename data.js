@@ -4,19 +4,19 @@ window.DATA = {
  "runs": 40000,
  "summary": {
   "capital": 8000,
-  "open_stake": 4000,
-  "open_value": 4000.0,
-  "staked": 26500,
-  "max_return": 30570.38,
+  "open_stake": 5100,
+  "open_value": 5100.0,
+  "staked": 27600,
+  "max_return": 32246.57,
   "realised": 1848.16,
   "target_profit": 3000,
-  "expected_return": 27824.0,
-  "chance_profit": 0.805,
-  "chance_target": 0.312,
+  "expected_return": 28757.0,
+  "chance_profit": 0.591,
+  "chance_target": 0.162,
   "chance_total_loss": 0.0,
-  "median_return": 27459.0,
-  "p10": 24348.0,
-  "p90": 30570.0,
+  "median_return": 29135.0,
+  "p10": 26024.0,
+  "p90": 32247.0,
   "benfica_chance": 0.877
  },
  "bets": [
@@ -759,6 +759,31 @@ window.DATA = {
    "odds": 1.56,
    "implied": 0.643,
    "chance": 0.527
+  },
+  {
+   "id": 23,
+   "type": "Double",
+   "competition": "UCL",
+   "market": "Finish 9th-24th",
+   "stake": 1100,
+   "returns": 1676.19,
+   "status": "open",
+   "legs": [
+    [
+     "Atlético",
+     1.14
+    ],
+    [
+     "Galatasaray",
+     1.33
+    ]
+   ],
+   "placed": "2026-11-07",
+   "notes": [],
+   "cashout_value": 1100.0,
+   "odds": 1.52,
+   "implied": 0.656,
+   "chance": 0.557
   }
  ],
  "teams": [
@@ -772,6 +797,28 @@ window.DATA = {
    "chance_band": 0.688,
    "top8": 0.027,
    "bottom12": 0.285
+  },
+  {
+   "team": "Galatasaray",
+   "exposure": 1100,
+   "rating": 87.5,
+   "rating_source": "estimate",
+   "forecast": 15,
+   "current": 18,
+   "chance_band": 0.741,
+   "top8": 0.038,
+   "bottom12": 0.222
+  },
+  {
+   "team": "Atlético",
+   "exposure": 1100,
+   "rating": 91.0,
+   "rating_source": "estimate",
+   "forecast": 10,
+   "current": 23,
+   "chance_band": 0.759,
+   "top8": 0.043,
+   "bottom12": 0.198
   },
   {
    "team": "Real Betis",
@@ -1423,8 +1470,8 @@ window.DATA = {
   {
    "matchday": 4,
    "date": "2026-11-07",
-   "chance_profit": 0.805,
-   "expected_return": 27824.0,
+   "chance_profit": 0.591,
+   "expected_return": 28757.0,
    "bets": {
     "1": 0.0,
     "2": 0.0,
@@ -1447,7 +1494,8 @@ window.DATA = {
     "19": 0.0,
     "20": 0.0,
     "21": 0.59,
-    "22": 0.527
+    "22": 0.527,
+    "23": 0.557
    }
   }
  ]
