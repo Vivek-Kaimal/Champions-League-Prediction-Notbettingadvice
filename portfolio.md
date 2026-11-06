@@ -8,9 +8,10 @@ Opened **4 October 2026** ([bet365 screenshots](evidence/)). Champions League be
 |---|---|---|---|
 | 21 | Sporting 1.16, Real Betis 1.33 | $2,000 | $3,111.11 |
 | 22 | Roma 1.33, Stuttgart 1.16 | $2,000 | $3,111.11 |
-| | **Total** | **$4,000** | **$6,222.22** |
+| 23 | Atlético 1.14, Galatasaray 1.33 | $1,100 | $1,676.19 |
+| | **Total** | **$5,100** | **$7,898.41** |
 
-**Why:** with four matchdays left the risk rises every week, and one bad result moves the odds very fast. The objective from here is to protect capital, with a modest return. All four teams sit in the middle of my 7 Nov forecast (12–13 points), well clear of both lines, and none of the pairs play each other. Teams are picked as if they will be held to the end of MD8. More safe teams may be added after MD5; cash is kept back until then.
+**Why:** with four matchdays left the risk rises every week, and one bad result moves the odds very fast. The objective from here is to protect capital, with a modest return. All four teams sit in the middle of my 7 Nov forecast (12–13 points), well clear of both lines, and none of the pairs play each other. Bet 23 adds Galatasaray (strong form, two winnable games left against AEK and Feyenoord) with Atlético (soft run-in, almost no top-8 risk). Six teams, none repeated across bets. Teams are picked as if they will be held to the end of MD8. More safe teams may be added after MD5; cash is kept back until then.
 
 ## Round 4 · 27 Oct 2026 (closed 4–5 Nov, +$639.32)
 
