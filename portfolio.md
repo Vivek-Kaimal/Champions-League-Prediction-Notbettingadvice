@@ -4,13 +4,13 @@ Opened **4 October 2026** ([bet365 screenshots](evidence/)). Champions League be
 
 ## Round 5 · placed 7 Nov 2026 (current)
 
-| # | Selections (odds) | Stake | Returns | Take-profit (+20%) |
-|---|---|---|---|---|
-| 21 | Sporting 1.16, Real Betis 1.33 | $2,000 | $3,111.11 | $2,400 |
-| 22 | Roma 1.33, Stuttgart 1.16 | $2,000 | $3,111.11 | $2,400 |
-| | **Total** | **$4,000** | **$6,222.22** | |
+| # | Selections (odds) | Stake | Returns |
+|---|---|---|---|
+| 21 | Sporting 1.16, Real Betis 1.33 | $2,000 | $3,111.11 |
+| 22 | Roma 1.33, Stuttgart 1.16 | $2,000 | $3,111.11 |
+| | **Total** | **$4,000** | **$6,222.22** |
 
-**Why:** with four matchdays left the risk rises every week, and one bad result moves the odds very fast. The objective from here is to protect capital, with a modest return. All four teams sit in the middle of my 7 Nov forecast (12–13 points), well clear of both lines, and none of the pairs play each other. Teams are picked as if they will be held to the end of MD8, but any bet is cashed out once it reaches +20%. More safe teams may be added after MD5; cash is kept back until then.
+**Why:** with four matchdays left the risk rises every week, and one bad result moves the odds very fast. The objective from here is to protect capital, with a modest return. All four teams sit in the middle of my 7 Nov forecast (12–13 points), well clear of both lines, and none of the pairs play each other. Teams are picked as if they will be held to the end of MD8. More safe teams may be added after MD5; cash is kept back until then.
 
 ## Round 4 · 27 Oct 2026 (closed 4–5 Nov, +$639.32)
 
@@ -114,8 +114,7 @@ Cashed out after three wins from three (9 points). The full return ($2,888.88) w
 
 - We cannot predict, only forecast with probability: no bet is held to the end on conviction alone
 - Trading, not investing: every bet has a fixed expiry, so set the exit target when the bet is placed and take it, whatever happens
-- Take profit: cash out any bet once its cash-out value reaches 20% above stake
-- Selection mindset from MD5: only pick teams I would be comfortable holding to the end of MD8, and still cash out at +20%
+- Selection mindset from MD5: only pick teams I would be comfortable holding to the end of MD8
 - From MD5, pots of two teams only: with four matchdays left there is more information but less time to recover
 - Capital first: cash out when in profit and risk rises; rebuild after each matchday on better information
 - Sizing moves with certainty; selections mainly from the top five leagues and Portugal, exceptions named
