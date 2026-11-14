@@ -2,7 +2,25 @@
 
 Opened **4 October 2026** ([bet365 screenshots](evidence/)). Champions League bets settle on the final league-phase table (28 Jan 2027); Benfica settles at the end of the Europa League league phase.
 
-## Round 5 · placed 7 Nov 2026 (current)
+## Round 6 · placed 15 Nov 2026 (current)
+
+| # | Selections (odds) | Market | Stake | Returns |
+|---|---|---|---|---|
+| 24 | Real Betis 1.33, Roma 1.33, Inter 1.22, Man Utd 1.20 | 9th–24th | $1,000 | $2,607.40 |
+| 25 | Sporting 1.16, Stuttgart 1.16 | 9th–24th | $1,000 | $1,361.11 |
+| 26 | Stuttgart 1.16, Sporting 1.16 | 9th–24th | $1,000 | $1,361.11 |
+| 27 | Atlético 1.14, Galatasaray 1.33 | 9th–24th | $1,000 | $1,523.80 |
+| 28 | Atlético 1.14, Galatasaray 1.33 | 9th–24th | $1,000 | $1,523.80 |
+| 29 | Atlético 1.14, Galatasaray 1.33 | 9th–24th | $1,000 | $1,523.80 |
+| 30 | Bayern 1.33 | Top German team | $1,000 | $1,333.33 |
+| 32 | Bayern 1.33 | Top German team | $1,000 | $1,333.33 |
+| | | **Total** | **$8,000** | **$12,567.68** |
+
+**Why:** the last real value in the 9th–24th market is before MD5; once the table settles the prices shorten and the value goes. The selections come from my own simulations and stress tests: Atlético and Galatasaray ended inside 9th–24th in almost every run, so they carry the largest stake, followed by Sporting and Stuttgart. The four-fold is a deliberately riskier position. Bayern as top German team is the best-value bet I found (Dortmund, the only rival, still has Arsenal, Inter and Villa to play). An Arsenal top-English-team bet (31) was closed at stake the same day and moved to Bayern. There is still time to exit after MD5 and MD6 if results go against me.
+
+**Exposure:** Atlético, Galatasaray $3,000 · Sporting, Stuttgart, Bayern $2,000 · Betis, Roma, Inter, Man Utd $1,000. Cash $1,848.16.
+
+## Round 5 · placed 7 Nov 2026 (closed 15 Nov at stake)
 
 | # | Selections (odds) | Stake | Returns |
 |---|---|---|---|
@@ -116,7 +134,7 @@ Cashed out after three wins from three (9 points). The full return ($2,888.88) w
 - We cannot predict, only forecast with probability: no bet is held to the end on conviction alone
 - Trading, not investing: every bet has a fixed expiry, so set the exit target when the bet is placed and take it, whatever happens
 - Selection mindset from MD5: only pick teams I would be comfortable holding to the end of MD8
-- From MD5, pots of two teams only: with four matchdays left there is more information but less time to recover
+- From MD5, mainly pots of two teams, with one deliberately riskier four-fold: with four matchdays left there is more information but less time to recover
 - Capital first: cash out when in profit and risk rises; rebuild after each matchday on better information
 - Sizing moves with certainty; selections mainly from the top five leagues and Portugal, exceptions named
 
