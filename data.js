@@ -6,17 +6,17 @@ window.DATA = {
   "capital": 8000,
   "open_stake": 8000,
   "open_value": 8000.0,
-  "staked": 35600,
-  "max_return": 42182.51,
+  "staked": 36600,
+  "max_return": 43015.84,
   "realised": 1848.16,
   "target_profit": 3000,
-  "expected_return": 36189.0,
-  "chance_profit": 0.534,
-  "chance_target": 0.213,
+  "expected_return": 37246.0,
+  "chance_profit": 0.561,
+  "chance_target": 0.304,
   "chance_total_loss": 0.0,
-  "median_return": 36278.0,
-  "p10": 32170.0,
-  "p90": 39575.0,
+  "median_return": 37686.0,
+  "p10": 33115.0,
+  "p90": 40408.0,
   "benfica_chance": 0.877
  },
  "bets": [
@@ -983,9 +983,12 @@ window.DATA = {
   },
   {
    "competition": "UCL",
-   "status": "open",
+   "status": "cashed_out",
    "placed": "2026-11-15",
-   "notes": [],
+   "notes": [
+    "Arsenal lead the English sides by only one point, with Real Madrid and Dortmund still to play: fair price, no edge",
+    "Moved the stake to Bayern, the better-value bet; closed at stake, no loss"
+   ],
    "id": 31,
    "type": "Single",
    "market": "Top English team",
@@ -1003,10 +1006,37 @@ window.DATA = {
     "Aston Villa",
     "Man Utd"
    ],
-   "cashout_value": 1000.0,
+   "cashout": 1000.0,
+   "closed": "2026-11-15",
    "odds": 1.5,
    "implied": 0.667,
-   "chance": 0.574
+   "chance": 0.0
+  },
+  {
+   "id": 32,
+   "type": "Single",
+   "competition": "UCL",
+   "market": "Top German team",
+   "stake": 1000,
+   "returns": 1333.33,
+   "status": "open",
+   "legs": [
+    [
+     "Bayern",
+     1.33
+    ]
+   ],
+   "rivals": [
+    "Dortmund",
+    "Stuttgart",
+    "Leipzig"
+   ],
+   "placed": "2026-11-15",
+   "notes": [],
+   "cashout_value": 1000.0,
+   "odds": 1.33,
+   "implied": 0.75,
+   "chance": 0.688
   }
  ],
  "teams": [
@@ -1715,8 +1745,8 @@ window.DATA = {
   {
    "matchday": 4,
    "date": "2026-11-15",
-   "chance_profit": 0.534,
-   "expected_return": 36189.0,
+   "chance_profit": 0.561,
+   "expected_return": 37246.0,
    "bets": {
     "1": 0.0,
     "2": 0.0,
@@ -1748,7 +1778,8 @@ window.DATA = {
     "28": 0.557,
     "29": 0.557,
     "30": 0.688,
-    "31": 0.574
+    "31": 0.0,
+    "32": 0.688
    }
   }
  ]

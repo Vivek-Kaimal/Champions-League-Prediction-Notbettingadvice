@@ -884,9 +884,12 @@
     },
     {
       "competition": "UCL",
-      "status": "open",
+      "status": "cashed_out",
       "placed": "2026-11-15",
-      "notes": [],
+      "notes": [
+        "Arsenal lead the English sides by only one point, with Real Madrid and Dortmund still to play: fair price, no edge",
+        "Moved the stake to Bayern, the better-value bet; closed at stake, no loss"
+      ],
       "id": 31,
       "type": "Single",
       "market": "Top English team",
@@ -904,6 +907,30 @@
         "Aston Villa",
         "Man Utd"
       ],
+      "cashout": 1000.0,
+      "closed": "2026-11-15"
+    },
+    {
+      "id": 32,
+      "type": "Single",
+      "competition": "UCL",
+      "market": "Top German team",
+      "stake": 1000,
+      "returns": 1333.33,
+      "status": "open",
+      "legs": [
+        [
+          "Bayern",
+          1.33
+        ]
+      ],
+      "rivals": [
+        "Dortmund",
+        "Stuttgart",
+        "Leipzig"
+      ],
+      "placed": "2026-11-15",
+      "notes": [],
       "cashout_value": 1000.0
     }
   ],
