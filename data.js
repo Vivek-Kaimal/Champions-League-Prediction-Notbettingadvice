@@ -1,22 +1,22 @@
 window.DATA = {
- "updated": "2026-11-07",
+ "updated": "2026-11-15",
  "last_matchday": 4,
  "runs": 40000,
  "summary": {
   "capital": 8000,
-  "open_stake": 5100,
-  "open_value": 5100.0,
-  "staked": 27600,
-  "max_return": 32246.57,
+  "open_stake": 8000,
+  "open_value": 8000.0,
+  "staked": 35600,
+  "max_return": 42182.51,
   "realised": 1848.16,
   "target_profit": 3000,
-  "expected_return": 28757.0,
-  "chance_profit": 0.591,
-  "chance_target": 0.162,
+  "expected_return": 36189.0,
+  "chance_profit": 0.534,
+  "chance_target": 0.213,
   "chance_total_loss": 0.0,
-  "median_return": 29135.0,
-  "p10": 26024.0,
-  "p90": 32247.0,
+  "median_return": 36278.0,
+  "p10": 32170.0,
+  "p90": 39575.0,
   "benfica_chance": 0.877
  },
  "bets": [
@@ -717,7 +717,7 @@ window.DATA = {
    "market": "Finish 9th-24th",
    "stake": 2000,
    "returns": 3111.11,
-   "status": "open",
+   "status": "cashed_out",
    "legs": [
     [
      "Sporting",
@@ -729,11 +729,15 @@ window.DATA = {
     ]
    ],
    "placed": "2026-11-07",
-   "notes": [],
-   "cashout_value": 2000.0,
+   "notes": [
+    "Portfolio restructured before MD5: closed at stake, no loss",
+    "Money moved into larger positions on the teams I am most confident in"
+   ],
+   "cashout": 2000.0,
+   "closed": "2026-11-15",
    "odds": 1.56,
    "implied": 0.643,
-   "chance": 0.59
+   "chance": 0.0
   },
   {
    "id": 22,
@@ -742,7 +746,7 @@ window.DATA = {
    "market": "Finish 9th-24th",
    "stake": 2000,
    "returns": 3111.11,
-   "status": "open",
+   "status": "cashed_out",
    "legs": [
     [
      "Roma",
@@ -754,11 +758,15 @@ window.DATA = {
     ]
    ],
    "placed": "2026-11-07",
-   "notes": [],
-   "cashout_value": 2000.0,
+   "notes": [
+    "Portfolio restructured before MD5: closed at stake, no loss",
+    "Money moved into larger positions on the teams I am most confident in"
+   ],
+   "cashout": 2000.0,
+   "closed": "2026-11-15",
    "odds": 1.56,
    "implied": 0.643,
-   "chance": 0.527
+   "chance": 0.0
   },
   {
    "id": 23,
@@ -767,7 +775,7 @@ window.DATA = {
    "market": "Finish 9th-24th",
    "stake": 1100,
    "returns": 1676.19,
-   "status": "open",
+   "status": "cashed_out",
    "legs": [
     [
      "Atlético",
@@ -779,17 +787,232 @@ window.DATA = {
     ]
    ],
    "placed": "2026-11-07",
+   "notes": [
+    "Portfolio restructured before MD5: closed at stake, no loss",
+    "Money moved into larger positions on the teams I am most confident in"
+   ],
+   "cashout": 1100.0,
+   "closed": "2026-11-15",
+   "odds": 1.52,
+   "implied": 0.656,
+   "chance": 0.0
+  },
+  {
+   "competition": "UCL",
+   "status": "open",
+   "placed": "2026-11-15",
    "notes": [],
-   "cashout_value": 1100.0,
+   "id": 24,
+   "type": "Four-fold",
+   "market": "Finish 9th-24th",
+   "stake": 1000,
+   "returns": 2607.4,
+   "legs": [
+    [
+     "Real Betis",
+     1.33
+    ],
+    [
+     "Roma",
+     1.33
+    ],
+    [
+     "Inter",
+     1.22
+    ],
+    [
+     "Man Utd",
+     1.2
+    ]
+   ],
+   "cashout_value": 1000.0,
+   "odds": 2.61,
+   "implied": 0.384,
+   "chance": 0.307
+  },
+  {
+   "competition": "UCL",
+   "status": "open",
+   "placed": "2026-11-15",
+   "notes": [],
+   "id": 25,
+   "type": "Double",
+   "market": "Finish 9th-24th",
+   "stake": 1000,
+   "returns": 1361.11,
+   "legs": [
+    [
+     "Sporting",
+     1.16
+    ],
+    [
+     "Stuttgart",
+     1.16
+    ]
+   ],
+   "cashout_value": 1000.0,
+   "odds": 1.36,
+   "implied": 0.735,
+   "chance": 0.594
+  },
+  {
+   "competition": "UCL",
+   "status": "open",
+   "placed": "2026-11-15",
+   "notes": [],
+   "id": 26,
+   "type": "Double",
+   "market": "Finish 9th-24th",
+   "stake": 1000,
+   "returns": 1361.11,
+   "legs": [
+    [
+     "Stuttgart",
+     1.16
+    ],
+    [
+     "Sporting",
+     1.16
+    ]
+   ],
+   "cashout_value": 1000.0,
+   "odds": 1.36,
+   "implied": 0.735,
+   "chance": 0.594
+  },
+  {
+   "competition": "UCL",
+   "status": "open",
+   "placed": "2026-11-15",
+   "notes": [],
+   "id": 27,
+   "type": "Double",
+   "market": "Finish 9th-24th",
+   "stake": 1000,
+   "returns": 1523.8,
+   "legs": [
+    [
+     "Atlético",
+     1.14
+    ],
+    [
+     "Galatasaray",
+     1.33
+    ]
+   ],
+   "cashout_value": 1000.0,
    "odds": 1.52,
    "implied": 0.656,
    "chance": 0.557
+  },
+  {
+   "competition": "UCL",
+   "status": "open",
+   "placed": "2026-11-15",
+   "notes": [],
+   "id": 28,
+   "type": "Double",
+   "market": "Finish 9th-24th",
+   "stake": 1000,
+   "returns": 1523.8,
+   "legs": [
+    [
+     "Atlético",
+     1.14
+    ],
+    [
+     "Galatasaray",
+     1.33
+    ]
+   ],
+   "cashout_value": 1000.0,
+   "odds": 1.52,
+   "implied": 0.656,
+   "chance": 0.557
+  },
+  {
+   "competition": "UCL",
+   "status": "open",
+   "placed": "2026-11-15",
+   "notes": [],
+   "id": 29,
+   "type": "Double",
+   "market": "Finish 9th-24th",
+   "stake": 1000,
+   "returns": 1523.8,
+   "legs": [
+    [
+     "Atlético",
+     1.14
+    ],
+    [
+     "Galatasaray",
+     1.33
+    ]
+   ],
+   "cashout_value": 1000.0,
+   "odds": 1.52,
+   "implied": 0.656,
+   "chance": 0.557
+  },
+  {
+   "competition": "UCL",
+   "status": "open",
+   "placed": "2026-11-15",
+   "notes": [],
+   "id": 30,
+   "type": "Single",
+   "market": "Top German team",
+   "stake": 1000,
+   "returns": 1333.33,
+   "legs": [
+    [
+     "Bayern",
+     1.33
+    ]
+   ],
+   "rivals": [
+    "Dortmund",
+    "Stuttgart",
+    "Leipzig"
+   ],
+   "cashout_value": 1000.0,
+   "odds": 1.33,
+   "implied": 0.75,
+   "chance": 0.688
+  },
+  {
+   "competition": "UCL",
+   "status": "open",
+   "placed": "2026-11-15",
+   "notes": [],
+   "id": 31,
+   "type": "Single",
+   "market": "Top English team",
+   "stake": 1000,
+   "returns": 1500.0,
+   "legs": [
+    [
+     "Arsenal",
+     1.5
+    ]
+   ],
+   "rivals": [
+    "Liverpool",
+    "Man City",
+    "Aston Villa",
+    "Man Utd"
+   ],
+   "cashout_value": 1000.0,
+   "odds": 1.5,
+   "implied": 0.667,
+   "chance": 0.574
   }
  ],
  "teams": [
   {
    "team": "Roma",
-   "exposure": 2000,
+   "exposure": 1000,
    "rating": 91.6,
    "rating_source": "opta",
    "forecast": 14,
@@ -800,7 +1023,7 @@ window.DATA = {
   },
   {
    "team": "Galatasaray",
-   "exposure": 1100,
+   "exposure": 3000,
    "rating": 87.5,
    "rating_source": "estimate",
    "forecast": 15,
@@ -811,7 +1034,7 @@ window.DATA = {
   },
   {
    "team": "Atlético",
-   "exposure": 1100,
+   "exposure": 3000,
    "rating": 91.0,
    "rating_source": "estimate",
    "forecast": 10,
@@ -822,7 +1045,7 @@ window.DATA = {
   },
   {
    "team": "Real Betis",
-   "exposure": 2000,
+   "exposure": 1000,
    "rating": 89.3,
    "rating_source": "estimate",
    "forecast": 17,
@@ -852,6 +1075,28 @@ window.DATA = {
    "chance_band": 0.776,
    "top8": 0.202,
    "bottom12": 0.023
+  },
+  {
+   "team": "Inter",
+   "exposure": 1000,
+   "rating": 93.7,
+   "rating_source": "opta",
+   "forecast": 8,
+   "current": 15,
+   "chance_band": 0.778,
+   "top8": 0.164,
+   "bottom12": 0.058
+  },
+  {
+   "team": "Man Utd",
+   "exposure": 1000,
+   "rating": 94.0,
+   "rating_source": "opta",
+   "forecast": 18,
+   "current": 17,
+   "chance_band": 0.782,
+   "top8": 0.093,
+   "bottom12": 0.125
   }
  ],
  "current": [
@@ -1469,9 +1714,9 @@ window.DATA = {
   },
   {
    "matchday": 4,
-   "date": "2026-11-07",
-   "chance_profit": 0.591,
-   "expected_return": 28757.0,
+   "date": "2026-11-15",
+   "chance_profit": 0.534,
+   "expected_return": 36189.0,
    "bets": {
     "1": 0.0,
     "2": 0.0,
@@ -1493,9 +1738,17 @@ window.DATA = {
     "18": 0.0,
     "19": 0.0,
     "20": 0.0,
-    "21": 0.59,
-    "22": 0.527,
-    "23": 0.557
+    "21": 0.0,
+    "22": 0.0,
+    "23": 0.0,
+    "24": 0.307,
+    "25": 0.594,
+    "26": 0.594,
+    "27": 0.557,
+    "28": 0.557,
+    "29": 0.557,
+    "30": 0.688,
+    "31": 0.574
    }
   }
  ]

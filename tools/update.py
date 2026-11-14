@@ -79,7 +79,11 @@ benfica_hit = rng.random(RUNS) < p_benfica
 returns = np.zeros(RUNS)
 bets_out = []
 for bet in pf["bets"]:
-    if bet["competition"] == "UCL":
+    if bet["competition"] == "UCL" and bet.get("rivals"):
+        # "Top <country> team" market: finish above every rival from the same league
+        k = idx[bet["legs"][0][0]]
+        win = pos[:, k] < np.min([pos[:, idx[r]] for r in bet["rivals"]], axis=0)
+    elif bet["competition"] == "UCL":
         win = np.all([band[:, idx[t]] for t, _ in bet["legs"]], axis=0)
     else:
         win = benfica_hit
@@ -92,7 +96,7 @@ for bet in pf["bets"]:
 staked = sum(bt["stake"] for bt in pf["bets"])
 exposure = {}
 for bt in pf["bets"]:
-    if bt["status"] != "open": continue
+    if bt["status"] != "open" or bt.get("rivals"): continue
     for t, _ in bt["legs"]:
         exposure[t] = exposure.get(t, 0) + bt["stake"]
 

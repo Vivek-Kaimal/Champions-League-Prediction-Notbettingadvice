@@ -21,3 +21,4 @@ Unedited bet365 "My Bets" screenshots (cropped to the page only), added after ea
 | 5 Nov 2026 | Bets 9 and 12 cashed out ($2,198.53, $1,515.79) | [bet 9](2026-11-05-bet9-cashout.jpg) · [bet 12](2026-11-05-bet12-cashout.jpg) |
 | 7 Nov 2026 | Round 5: two $2,000 doubles (bets 21–22) | [1](2026-11-07-round5-bets-1.jpg) · [2](2026-11-07-round5-bets-2.jpg) |
 | 7 Nov 2026 | Round 5: $1,100 double Atlético + Galatasaray (bet 23) | [3](2026-11-07-round5-bets-3.jpg) |
+| 15 Nov 2026 | Round 6: 8 bets after restructure (bets 24–31) | [1](2026-11-15-round6-bets-1.jpg) · [2](2026-11-15-round6-bets-2.jpg) · [3](2026-11-15-round6-bets-3.jpg) · [4](2026-11-15-round6-bets-4.jpg) · [5](2026-11-15-round6-bets-5.jpg) · [6](2026-11-15-round6-bets-6.jpg) |

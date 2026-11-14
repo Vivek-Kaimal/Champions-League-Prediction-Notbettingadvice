@@ -648,7 +648,7 @@
       "market": "Finish 9th-24th",
       "stake": 2000,
       "returns": 3111.11,
-      "status": "open",
+      "status": "cashed_out",
       "legs": [
         [
           "Sporting",
@@ -660,8 +660,12 @@
         ]
       ],
       "placed": "2026-11-07",
-      "notes": [],
-      "cashout_value": 2000.0
+      "notes": [
+        "Portfolio restructured before MD5: closed at stake, no loss",
+        "Money moved into larger positions on the teams I am most confident in"
+      ],
+      "cashout": 2000.0,
+      "closed": "2026-11-15"
     },
     {
       "id": 22,
@@ -670,7 +674,7 @@
       "market": "Finish 9th-24th",
       "stake": 2000,
       "returns": 3111.11,
-      "status": "open",
+      "status": "cashed_out",
       "legs": [
         [
           "Roma",
@@ -682,8 +686,12 @@
         ]
       ],
       "placed": "2026-11-07",
-      "notes": [],
-      "cashout_value": 2000.0
+      "notes": [
+        "Portfolio restructured before MD5: closed at stake, no loss",
+        "Money moved into larger positions on the teams I am most confident in"
+      ],
+      "cashout": 2000.0,
+      "closed": "2026-11-15"
     },
     {
       "id": 23,
@@ -692,7 +700,7 @@
       "market": "Finish 9th-24th",
       "stake": 1100,
       "returns": 1676.19,
-      "status": "open",
+      "status": "cashed_out",
       "legs": [
         [
           "Atlético",
@@ -704,8 +712,199 @@
         ]
       ],
       "placed": "2026-11-07",
+      "notes": [
+        "Portfolio restructured before MD5: closed at stake, no loss",
+        "Money moved into larger positions on the teams I am most confident in"
+      ],
+      "cashout": 1100.0,
+      "closed": "2026-11-15"
+    },
+    {
+      "competition": "UCL",
+      "status": "open",
+      "placed": "2026-11-15",
       "notes": [],
-      "cashout_value": 1100.0
+      "id": 24,
+      "type": "Four-fold",
+      "market": "Finish 9th-24th",
+      "stake": 1000,
+      "returns": 2607.4,
+      "legs": [
+        [
+          "Real Betis",
+          1.33
+        ],
+        [
+          "Roma",
+          1.33
+        ],
+        [
+          "Inter",
+          1.22
+        ],
+        [
+          "Man Utd",
+          1.2
+        ]
+      ],
+      "cashout_value": 1000.0
+    },
+    {
+      "competition": "UCL",
+      "status": "open",
+      "placed": "2026-11-15",
+      "notes": [],
+      "id": 25,
+      "type": "Double",
+      "market": "Finish 9th-24th",
+      "stake": 1000,
+      "returns": 1361.11,
+      "legs": [
+        [
+          "Sporting",
+          1.16
+        ],
+        [
+          "Stuttgart",
+          1.16
+        ]
+      ],
+      "cashout_value": 1000.0
+    },
+    {
+      "competition": "UCL",
+      "status": "open",
+      "placed": "2026-11-15",
+      "notes": [],
+      "id": 26,
+      "type": "Double",
+      "market": "Finish 9th-24th",
+      "stake": 1000,
+      "returns": 1361.11,
+      "legs": [
+        [
+          "Stuttgart",
+          1.16
+        ],
+        [
+          "Sporting",
+          1.16
+        ]
+      ],
+      "cashout_value": 1000.0
+    },
+    {
+      "competition": "UCL",
+      "status": "open",
+      "placed": "2026-11-15",
+      "notes": [],
+      "id": 27,
+      "type": "Double",
+      "market": "Finish 9th-24th",
+      "stake": 1000,
+      "returns": 1523.8,
+      "legs": [
+        [
+          "Atlético",
+          1.14
+        ],
+        [
+          "Galatasaray",
+          1.33
+        ]
+      ],
+      "cashout_value": 1000.0
+    },
+    {
+      "competition": "UCL",
+      "status": "open",
+      "placed": "2026-11-15",
+      "notes": [],
+      "id": 28,
+      "type": "Double",
+      "market": "Finish 9th-24th",
+      "stake": 1000,
+      "returns": 1523.8,
+      "legs": [
+        [
+          "Atlético",
+          1.14
+        ],
+        [
+          "Galatasaray",
+          1.33
+        ]
+      ],
+      "cashout_value": 1000.0
+    },
+    {
+      "competition": "UCL",
+      "status": "open",
+      "placed": "2026-11-15",
+      "notes": [],
+      "id": 29,
+      "type": "Double",
+      "market": "Finish 9th-24th",
+      "stake": 1000,
+      "returns": 1523.8,
+      "legs": [
+        [
+          "Atlético",
+          1.14
+        ],
+        [
+          "Galatasaray",
+          1.33
+        ]
+      ],
+      "cashout_value": 1000.0
+    },
+    {
+      "competition": "UCL",
+      "status": "open",
+      "placed": "2026-11-15",
+      "notes": [],
+      "id": 30,
+      "type": "Single",
+      "market": "Top German team",
+      "stake": 1000,
+      "returns": 1333.33,
+      "legs": [
+        [
+          "Bayern",
+          1.33
+        ]
+      ],
+      "rivals": [
+        "Dortmund",
+        "Stuttgart",
+        "Leipzig"
+      ],
+      "cashout_value": 1000.0
+    },
+    {
+      "competition": "UCL",
+      "status": "open",
+      "placed": "2026-11-15",
+      "notes": [],
+      "id": 31,
+      "type": "Single",
+      "market": "Top English team",
+      "stake": 1000,
+      "returns": 1500.0,
+      "legs": [
+        [
+          "Arsenal",
+          1.5
+        ]
+      ],
+      "rivals": [
+        "Liverpool",
+        "Man City",
+        "Aston Villa",
+        "Man Utd"
+      ],
+      "cashout_value": 1000.0
     }
   ],
   "benfica": {
