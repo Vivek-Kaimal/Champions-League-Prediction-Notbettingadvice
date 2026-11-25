@@ -5,6 +5,7 @@
   "rules": [
     "We cannot predict, only forecast with probability: no bet is held to the end on conviction alone",
     "Trading, not investing: every bet has a fixed expiry, so set the exit target when the bet is placed and take it, whatever happens",
+    "Readjust when circumstances change: injuries or a rival's form can change the whole picture, so exit even when the forecast still favours the bet if the risk is no longer worth carrying",
     "Selection mindset from MD5: only pick teams I would be comfortable holding to the end of MD8",
     "From MD5, mainly pots of two teams, with one deliberately riskier four-fold: with four matchdays left there is more information but less time to recover",
     "Capital first: cash out when in profit and risk rises; rebuild after each matchday on better information",
@@ -721,9 +722,11 @@
     },
     {
       "competition": "UCL",
-      "status": "open",
+      "status": "cashed_out",
       "placed": "2026-11-15",
-      "notes": [],
+      "notes": [
+        "Cashed out 25 Nov at $834.38 (−$165.62). A four-fold was unnecessary: four teams means four ways to lose. Betis (4th, 12 pts) risked finishing top 8 and Roma (4 pts) risked dropping below 24th, with top teams dipping and opening the top 8 for mid-table sides."
+      ],
       "id": 24,
       "type": "Four-fold",
       "market": "Finish 9th-24th",
@@ -747,7 +750,9 @@
           1.2
         ]
       ],
-      "cashout_value": 1000.0
+      "cashout_value": 1000.0,
+      "cashout": 834.38,
+      "closed": "2026-11-25"
     },
     {
       "competition": "UCL",
@@ -769,7 +774,8 @@
           1.16
         ]
       ],
-      "cashout_value": 1000.0
+      "cashout_value": 1000.0,
+      "cashout_value_date": "2026-11-25"
     },
     {
       "competition": "UCL",
@@ -791,7 +797,8 @@
           1.16
         ]
       ],
-      "cashout_value": 1000.0
+      "cashout_value": 1000.0,
+      "cashout_value_date": "2026-11-25"
     },
     {
       "competition": "UCL",
@@ -813,7 +820,8 @@
           1.33
         ]
       ],
-      "cashout_value": 1000.0
+      "cashout_value": 1259.26,
+      "cashout_value_date": "2026-11-25"
     },
     {
       "competition": "UCL",
@@ -835,7 +843,8 @@
           1.33
         ]
       ],
-      "cashout_value": 1000.0
+      "cashout_value": 1259.26,
+      "cashout_value_date": "2026-11-25"
     },
     {
       "competition": "UCL",
@@ -857,13 +866,16 @@
           1.33
         ]
       ],
-      "cashout_value": 1000.0
+      "cashout_value": 1259.26,
+      "cashout_value_date": "2026-11-25"
     },
     {
       "competition": "UCL",
-      "status": "open",
+      "status": "cashed_out",
       "placed": "2026-11-15",
-      "notes": [],
+      "notes": [
+        "Cashed out 25 Nov at $888.89 (−$111.11) before Lille v Bayern. Circumstances changed: Kane out ~3 months (ankle) and Olise injured on 21 Nov, while Dortmund are on a good run (10 pts vs Bayern's 8). Forecasts still had Bayern ahead, but the injury risk was not worth carrying."
+      ],
       "id": 30,
       "type": "Single",
       "market": "Top German team",
@@ -880,7 +892,9 @@
         "Stuttgart",
         "Leipzig"
       ],
-      "cashout_value": 1000.0
+      "cashout_value": 1000.0,
+      "cashout": 888.89,
+      "closed": "2026-11-25"
     },
     {
       "competition": "UCL",
@@ -917,7 +931,7 @@
       "market": "Top German team",
       "stake": 1000,
       "returns": 1333.33,
-      "status": "open",
+      "status": "cashed_out",
       "legs": [
         [
           "Bayern",
@@ -930,8 +944,12 @@
         "Leipzig"
       ],
       "placed": "2026-11-15",
-      "notes": [],
-      "cashout_value": 1000.0
+      "notes": [
+        "Cashed out 25 Nov at $888.89 (−$111.11), same reasons as bet 30: key injuries changed the picture, so we readjusted rather than hold on conviction."
+      ],
+      "cashout_value": 1000.0,
+      "cashout": 888.89,
+      "closed": "2026-11-25"
     }
   ],
   "benfica": {

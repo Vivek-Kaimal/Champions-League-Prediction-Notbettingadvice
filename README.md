@@ -29,16 +29,16 @@ A season-long test of one idea: that historical data, structure and judgement ca
 | | |
 |---|---|
 | Stake | **$8,000** |
-| Realised profit | **+$1,848.16** (+23.1% on stake · 62% of target) |
-| Portfolio value | **$9,848.16** (cash $1,848.16 + open bets at cash-out value $8,000) |
+| Realised profit | **+$1,460.32** (+18.3% on stake · 49% of target) |
+| Portfolio value | **$10,238.10** (cash $4,460.32 + open bets at cash-out value $5,777.78, 25 Nov) |
 | Round 1 | $7,500 across 8 bets · **UCL bets cashed out 14 Oct, +$445.54** · **Benfica cashed out 24 Oct, +$763.30** |
 | Round 2 | **$6,000 across 4 four-folds, placed 20 Oct** · 2 Stuttgart bets cashed out at stake 21 Oct · 2 open ($3,000), **cash-out value $4,539.67 on 22 Oct (+$1,539.67)** |
 | Round 3 | **$3,500 across 4 trebles, placed 24 Oct**: Brugge/Dortmund/Shakhtar $1,000 · Villarreal/Sporting/PSV $1,000 · Atlético/Sporting/Stuttgart $750 · Napoli/Roma/Bodø $750 |
 | Round 4 | 3 four-folds, 9 teams, $4,500 (27 Oct) · **all closed 4–5 Nov: +$639.32** (bet 9 +$698.53 · bet 12 +$15.79 · bet 20 −$75.00) |
 | Round 5 | 3 doubles, $5,100 (7 Nov) · **closed at stake 15 Nov**, no loss |
-| Round 6 | **8 bets, $8,000 (15 Nov)**: Atlético + Galatasaray ×3 ($3,000) · Sporting + Stuttgart ×2 ($2,000) · Bayern top German team ×2 ($2,000) · Betis + Roma + Inter + Man Utd four-fold ($1,000) · returns $12,567.68 if all win |
+| Round 6 | **8 bets, $8,000 (15 Nov)**: Atlético + Galatasaray ×3 ($3,000) · Sporting + Stuttgart ×2 ($2,000) · Bayern top German team ×2 ($2,000) · Betis + Roma + Inter + Man Utd four-fold ($1,000) · **25 Nov: both Bayern bets cashed out ($888.89 each) after Kane and Olise injuries; four-fold cashed out ($834.38): −$388** · 5 bets ($5,000) still open |
 | Target | **+$3,000 profit** (37.5% on stake) · floor: capital returned |
-| Rules | **Mainly two-team pots from MD5, one riskier four-fold** · capital first: cash out when in profit and risk rises, rebuild after each matchday |
+| Rules | **Mainly two-team pots from MD5** · readjust when circumstances change (injuries, a rival's form) · capital first: cash out when in profit and risk rises, rebuild after each matchday |
 
 Details: [portfolio.md](portfolio.md) · Proof: [evidence/](evidence/) · Forecast (updated 7 Nov): [forecast.md](forecast.md) · Weekly reports: [reports/](reports/)
 
@@ -53,6 +53,7 @@ Details: [portfolio.md](portfolio.md) · Proof: [evidence/](evidence/) · Foreca
 | UEL MD3 | – | – | – | **Benfica cashed out 24 Oct after 3 wins from 3: +$763.30 (+38%).** Realised to date: **+$1,208.84** |
 | Pre-MD4 | – | – | – | Restructured 27 Oct to 3 four-folds on 9 teams ($4,500). If all three win: +$15,481.82 for the season |
 | MD4 | – | – | – | **All bets closed 4–5 Nov: +$639.32.** Inter won 3–0, Como 9–1, Brugge 2–1, but Napoli lost 1–4 and Villarreal 0–6. Values had peaked on 22 Oct. Realised to date **+$1,848.16**, no capital lost. [Review](reports/md04.md) |
+| MD5 (Tue) | – | – | – | Galatasaray 1–0 Villa, Slovan 0–2 Betis (Betis 4th: top-8 risk), Arsenal 1–1 Dortmund. Kane (ankle, ~3 months) and Olise injured 21 Nov: **both Bayern bets and the four-fold cashed out 25 Nov, −$388.** Realised to date **+$1,460.32**. Open: Atlético/Galatasaray ×3 ($1,259.26 each), Sporting/Stuttgart ×2 ($1,000 each) |
 
 \*Stress test: 40,000 simulated seasons ([tools/update.py](tools/update.py)), built with Claude as a check on my own judgement.
 

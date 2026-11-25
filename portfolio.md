@@ -2,7 +2,7 @@
 
 Opened **4 October 2026** ([bet365 screenshots](evidence/)). Champions League bets settle on the final league-phase table (28 Jan 2027); Benfica settles at the end of the Europa League league phase.
 
-## Round 6 · placed 15 Nov 2026 (current)
+## Round 6 · placed 15 Nov 2026 (current: bets 24, 30, 32 closed 25 Nov)
 
 | # | Selections (odds) | Market | Stake | Returns |
 |---|---|---|---|---|
@@ -18,7 +18,15 @@ Opened **4 October 2026** ([bet365 screenshots](evidence/)). Champions League be
 
 **Why:** the last real value in the 9th–24th market is before MD5; once the table settles the prices shorten and the value goes. The selections come from my own simulations and stress tests: Atlético and Galatasaray ended inside 9th–24th in almost every run, so they carry the largest stake, followed by Sporting and Stuttgart. The four-fold is a deliberately riskier position. Bayern as top German team is the best-value bet I found (Dortmund, the only rival, still has Arsenal, Inter and Villa to play). An Arsenal top-English-team bet (31) was closed at stake the same day and moved to Bayern. There is still time to exit after MD5 and MD6 if results go against me.
 
-**Exposure:** Atlético, Galatasaray $3,000 · Sporting, Stuttgart, Bayern $2,000 · Betis, Roma, Inter, Man Utd $1,000. Cash $1,848.16.
+**Exposure at placing:** Atlético, Galatasaray $3,000 · Sporting, Stuttgart, Bayern $2,000 · Betis, Roma, Inter, Man Utd $1,000. Cash $1,848.16.
+
+**25 Nov: readjusted (−$387.84).** Both Bayern bets cashed out at $888.89 and the four-fold at $834.38.
+
+- *Bayern:* circumstances changed. Kane (ankle, about 3 months) and Olise were injured on 21 Nov, and Dortmund are on a good run (10 points to Bayern's 8 after drawing at Arsenal). Forecasts still had Bayern finishing above Dortmund, with easier games ahead, but the injury risk was not worth carrying.
+- *Four-fold:* in hindsight both it and the Bayern bets were unnecessary, and the four-fold was the weakest idea: four teams means four ways to lose. Betis are 4th on 12 points with a top-8 risk, which grows as Bayern, Man City and Villa dip. Roma are on 4 points with a risk of finishing 25th or lower.
+- *Lesson:* things change during a league phase, so we readjust rather than hold on conviction.
+
+**Still open:** Atlético/Galatasaray ×3 (cash-out $1,259.26 each) and Sporting/Stuttgart ×2 ($1,000 each); $5,000 staked, worth $5,777.78. Realised to date +$1,460.32.
 
 ## Round 5 · placed 7 Nov 2026 (closed 15 Nov at stake)
 
@@ -133,6 +141,7 @@ Cashed out after three wins from three (9 points). The full return ($2,888.88) w
 
 - We cannot predict, only forecast with probability: no bet is held to the end on conviction alone
 - Trading, not investing: every bet has a fixed expiry, so set the exit target when the bet is placed and take it, whatever happens
+- Readjust when circumstances change: injuries or a rival's form can change the whole picture, so exit even when the forecast still favours the bet if the risk is no longer worth carrying
 - Selection mindset from MD5: only pick teams I would be comfortable holding to the end of MD8
 - From MD5, mainly pots of two teams, with one deliberately riskier four-fold: with four matchdays left there is more information but less time to recover
 - Capital first: cash out when in profit and risk rises; rebuild after each matchday on better information
