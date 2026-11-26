@@ -30,7 +30,7 @@ A season-long test of one idea: that historical data, structure and judgement ca
 |---|---|
 | Stake | **$8,000** |
 | Realised profit | **+$1,460.32** (+18.3% on stake · 49% of target) |
-| Portfolio value | **$10,238.10** (cash $4,460.32 + open bets at cash-out value $5,777.78, 25 Nov) |
+| Portfolio value | **$10,031.39** (cash $4,460.32 + open bets at cash-out value $5,571.07, 26 Nov) |
 | Round 1 | $7,500 across 8 bets · **UCL bets cashed out 14 Oct, +$445.54** · **Benfica cashed out 24 Oct, +$763.30** |
 | Round 2 | **$6,000 across 4 four-folds, placed 20 Oct** · 2 Stuttgart bets cashed out at stake 21 Oct · 2 open ($3,000), **cash-out value $4,539.67 on 22 Oct (+$1,539.67)** |
 | Round 3 | **$3,500 across 4 trebles, placed 24 Oct**: Brugge/Dortmund/Shakhtar $1,000 · Villarreal/Sporting/PSV $1,000 · Atlético/Sporting/Stuttgart $750 · Napoli/Roma/Bodø $750 |
@@ -54,6 +54,7 @@ Details: [portfolio.md](portfolio.md) · Proof: [evidence/](evidence/) · Foreca
 | Pre-MD4 | – | – | – | Restructured 27 Oct to 3 four-folds on 9 teams ($4,500). If all three win: +$15,481.82 for the season |
 | MD4 | – | – | – | **All bets closed 4–5 Nov: +$639.32.** Inter won 3–0, Como 9–1, Brugge 2–1, but Napoli lost 1–4 and Villarreal 0–6. Values had peaked on 22 Oct. Realised to date **+$1,848.16**, no capital lost. [Review](reports/md04.md) |
 | MD5 (Tue) | – | – | – | Galatasaray 1–0 Villa, Slovan 0–2 Betis (Betis 4th: top-8 risk), Arsenal 1–1 Dortmund. Kane (ankle, ~3 months) and Olise injured 21 Nov: **both Bayern bets and the four-fold cashed out 25 Nov, −$388.** Realised to date **+$1,460.32**. Open: Atlético/Galatasaray ×3 ($1,259.26 each), Sporting/Stuttgart ×2 ($1,000 each) |
+| MD5 | – | – | – | Atlético 2–0 Viking (18th), Inter 2–0 Stuttgart (17th), Sporting 2–2 Man Utd (9th), Galatasaray 14th: all four open teams inside 9th–24th. **Lille 2–1 Bayern** and Betis up to 6th, Roma 25th: the 25 Nov exits were right. Cash-out 26 Nov: Sporting/Stuttgart $1,007.75, Atlético/Galatasaray $1,185.19 |
 
 \*Stress test: 40,000 simulated seasons ([tools/update.py](tools/update.py)), built with Claude as a check on my own judgement.
 
